@@ -24,9 +24,9 @@ def main():
   t2 = Thread(target=run_bot, args=())
   t2.start()
   t2.join()
+  keep_alive()
 
 
 if __name__ == '__main__':
   main()
-
-keep_alive()
+  
