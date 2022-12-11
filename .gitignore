@@ -7,3 +7,4 @@ poetry.lock
 replit.nix
 pyproject.toml
 .env
+database.db
