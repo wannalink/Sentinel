@@ -278,7 +278,12 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
 
 def generate_embed(kill_obj, status: int, filter, session):
   embed = Embed()
-
+  details_embed_str = ""
+  finalblow_embed_str = ""
+  finalblow_embed_plt = ""
+  location_embed_str = ""
+  location_embed_region = ""
+  details_embed_title_str = ""
   config = session.query(ServerConfigs).get(filter.server_id)
   if config.neutral_color != None:
     color_map[-1] = int(config.neutral_color, base=16)
@@ -290,14 +295,8 @@ def generate_embed(kill_obj, status: int, filter, session):
   if status == True and kill_obj["zkb"]["awox"] == True:
     title_start = "Friendly Fire: "
 
-  embed.set_thumbnail(
-    url=f"https://images.evetech.net/types/{victim_ship_id}/icon")
-
   system_name, region_name = get_system_and_region_names(
     kill_obj['solar_system_id'], session)
-  embed.title = f"{title_start}{get_ship_name(victim_ship_id, session)} destroyed in {system_name} ({region_name})"
-
-  embed.url = kill_obj["zkb"]["url"]
 
   damage_embed_str = f"Destroyed: {'{:,.2f}'.format(kill_obj['zkb']['destroyedValue'])} isk\n"
   damage_embed_str += f"Dropped: {'{:,.2f}'.format(kill_obj['zkb']['droppedValue'])} isk\n"
@@ -350,32 +349,41 @@ def generate_embed(kill_obj, status: int, filter, session):
 
   finalblow_embed_str = ""
   finalblow_embed_plt = ""
+  finalblow_type = ""
   if killer != None:
     if "ship_type_id" in killer:
       killer_ship_id = killer["ship_type_id"]
-      finalblow_embed_plt = f"[{get_ship_name(killer_ship_id, session)}](https://zkillboard.com/ship/{killer_ship_id})"
+      finalblow_embed_plt = f" killed by {get_ship_name(killer_ship_id, session)}"
     # if False in ids and "killer" in pilot_names:
     #     finalblow_embed_str += f"\nPilot: [{pilot_names['killer']}](https://zkillboard.com/character/{ids[False]})"
     if "corporation_id" in killer:
       corp_name, corp_logo, corp_link = get_corporation_data(
         killer["corporation_id"], session)
-      finalblow_embed_str = f"Corp: [{corp_name}]({corp_link})"
+      finalblow_embed_str = f"[{corp_name}]({corp_link})"
+      finalblow_type = "Corp"
     if "alliance_id" in killer:
       ally_name, ally_logo, ally_link = get_alliance_data(
         killer["alliance_id"], session)
-      finalblow_embed_str = f"Alliance: [{ally_name}]({ally_link})"
+      finalblow_embed_str = f"[{ally_name}]({ally_link})"
+      finalblow_type = "Alliance"
   # if "attackers" in kill_obj and killer != None:
   # embed.add_field(name="Final Blow",
   #                 value=finalblow_embed_str, inline=True)
-
-  details_embed_str = f"Involved: [{len(kill_obj['attackers'])}](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
+  details_embed_title_str = f"({len(kill_obj['attackers'])}) Involved"
+  details_embed_str = f"[br.evetools](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
   # if "attackers" in kill_obj:
   #     details_embed_str += f"\nFleet Size : {len(kill_obj['attackers'])}"
   # details_embed_str += f"\nKill Mail: [{get_ship_name(victim_ship_id, session)}]({kill_obj['zkb']['url']})"
-
-  embed.add_field(name="br.evetools:", value=details_embed_str, inline=True)
-  embed.add_field(name="Attackers:", value=finalblow_embed_str, inline=True)
-  embed.add_field(name="Final blow:", value=finalblow_embed_plt, inline=True)
+  location_embed_str = f"[{system_name}](http://evemaps.dotlan.net/map/{region_name.replace(' ', '_')}/{system_name.replace(' ', '_')}/)"
+  location_embed_region = f"{region_name}"
+  
+  embed.title = f"{title_start}{get_ship_name(victim_ship_id, session)}{finalblow_embed_plt}"
+  embed.url = kill_obj["zkb"]["url"]
+  embed.set_thumbnail(
+    url=f"https://images.evetech.net/types/{victim_ship_id}/icon")
+  embed.add_field(name=details_embed_title_str, value=details_embed_str, inline=True)
+  embed.add_field(name=location_embed_region, value=location_embed_str, inline=True)
+  embed.add_field(name=finalblow_type, value=finalblow_embed_str, inline=True)
   return embed
 
 
