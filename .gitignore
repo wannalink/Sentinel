@@ -1,5 +1,10 @@
 .vscode/launch.json
-__pycache__/
+__pycache__/*
 database.db
-json/
-tmp/
+json/*
+tmp/*
+.replit
+venv/*
+poetry.lock
+replit.nix
+pyproject.toml
