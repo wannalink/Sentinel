@@ -275,21 +275,18 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
 
 
 def generate_embed(kill_obj, status: int, filter, session):
-  def blocking_ids():
+  def stop_list():
     ally_block_list = []
-    involved_count_block = 10
-    involved_count = len(kill_obj['attackers'])
     if kill_obj["victim"]["alliance_id"]:
       ally_block_list.append(kill_obj["victim"]["alliance_id"])
     attackers_list = kill_obj["attackers"]
     for k in attackers_list:
       if k['alliance_id']:
         ally_block_list.append(k['alliance_id'])
-    if 99004804 in ally_block_list or involved_count < involved_count_block:
+    if 99004804 in ally_block_list or len(kill_obj['attackers']) < 10:
       return True
-    return False
-    
-  if blocking_ids() == True:
+
+  if stop_list():
     return
   embed = Embed()
   details_embed_str = ""
