@@ -1,5 +1,6 @@
 from Schema import Corporations, Alliances, Constellations, ServerConfigs, Systems, Ships, Regions
 from concurrent.futures import ThreadPoolExecutor
+import websocket
 from websocket import WebSocketApp
 from functools import lru_cache
 from threading import Thread
@@ -425,7 +426,7 @@ def does_msg_match_guild_watchlist(kill_obj, filter, session):
     if "alliance_id" in kill_obj["victim"]:
       if kill_obj["victim"]["alliance_id"] in fally_j:
         return gen(0)
-      if kill_obj["victim"]["alliance_id"] in corp_j:
+      if kill_obj["victim"]["alliance_id"] in ally_j:
         return gen(-1)
 
     if "attackers" in kill_obj:
@@ -498,12 +499,12 @@ def on_message(ws, message):
   except Exception as e:
     from main import logger
     collect()
-    logger.exception(e)
+    logger.exception(f"On message exception: {e}")
 
 
 def on_error(ws, error):
   from main import logger
-  logger.exception(error)
+  logger.exception(f"Error message: {error}")
   collect()
 
 
@@ -520,21 +521,19 @@ def on_open(ws):
 
 
 def initialize_websocket():
-  from time import sleep
   from main import logger
-
-  while True:
-    try:
-      ws = WebSocketApp("wss://zkillboard.com/websocket/",
-                        on_message=on_message,
-                        on_error=on_error,
-                        on_close=on_close,
-                        on_open=on_open)
-      ws.run_forever(skip_utf8_validation=True,
-                     ping_interval=15,
-                     ping_timeout=8)
-    except Exception as e:
-      collect()
-      logger.exception(f"Websocket connection Error : {e}")
+  logger.debug("Websocket initialized")
+  try:
+    ws = WebSocketApp("wss://zkillboard.com/websocket/",
+                      on_message=on_message,
+                      on_error=on_error,
+                      on_close=on_close,
+                      on_open=on_open)
+    ws.run_forever()
+  except websocket.WebSocketConnectionClosedException as err:
+    logger.exception(f"Websocket connection Error : {err}")
+  except Exception as e:
+    collect()
+    logger.exception(f"Websocket connection Error : {e}")
     logger.debug("Reconnecting websocket after 5 sec")
-    sleep(5)
+  

@@ -12,7 +12,7 @@ load_dotenv()
 if not path.exists('tmp/sentinel.log'):
     open('tmp/sentinel.log', 'w').close()
 logging.basicConfig(filename='tmp/sentinel.log',
-                    level=logging.ERROR,
+                    level=logging.DEBUG,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger = logging.getLogger(__name__)
 
