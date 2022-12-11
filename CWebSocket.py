@@ -181,7 +181,6 @@ title_start_map = {1: "Kill: ", 0: "Loss: ", -1: ""}
 
 def generate_embed_orig(kill_obj, status: int, filter, session):
   embed = Embed()
-
   config = session.query(ServerConfigs).get(filter.server_id)
   if config.neutral_color != None:
     color_map[-1] = int(config.neutral_color, base=16)
@@ -272,11 +271,26 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
   details_embed_str += f"\nKill Mail: [{get_ship_name(victim_ship_id, session)}]({kill_obj['zkb']['url']})"
 
   embed.add_field(name="Details", value=details_embed_str, inline=True)
-
   return embed
 
 
 def generate_embed(kill_obj, status: int, filter, session):
+  def blocking_ids():
+    ally_block_list = []
+    involved_count_block = 10
+    involved_count = len(kill_obj['attackers'])
+    if kill_obj["victim"]["alliance_id"]:
+      ally_block_list.append(kill_obj["victim"]["alliance_id"])
+    attackers_list = kill_obj["attackers"]
+    for k in attackers_list:
+      if k['alliance_id']:
+        ally_block_list.append(k['alliance_id'])
+    if 99004804 in ally_block_list or involved_count < involved_count_block:
+      return True
+    return False
+    
+  if blocking_ids() == True:
+    return
   embed = Embed()
   details_embed_str = ""
   finalblow_embed_str = ""
@@ -369,7 +383,10 @@ def generate_embed(kill_obj, status: int, filter, session):
   # if "attackers" in kill_obj and killer != None:
   # embed.add_field(name="Final Blow",
   #                 value=finalblow_embed_str, inline=True)
-  details_embed_title_str = f"({len(kill_obj['attackers'])}) Involved"
+  involved_attackers_count = len(kill_obj['attackers'])
+  details_embed_title_str = f"({involved_attackers_count}) Involved"
+  if involved_attackers_count < 2:
+    details_embed_title_str = "Solo"
   details_embed_str = f"[br.evetools](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
   # if "attackers" in kill_obj:
   #     details_embed_str += f"\nFleet Size : {len(kill_obj['attackers'])}"
