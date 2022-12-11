@@ -1,0 +1,11 @@
+.vscode/launch.json
+__pycache__/*
+database.db
+json/*
+tmp/*
+.replit
+venv/*
+poetry.lock
+replit.nix
+pyproject.toml
+.env
