@@ -4,6 +4,7 @@ from threading import Thread
 from commands import bot
 from os import environ
 import logging
+from webserver import keep_alive
 
 logging.basicConfig(filename='tmp/sentinel.log', level=logging.ERROR,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
@@ -20,7 +21,9 @@ def main():
     t2 = Thread(target=run_bot, args=())
     t2.start()
     t2.join()
-
+    
 
 if __name__ == '__main__':
     main()
+
+keep_alive()
