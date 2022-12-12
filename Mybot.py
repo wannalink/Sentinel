@@ -10,7 +10,7 @@ class MyBot(commands.Bot):
         super().__init__(*args, **kwargs)
         self.blocker = False
 
-    @tasks.loop(seconds=1)
+    @tasks.loop(seconds=2)
     async def background_task(self):
         if self.blocker or len(message_queue) == 0:
             return

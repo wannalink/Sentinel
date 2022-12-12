@@ -441,8 +441,8 @@ def on_message(ws, message):
   try:
     global kill_counter
     kill_counter += 1
-    print(f"Kill recieved {kill_counter}")
-
+    print(f"Kill recieved {kill_counter} ")
+    print(f"({len(message_queue)}) in queue")
     json_obj = loads(message)
 
     threads = [
