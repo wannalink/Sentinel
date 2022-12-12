@@ -155,6 +155,14 @@ async def neutralcolor(interaction: Interaction, color: str):
         except TypeError:
             await interaction.response.send_message(f"Invalid hexadecimal: {color}")
 
+@tree.command(name="involvedmin", description="Hide killmails below this number of involved attackers. Accepts numbers only!")
+async def involvedmin(interaction: Interaction, invmin: str):
+    with Session as session:
+        if invmin.isdigit():
+            set_involvedmin_for_guild(interaction, invmin, session)
+            await interaction.response.send_message(f"Threshold set to: {invmin}")
+        else:
+            await interaction.response.send_message(f"Invalid number: {invmin}")
 
 @bot.event
 async def on_guild_join(guild):
