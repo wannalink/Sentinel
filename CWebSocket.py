@@ -20,6 +20,15 @@ def killmail_time_conv(timestamp):
   return result
 
 
+def human_format(num):
+    magnitude = 0
+    while abs(num) >= 1000:
+        magnitude += 1
+        num /= 1000.0
+    # add more suffixes if you need them
+    return '%.2f%s' % (num, ['', 'K', 'M', 'B', 'T', 'P'][magnitude])
+
+
 def check_for_unique_corp_ids(json_obj):
   from commands import Session
   with Session as session:
@@ -319,52 +328,62 @@ def generate_embed(kill_obj, status: int, filter, session):
   if "corporation_id" in kill_obj["victim"]:
     corp_name, corp_logo, corp_link = get_corporation_data(
       kill_obj["victim"]["corporation_id"], session)
-    embed.set_author(name=corp_name, icon_url=corp_logo, url=corp_link)
-
+    author_name, author_logo, author_link = corp_name, corp_logo, corp_link
   if "alliance_id" in kill_obj["victim"]:
     ally_name, ally_logo, ally_link = get_alliance_data(
       kill_obj["victim"]["alliance_id"], session)
-    embed.set_author(name=ally_name, icon_url=ally_logo, url=ally_link)
-
+    author_name, author_logo, author_link = ally_name, ally_logo, ally_link
+  finalblow_corp_str = " "
+  finalblow_ally_str = "Corp:"
+  finalblow_pilot_str = " "
   if killer != None:
     if "ship_type_id" in killer:
       killer_ship_id = killer["ship_type_id"]
-      finalblow_embed_plt = f" killed by {get_ship_name(killer_ship_id, session)}"
+      finalblow_embed_ship = f"{get_ship_name(killer_ship_id, session)}"
+    if False in ids and "killer" in pilot_names:
+      finalblow_pilot_str = f"[{pilot_names['killer']}](https://zkillboard.com/character/{ids[False]})"
     if "corporation_id" in killer:
       corp_name, corp_logo, corp_link = get_corporation_data(
         killer["corporation_id"], session)
-      finalblow_embed_str = f"[{corp_name}]({corp_link})"
-      finalblow_title_str = "Corp"
+      finalblow_corp_str = f"[{corp_name}]({corp_link})"
     if "alliance_id" in killer:
       ally_name, ally_logo, ally_link = get_alliance_data(
         killer["alliance_id"], session)
-      finalblow_embed_str = f"[{ally_name}]({ally_link})"
-      finalblow_title_str = "Alliance"
-  involved_attackers_count = len(kill_obj['attackers'])
-  involved_title_str = f"({involved_attackers_count}) Involved"
-  if involved_attackers_count < 2:
-    involved_title_str = "Solo"
-  involved_embed_str = f"[br.evetools](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
-  location_embed_str = f"[{system_name}](http://evemaps.dotlan.net/map/{region_name.replace(' ', '_')}/{system_name.replace(' ', '_')}/)"
+      finalblow_ally_str = f"{ally_name}"
+      
+  damage_embed_str = f"{human_format(kill_obj['zkb']['totalValue'])} isk"
+
+  involved_attackers_count = ""    
+  if len(kill_obj['attackers']) > 1:
+    involved_attackers_count = f"({len(kill_obj['attackers'])}) "
+
+  involved_title_str = " "
+  involved_title_str = f"{involved_attackers_count}{finalblow_embed_ship}"
+  involved_embed_str = f"[{finalblow_pilot_str}](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
+
   location_title_str = f"{region_name}"
+  location_embed_str = f"[{system_name}](http://evemaps.dotlan.net/map/{region_name.replace(' ', '_')}/{system_name.replace(' ', '_')}/)"
+
+  author_name += f" ({get_ship_name(victim_ship_id, session)})"
   
-  embed.title = f"{title_start}{get_ship_name(victim_ship_id, session)}{finalblow_embed_plt}"
+  embed.set_author(name=author_name, icon_url=author_logo, url=author_link)
+  embed.title = f"{title_start}{pilot_names['victim']} lost {damage_embed_str}"
   embed.url = kill_obj["zkb"]["url"]
   embed.set_thumbnail(
     url=f"https://images.evetech.net/types/{victim_ship_id}/icon")
   embed.add_field(name=involved_title_str, value=involved_embed_str, inline=True)
+  embed.add_field(name=finalblow_ally_str, value=finalblow_corp_str, inline=True)
   embed.add_field(name=location_title_str, value=location_embed_str, inline=True)
-  embed.add_field(name=finalblow_title_str, value=finalblow_embed_str, inline=True)
   return embed
 
 
 def does_msg_match_guild_watchlist(kill_obj, filter, session):
   try:
+    involvedmin = 0
     config = session.query(ServerConfigs).get(filter.server_id)
     if config.involvedmin != None:
       involvedmin = config.involvedmin
     involved = len(kill_obj["attackers"])
-    # involvedmin = 10
     system_j = loads(filter.systems)
     f_count = len(system_j)
 
