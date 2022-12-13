@@ -333,9 +333,9 @@ def generate_embed(kill_obj, status: int, filter, session):
     ally_name, ally_logo, ally_link = get_alliance_data(
       kill_obj["victim"]["alliance_id"], session)
     author_name, author_logo, author_link = ally_name, ally_logo, ally_link
-  finalblow_corp_str = " "
+  finalblow_corp_str = "_"
   finalblow_ally_str = "Corp:"
-  finalblow_pilot_str = " "
+  finalblow_pilot_str = "_"
   if killer != None:
     if "ship_type_id" in killer:
       killer_ship_id = killer["ship_type_id"]
@@ -357,7 +357,8 @@ def generate_embed(kill_obj, status: int, filter, session):
   if len(kill_obj['attackers']) > 1:
     involved_attackers_count = f"({len(kill_obj['attackers'])}) "
 
-  involved_title_str = " "
+  involved_title_str = "_"
+  involved_embed_str = "_"
   involved_title_str = f"{involved_attackers_count}{finalblow_embed_ship}"
   involved_embed_str = f"[{finalblow_pilot_str}](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
 
