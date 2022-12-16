@@ -504,19 +504,19 @@ def on_open(ws):
 
 def initialize_websocket():
   from main import logger
-  logger.debug("Websocket initialized")
+  logger.info("Websocket initialized")
   try:
     ws = WebSocketApp("wss://zkillboard.com/websocket/",
                       on_message=on_message,
                       on_error=on_error,
                       on_close=on_close,
                       on_open=on_open)
-    logger.warning("Websocket connection initiated")
+    logger.info("Websocket connection initiated")
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
     logger.exception(f"Websocket connection Error : {err}")
   except Exception as e:
     collect()
     logger.exception(f"Websocket connection Error : {e}")
-    logger.warning("Reconnecting websocket after 5 sec")
+    logger.info("Reconnecting websocket after 5 sec")
   
