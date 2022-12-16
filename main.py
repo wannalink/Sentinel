@@ -14,6 +14,12 @@ load_dotenv()
 # Logger
 LOG_FILENAME = 'tmp/sentinel.log'
 if not path.exists(LOG_FILENAME):
+    import os
+    try:
+        os.makedirs("tmp")
+    except FileExistsError:
+    # directory already exists
+        pass
     open(LOG_FILENAME, 'w').close()
 logging.basicConfig(filename=LOG_FILENAME,
                     level=logging.ERROR,                
