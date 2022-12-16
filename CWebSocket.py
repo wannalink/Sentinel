@@ -335,7 +335,7 @@ def generate_embed(kill_obj, status: int, filter, session):
     author_name, author_logo, author_link = ally_name, ally_logo, ally_link
   finalblow_corp_str = "_"
   finalblow_ally_str = "Corp:"
-  finalblow_pilot_str = "_"
+  finalblow_pilot_str = "br.evetools.org"
   if killer != None:
     if "ship_type_id" in killer:
       killer_ship_id = killer["ship_type_id"]
@@ -511,11 +511,12 @@ def initialize_websocket():
                       on_error=on_error,
                       on_close=on_close,
                       on_open=on_open)
+    logger.warning("Websocket connection initiated")
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
     logger.exception(f"Websocket connection Error : {err}")
   except Exception as e:
     collect()
     logger.exception(f"Websocket connection Error : {e}")
-    logger.debug("Reconnecting websocket after 5 sec")
+    logger.warning("Reconnecting websocket after 5 sec")
   

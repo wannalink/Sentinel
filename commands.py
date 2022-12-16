@@ -10,7 +10,7 @@ from Mybot import MyBot
 
 description = "An early warning system for Eve online."
 intents = Intents.default()
-intents.message_content = True
+intents.message_content = False
 
 engine = create_engine('sqlite:///database.db', echo=False)
 Session_factory = sessionmaker(bind=engine)
@@ -199,5 +199,4 @@ async def status(interaction: Interaction):
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user} (IUD: {bot.user.id})")
-    print("-------")
     await tree.sync()
