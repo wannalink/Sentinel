@@ -8,6 +8,8 @@ import logging
 import logging.handlers
 from dotenv import load_dotenv
 from webserver import keep_alive
+import discord
+from time import sleep
 
 load_dotenv()
 
@@ -22,29 +24,22 @@ if not path.exists(LOG_FILENAME):
         pass
     open(LOG_FILENAME, 'w').close()
 logging.basicConfig(filename=LOG_FILENAME,
-                    level=logging.ERROR,                
+                    level=logging.INFO,                
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
-
-# set up logging to console
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-# set a format which is simpler for console use
-formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
-console.setFormatter(formatter)
-# add the handler to the root logger
-logging.getLogger('').addHandler(console)
 
 logger = logging.getLogger(__name__)
 
+
 def run_bot():
-  try:
-    bot.run(environ['DISCORD_TOKEN'])
-  except Exception as e:
-    logger.exception(f"Discord not connecting: {e} {e.status}")
-    if e.status == 429:
-      logger.info("Killing container")
-      system("kill 1")
-    
+  while True:
+    try:
+      bot.run(environ['DISCORD_TOKEN'])
+    except discord.errors.HTTPException:
+      logger.info("Rate limited, sleeping")
+      sleep(300)
+      logger.info("Restarting discord")
+      continue
+      
 
 def main():
     logger.warning("Main func initialized")

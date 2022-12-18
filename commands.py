@@ -8,6 +8,7 @@ from commandhelpers import *
 from dbutility import *
 from Mybot import MyBot
 
+
 description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
@@ -15,6 +16,7 @@ intents.message_content = False
 engine = create_engine('sqlite:///database.db', echo=False)
 Session_factory = sessionmaker(bind=engine)
 Session = M_scoped_session(Session_factory)
+
 
 bot: commands.Bot = MyBot(command_prefix='/',
                           description=description, intents=intents)

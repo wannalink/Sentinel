@@ -486,9 +486,18 @@ def on_message(ws, message):
 
 def on_error(ws, error):
   from main import logger
+  import threading
   logger.exception(f"Error message: {error}")
   collect()
-
+  logger.info("Active threads:")
+  for thread in threading.enumerate(): 
+    logger.info(f"{thread}")
+  logger.info("Reinitializing websocket")
+  Thread(target=initialize_websocket, args=[]).start()
+  logger.info("Active threads:")
+  for thread in threading.enumerate(): 
+    logger.info(f"{thread}")
+    
 
 def on_close(ws, status_code, msg):
   from main import logger
