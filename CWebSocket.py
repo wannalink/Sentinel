@@ -1,5 +1,6 @@
 from Schema import Corporations, Alliances, Constellations, ServerConfigs, Systems, Ships, Regions
 from concurrent.futures import ThreadPoolExecutor
+import websocket
 from websocket import WebSocketApp
 from functools import lru_cache
 from threading import Thread
@@ -17,6 +18,15 @@ def killmail_time_conv(timestamp):
   result = result.strip('\"')
   result = result[:-4] + '00'
   return result
+
+
+def human_format(num):
+    magnitude = 0
+    while abs(num) >= 1000:
+        magnitude += 1
+        num /= 1000.0
+    # add more suffixes if you need them
+    return '%.2f%s' % (num, ['', 'k', 'm', 'b', 't', 'p'][magnitude])
 
 
 def check_for_unique_corp_ids(json_obj):
@@ -179,9 +189,8 @@ color_map = {1: 0x33FF57, 0: 0xfa0505, -1: 0xB82AF1}
 title_start_map = {1: "Kill: ", 0: "Loss: ", -1: ""}
 
 
-def generate_embed_orig(kill_obj, status: int, filter, session):
+def generate_embed_old(kill_obj, status: int, filter, session):
   embed = Embed()
-
   config = session.query(ServerConfigs).get(filter.server_id)
   if config.neutral_color != None:
     color_map[-1] = int(config.neutral_color, base=16)
@@ -244,7 +253,7 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
     embed.set_author(name=corp_name, icon_url=corp_logo, url=corp_link)
 
   if "alliance_id" in kill_obj["victim"]:
-    ally_name, ally_link = get_alliance_data(kill_obj["victim"]["alliance_id"],
+    ally_name, ally_logo, ally_link = get_alliance_data(kill_obj["victim"]["alliance_id"],
                                              session)
     victim_embed_str += f"\nAlliance: [{ally_name}]({ally_link})"
   embed.add_field(name="Victim", value=victim_embed_str, inline=True)
@@ -261,7 +270,7 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
         killer["corporation_id"], session)
       finalblow_embed_str += f"\nCorp: [{corp_name}]({corp_link})"
     if "alliance_id" in killer:
-      ally_name, ally_link = get_alliance_data(killer["alliance_id"], session)
+      ally_name, ally_logo, ally_link = get_alliance_data(killer["alliance_id"], session)
       finalblow_embed_str += f"\nAlliance: [{ally_name}]({ally_link})"
   if "attackers" in kill_obj and killer != None:
     embed.add_field(name="Final Blow", value=finalblow_embed_str, inline=True)
@@ -272,18 +281,11 @@ def generate_embed_orig(kill_obj, status: int, filter, session):
   details_embed_str += f"\nKill Mail: [{get_ship_name(victim_ship_id, session)}]({kill_obj['zkb']['url']})"
 
   embed.add_field(name="Details", value=details_embed_str, inline=True)
-
   return embed
 
 
 def generate_embed(kill_obj, status: int, filter, session):
   embed = Embed()
-  details_embed_str = ""
-  finalblow_embed_str = ""
-  finalblow_embed_plt = ""
-  location_embed_str = ""
-  location_embed_region = ""
-  details_embed_title_str = ""
   config = session.query(ServerConfigs).get(filter.server_id)
   if config.neutral_color != None:
     color_map[-1] = int(config.neutral_color, base=16)
@@ -297,12 +299,6 @@ def generate_embed(kill_obj, status: int, filter, session):
 
   system_name, region_name = get_system_and_region_names(
     kill_obj['solar_system_id'], session)
-
-  damage_embed_str = f"Destroyed: {'{:,.2f}'.format(kill_obj['zkb']['destroyedValue'])} isk\n"
-  damage_embed_str += f"Dropped: {'{:,.2f}'.format(kill_obj['zkb']['droppedValue'])} isk\n"
-  damage_embed_str += f"Total: {'{:,.2f}'.format(kill_obj['zkb']['totalValue'])} isk"
-
-  # embed.add_field(name="Damages", value=damage_embed_str, inline=False)
 
   ids = {}
 
@@ -329,66 +325,66 @@ def generate_embed(kill_obj, status: int, filter, session):
   with ThreadPoolExecutor(max_workers=2) as executor:
     executor.map(set_names, ids.items())
 
-  victim_embed_str = f"Ship: [{get_ship_name(victim_ship_id, session)}](https://zkillboard.com/ship/{victim_ship_id})"
-  if True in ids and "victim" in pilot_names:
-    victim_embed_str += f"\nPilot: [{pilot_names['victim']}](https://zkillboard.com/character/{ids[True]})"
-
   if "corporation_id" in kill_obj["victim"]:
     corp_name, corp_logo, corp_link = get_corporation_data(
       kill_obj["victim"]["corporation_id"], session)
-    victim_embed_str += f"\nCorp: [{corp_name}]({corp_link})"
-    embed.set_author(name=corp_name, icon_url=corp_logo, url=corp_link)
-
+    author_name, author_logo, author_link = corp_name, corp_logo, corp_link
   if "alliance_id" in kill_obj["victim"]:
     ally_name, ally_logo, ally_link = get_alliance_data(
       kill_obj["victim"]["alliance_id"], session)
-    victim_embed_str += f"\nAlliance: [{ally_name}]({ally_link})"
-    embed.set_author(name=ally_name, icon_url=ally_logo, url=ally_link)
-  # embed.add_field(
-  #     name="Victim", value=victim_embed_str, inline=True)
-
-  finalblow_embed_str = ""
-  finalblow_embed_plt = ""
-  finalblow_type = ""
+    author_name, author_logo, author_link = ally_name, ally_logo, ally_link
+  finalblow_corp_str = "_"
+  finalblow_ally_str = "Corp:"
+  finalblow_pilot_str = "br.evetools.org"
   if killer != None:
     if "ship_type_id" in killer:
       killer_ship_id = killer["ship_type_id"]
-      finalblow_embed_plt = f" killed by {get_ship_name(killer_ship_id, session)}"
-    # if False in ids and "killer" in pilot_names:
-    #     finalblow_embed_str += f"\nPilot: [{pilot_names['killer']}](https://zkillboard.com/character/{ids[False]})"
+      finalblow_embed_ship = f"{get_ship_name(killer_ship_id, session)}"
+    if False in ids and "killer" in pilot_names:
+      finalblow_pilot_str = f"[{pilot_names['killer']}](https://zkillboard.com/character/{ids[False]})"
     if "corporation_id" in killer:
       corp_name, corp_logo, corp_link = get_corporation_data(
         killer["corporation_id"], session)
-      finalblow_embed_str = f"[{corp_name}]({corp_link})"
-      finalblow_type = "Corp"
+      finalblow_corp_str = f"[{corp_name}]({corp_link})"
     if "alliance_id" in killer:
       ally_name, ally_logo, ally_link = get_alliance_data(
         killer["alliance_id"], session)
-      finalblow_embed_str = f"[{ally_name}]({ally_link})"
-      finalblow_type = "Alliance"
-  # if "attackers" in kill_obj and killer != None:
-  # embed.add_field(name="Final Blow",
-  #                 value=finalblow_embed_str, inline=True)
-  details_embed_title_str = f"({len(kill_obj['attackers'])}) Involved"
-  details_embed_str = f"[br.evetools](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
-  # if "attackers" in kill_obj:
-  #     details_embed_str += f"\nFleet Size : {len(kill_obj['attackers'])}"
-  # details_embed_str += f"\nKill Mail: [{get_ship_name(victim_ship_id, session)}]({kill_obj['zkb']['url']})"
+      finalblow_ally_str = f"{ally_name}"
+      
+  damage_embed_str = f"{human_format(kill_obj['zkb']['totalValue'])} isk"
+
+  involved_attackers_count = ""    
+  if len(kill_obj['attackers']) > 1:
+    involved_attackers_count = f"({len(kill_obj['attackers'])}) "
+
+  involved_title_str = "_"
+  involved_embed_str = "_"
+  involved_title_str = f"{involved_attackers_count}{finalblow_embed_ship}"
+  involved_embed_str = f"[{finalblow_pilot_str}](https://br.evetools.org/related/{kill_obj['solar_system_id']}/{killmail_time_conv(kill_obj['killmail_time'])})"
+
+  location_title_str = f"{region_name}"
   location_embed_str = f"[{system_name}](http://evemaps.dotlan.net/map/{region_name.replace(' ', '_')}/{system_name.replace(' ', '_')}/)"
-  location_embed_region = f"{region_name}"
+
+  author_name += f" ({get_ship_name(victim_ship_id, session)})"
   
-  embed.title = f"{title_start}{get_ship_name(victim_ship_id, session)}{finalblow_embed_plt}"
+  embed.set_author(name=author_name, icon_url=author_logo, url=author_link)
+  embed.title = f"{title_start}{pilot_names['victim']} lost {damage_embed_str}"
   embed.url = kill_obj["zkb"]["url"]
   embed.set_thumbnail(
     url=f"https://images.evetech.net/types/{victim_ship_id}/icon")
-  embed.add_field(name=details_embed_title_str, value=details_embed_str, inline=True)
-  embed.add_field(name=location_embed_region, value=location_embed_str, inline=True)
-  embed.add_field(name=finalblow_type, value=finalblow_embed_str, inline=True)
+  embed.add_field(name=involved_title_str, value=involved_embed_str, inline=True)
+  embed.add_field(name=finalblow_ally_str, value=finalblow_corp_str, inline=True)
+  embed.add_field(name=location_title_str, value=location_embed_str, inline=True)
   return embed
 
 
 def does_msg_match_guild_watchlist(kill_obj, filter, session):
   try:
+    involvedmin = 0
+    config = session.query(ServerConfigs).get(filter.server_id)
+    if config.involvedmin != None:
+      involvedmin = config.involvedmin
+    involved = len(kill_obj["attackers"])
     system_j = loads(filter.systems)
     f_count = len(system_j)
 
@@ -398,35 +394,35 @@ def does_msg_match_guild_watchlist(kill_obj, filter, session):
     fcorp_j = loads(filter.f_corporations)
     fally_j = loads(filter.f_alliances)
     f_count += len(corp_j) + len(ally_j)
-
     def gen(status):
       return True, generate_embed(kill_obj, status, filter, session)
 
+    if involved < involvedmin:
+      return False, None
     if "corporation_id" in kill_obj["victim"]:
       if kill_obj["victim"]["corporation_id"] in fcorp_j:
-        return gen(0)
+        return False, None
       if kill_obj["victim"]["corporation_id"] in corp_j:
         return gen(-1)
 
     if "alliance_id" in kill_obj["victim"]:
       if kill_obj["victim"]["alliance_id"] in fally_j:
-        return gen(0)
-      if kill_obj["victim"]["alliance_id"] in corp_j:
+        return False, None
+      if kill_obj["victim"]["alliance_id"] in ally_j:
         return gen(-1)
 
     if "attackers" in kill_obj:
       for attacker in kill_obj["attackers"]:
         if "corporation_id" in attacker:
           if attacker["corporation_id"] in fcorp_j:
-            return gen(1)
+            return False, None
           if attacker["corporation_id"] in corp_j:
             return gen(-1)
         if "alliance_id" in attacker:
           if attacker["alliance_id"] in fally_j:
-            return gen(1)
+            return False, None
           if attacker["alliance_id"] in ally_j:
             return gen(-1)
-
     if "solar_system_id" in kill_obj.keys(
     ) and kill_obj["solar_system_id"] in system_j:
       return gen(-1)
@@ -452,8 +448,9 @@ def does_msg_match_guild_watchlist(kill_obj, filter, session):
         return gen(-1)
   except Exception as e:
     from main import logger
+    temp = kill_obj["zkb"]["url"]
     collect()
-    logger.debug(f"Error in does_msg_match_guild_watchlist: {e}")
+    logger.debug(f"Error in does_msg_match_guild_watchlist: {e} {temp}")
   return False, None
 
 
@@ -464,8 +461,8 @@ def on_message(ws, message):
   try:
     global kill_counter
     kill_counter += 1
-    print(f"Kill recieved {kill_counter}")
-
+    print(f"Kill recieved {kill_counter} ")
+    print(f"({len(message_queue)}) in queue")
     json_obj = loads(message)
 
     threads = [
@@ -484,14 +481,23 @@ def on_message(ws, message):
   except Exception as e:
     from main import logger
     collect()
-    logger.exception(e)
+    logger.exception(f"On message exception: {e}")
 
 
 def on_error(ws, error):
   from main import logger
-  logger.exception(error)
+  import threading
+  logger.exception(f"Error message: {error}")
   collect()
-
+  logger.info("Active threads:")
+  for thread in threading.enumerate(): 
+    logger.info(f"{thread}")
+  logger.info("Reinitializing websocket")
+  Thread(target=initialize_websocket, args=[]).start()
+  logger.info("Active threads:")
+  for thread in threading.enumerate(): 
+    logger.info(f"{thread}")
+    
 
 def on_close(ws, status_code, msg):
   from main import logger
@@ -506,21 +512,20 @@ def on_open(ws):
 
 
 def initialize_websocket():
-  from time import sleep
   from main import logger
-
-  while True:
-    try:
-      ws = WebSocketApp("wss://zkillboard.com/websocket/",
-                        on_message=on_message,
-                        on_error=on_error,
-                        on_close=on_close,
-                        on_open=on_open)
-      ws.run_forever(skip_utf8_validation=True,
-                     ping_interval=15,
-                     ping_timeout=8)
-    except Exception as e:
-      collect()
-      logger.exception(f"Websocket connection Error : {e}")
-    logger.debug("Reconnecting websocket after 5 sec")
-    sleep(5)
+  logger.info("Websocket initialized")
+  try:
+    ws = WebSocketApp("wss://zkillboard.com/websocket/",
+                      on_message=on_message,
+                      on_error=on_error,
+                      on_close=on_close,
+                      on_open=on_open)
+    logger.info("Websocket connection initiated")
+    ws.run_forever()
+  except websocket.WebSocketConnectionClosedException as err:
+    logger.exception(f"Websocket connection Error : {err}")
+  except Exception as e:
+    collect()
+    logger.exception(f"Websocket connection Error : {e}")
+    logger.info("Reconnecting websocket after 5 sec")
+  

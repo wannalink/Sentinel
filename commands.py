@@ -8,13 +8,15 @@ from commandhelpers import *
 from dbutility import *
 from Mybot import MyBot
 
+
 description = "An early warning system for Eve online."
 intents = Intents.default()
-intents.message_content = True
+intents.message_content = False
 
 engine = create_engine('sqlite:///database.db', echo=False)
 Session_factory = sessionmaker(bind=engine)
 Session = M_scoped_session(Session_factory)
+
 
 bot: commands.Bot = MyBot(command_prefix='/',
                           description=description, intents=intents)
@@ -155,6 +157,14 @@ async def neutralcolor(interaction: Interaction, color: str):
         except TypeError:
             await interaction.response.send_message(f"Invalid hexadecimal: {color}")
 
+@tree.command(name="involvedmin", description="Hide killmails below this number of involved attackers. Accepts numbers only!")
+async def involvedmin(interaction: Interaction, invmin: str):
+    with Session as session:
+        if invmin.isdigit():
+            set_involvedmin_for_guild(interaction, invmin, session)
+            await interaction.response.send_message(f"Threshold set to: {invmin}")
+        else:
+            await interaction.response.send_message(f"Invalid number: {invmin}")
 
 @bot.event
 async def on_guild_join(guild):
@@ -191,5 +201,4 @@ async def status(interaction: Interaction):
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user} (IUD: {bot.user.id})")
-    print("-------")
     await tree.sync()

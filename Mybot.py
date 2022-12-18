@@ -2,14 +2,14 @@ from CWebSocket import message_queue, does_msg_match_guild_watchlist
 from discord.ext import commands
 from discord.ext import tasks
 from dbutility import *
-
+import asyncio
 
 class MyBot(commands.Bot):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.blocker = False
-
+        
     @tasks.loop(seconds=1)
     async def background_task(self):
         if self.blocker or len(message_queue) == 0:
@@ -52,6 +52,7 @@ class MyBot(commands.Bot):
                                 continue
                             channel = self.get_channel(channelid)
                             await channel.send(embed=embed)
+                            await asyncio.sleep(0.4)
             except Exception as e:
                 from main import logger
                 logger.exception(e)

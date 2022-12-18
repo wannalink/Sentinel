@@ -15,11 +15,11 @@ def is_server_channel_set(id: int, session):
     return False
 
 
-def create_new_guild(channel_id: int, guild, session, color=None):
+def create_new_guild(channel_id: int, guild, session, color=None, invmin=0):
     result = session.query(ServerConfigs).get(guild.id)
     if result == None:
         config = ServerConfigs(id=guild.id, name=guild.name,
-                               channel=channel_id, muted=False, color=None)
+                               channel=channel_id, muted=False, color=None, invmin=0)
         session.add(config)
     result = session.query(WatchLists).get(guild.id)
     if result == None:
@@ -52,6 +52,14 @@ def set_neutral_color_for_guild(interaction: Interaction, color, session):
         result.neutral_color = color
         session.commit()
 
+def set_involvedmin_for_guild(interaction: Interaction, invmin, session):
+    result = session.query(ServerConfigs).get(interaction.guild_id)
+    if result == None:
+        create_new_guild(interaction.channel_id,
+                         interaction.guild, session, invmin=invmin)
+    else:
+        result.involvedmin = invmin
+        session.commit()
 
 def get_channel_id_from_guild_id(session, id: int):
     return session.query(ServerConfigs).get(id).channel

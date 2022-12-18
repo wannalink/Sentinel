@@ -1,25 +1,50 @@
+#!/usr/bin/env python
+"""
+Replit Keep Alive is a Python script wrapper meant to, with the help of UptimeRobot, keep Replit
+from terminating the bot when the browser tab is closed.
+"""
+
+import logging
+import subprocess
+import sys
+from threading import Thread
+from time import sleep
+
 from flask import Flask
 
-from threading import Thread
+SYNTAX                        = 'Syntax: python {0} <script>'
+WEB_SERVER_KEEP_ALIVE_MESSAGE = 'Keeping the repl alive!'
 
+flask: Flask          = Flask('replit_keep_alive')
+log:   logging.Logger = logging.getLogger('werkzeug')
 
-app = Flask('')
+# @flask.route('/')
+# def index() -> str:
+#     """ Method for handling the base route of '/'. """
+#     return WEB_SERVER_KEEP_ALIVE_MESSAGE
 
+# logger as index
+@flask.route('/')
+def stream():
+    def generate():
+        with open('tmp/sentinel.log') as f:
+            while True:
+                yield f.read()
+                sleep(1)
 
-@app.route('/')
+    return flask.response_class(generate(), mimetype='text/plain')
 
-def home():
+def keep_alive() -> None:
+    """ Wraps the web server run() method in a Thread object and starts the web server. """
+    def run() -> None:
+        log.setLevel(logging.ERROR)
+        flask.run(host = '0.0.0.0', port = 8080)
+    thread = Thread(target = run)
+    thread.start()
 
-    return "I'm alive"
-
-
-def run():
-
-  app.run(host='0.0.0.0',port=8080)
-
-
-def keep_alive():  
-
-    t = Thread(target=run)
-
-    t.start()
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print(SYNTAX.format(sys.argv[0]), file = sys.stderr)
+    else:
+        keep_alive()
+        subprocess.call(['python', sys.argv[1]])
