@@ -39,7 +39,11 @@ def run_bot():
       sleep(300)
       logger.info("Restarting discord")
       continue
-      
+    except Exception as err:
+      logger.exception(f"Discord Error: {err}")
+      sleep(300)
+      logger.info("Restarting discord")
+
 
 def main():
     logger.warning("Main func initialized")

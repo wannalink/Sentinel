@@ -9,6 +9,7 @@ from dbutility import *
 from Mybot import MyBot
 
 
+
 description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
@@ -200,5 +201,7 @@ async def status(interaction: Interaction):
 
 @bot.event
 async def on_ready():
+    from main import logger
     print(f"Logged in as {bot.user} (IUD: {bot.user.id})")
+    logger.info("Discord logged in")
     await tree.sync()
