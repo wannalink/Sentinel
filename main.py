@@ -36,16 +36,17 @@ def run_bot():
     try:
       bot.run(environ['DISCORD_TOKEN'])
     except discord.errors.HTTPException:
-      logger.info("Rate limited, sleeping")
       config.discord_status = None
+      logger.info("Rate limited, sleeping")
       sleep(300)
       logger.info("Restarting discord")
       continue
     except Exception as err:
-      logger.exception(f"Discord Error: {err}")
       config.discord_status = None
+      logger.exception(f"Discord Error: {err}")
       sleep(300)
       logger.info("Restarting discord")
+      continue
 
 
 def main():

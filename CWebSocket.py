@@ -492,8 +492,8 @@ def on_error(ws, error):
   config.websocket_status = None
   collect()
   logger.info("Reinitializing websocket")
-  Thread(target=initialize_websocket, args=[]).start()
   config.websocket_status = datetime.now()
+  Thread(target=initialize_websocket, args=[]).start()
 
 
     
@@ -501,10 +501,10 @@ def on_error(ws, error):
 def on_close(ws, status_code, msg):
   from main import logger
   import config
+  config.websocket_status = None
   if status_code or msg:
     logger.exception(f"Close status code: {status_code}")
     logger.exception(f"Close message: {msg}")
-  config.websocket_status = None
   collect()
 
 
@@ -523,14 +523,13 @@ def initialize_websocket():
                       on_error=on_error,
                       on_close=on_close,
                       on_open=on_open)
-    logger.info("Websocket connection initiated")
     config.websocket_status = datetime.now()
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
-    logger.exception(f"Websocket connection Error : {err}")
     config.websocket_status = None
+    logger.exception(f"Websocket connection Error : {err}")
 
   except Exception as e:
-    collect()
-    logger.exception(f"Websocket Error : {e}")
     config.websocket_status = None
+    logger.exception(f"Websocket Error : {e}")
+    collect()
