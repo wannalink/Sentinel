@@ -202,6 +202,9 @@ async def status(interaction: Interaction):
 @bot.event
 async def on_ready():
     from main import logger
+    import config
+    from datetime import datetime
     print(f"Logged in as {bot.user} (IUD: {bot.user.id})")
     logger.info("Discord logged in")
+    config.discord_status = datetime.now()
     await tree.sync()

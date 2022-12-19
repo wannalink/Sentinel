@@ -486,19 +486,25 @@ def on_message(ws, message):
 
 def on_error(ws, error):
   from main import logger
-  import threading
+  import config
+  from datetime import datetime
   logger.exception(f"Error message: {error}")
+  config.websocket_status = None
   collect()
   logger.info("Reinitializing websocket")
   Thread(target=initialize_websocket, args=[]).start()
+  config.websocket_status = datetime.now()
+
 
     
 
 def on_close(ws, status_code, msg):
   from main import logger
+  import config
   if status_code or msg:
     logger.exception(f"Close status code: {status_code}")
     logger.exception(f"Close message: {msg}")
+  config.websocket_status = None
   collect()
 
 
@@ -508,6 +514,8 @@ def on_open(ws):
 
 def initialize_websocket():
   from main import logger
+  import config
+  from datetime import datetime
   logger.info("Websocket initialized")
   try:
     ws = WebSocketApp("wss://zkillboard.com/websocket/",
@@ -516,10 +524,13 @@ def initialize_websocket():
                       on_close=on_close,
                       on_open=on_open)
     logger.info("Websocket connection initiated")
+    config.websocket_status = datetime.now()
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
     logger.exception(f"Websocket connection Error : {err}")
+    config.websocket_status = None
+
   except Exception as e:
     collect()
     logger.exception(f"Websocket Error : {e}")
-  
+    config.websocket_status = None

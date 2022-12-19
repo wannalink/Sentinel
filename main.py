@@ -31,22 +31,25 @@ logger = logging.getLogger(__name__)
 
 
 def run_bot():
+  import config
   while True:
     try:
       bot.run(environ['DISCORD_TOKEN'])
     except discord.errors.HTTPException:
       logger.info("Rate limited, sleeping")
+      config.discord_status = None
       sleep(300)
       logger.info("Restarting discord")
       continue
     except Exception as err:
       logger.exception(f"Discord Error: {err}")
+      config.discord_status = None
       sleep(300)
       logger.info("Restarting discord")
 
 
 def main():
-    logger.warning("Main func initialized")
+    logger.info("Main func initialized")
     keep_alive()
     create_database()
     Thread(target=initialize_websocket, args=[]).start()
