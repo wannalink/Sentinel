@@ -3,13 +3,14 @@ from CWebSocket import initialize_websocket
 from Schema import create_database
 from threading import Thread
 from commands import bot
-from os import environ, path, system
+from os import environ, path
 import logging
 import logging.handlers
 from dotenv import load_dotenv
 from webserver import keep_alive
 import discord
 from time import sleep
+from gc import collect
 
 load_dotenv()
 
@@ -37,21 +38,24 @@ def run_bot():
       bot.run(environ['DISCORD_TOKEN'])
     except discord.errors.HTTPException:
       config.discord_status = None
-      logger.info("Rate limited, sleeping")
+      logger.warning("Rate limited, sleeping")
       sleep(300)
       logger.info("Restarting discord")
+      collect()
       continue
-    except discord.errors.ConnectionClosed:
+    except RuntimeError:
       config.discord_status = None
-      logger.exception("Discord Error: ConnectionClosed")
-      sleep(120)
+      logger.warning("RuntimeError: Session is closed")
+      sleep(60)
       logger.info("Restarting discord")
+      collect()
       continue
     except Exception as err:
       config.discord_status = None
       logger.exception(f"Discord Error: {err}")
       sleep(300)
       logger.info("Restarting discord")
+      collect()
       continue
 
 

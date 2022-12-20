@@ -163,6 +163,11 @@ async def involvedmin(interaction: Interaction, invmin: str):
     with Session as session:
         if invmin.isdigit():
             set_involvedmin_for_guild(interaction, invmin, session)
+            channel = bot.get_channel(interaction.channel_id)
+            if int(invmin) > 0:
+              await channel.edit(name=f"killfeed-min-{invmin}")
+            else:
+              await channel.edit(name="killfeed")
             await interaction.response.send_message(f"Threshold set to: {invmin}")
         else:
             await interaction.response.send_message(f"Invalid number: {invmin}")
