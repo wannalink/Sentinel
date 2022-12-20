@@ -41,6 +41,12 @@ def run_bot():
       sleep(300)
       logger.info("Restarting discord")
       continue
+    except discord.errors.ConnectionClosed:
+      config.discord_status = None
+      logger.exception("Discord Error: ConnectionClosed")
+      sleep(120)
+      logger.info("Restarting discord")
+      continue
     except Exception as err:
       config.discord_status = None
       logger.exception(f"Discord Error: {err}")
