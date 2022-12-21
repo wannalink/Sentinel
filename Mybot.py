@@ -1,4 +1,5 @@
 from CWebSocket import message_queue, does_msg_match_guild_watchlist
+import discord
 from discord.ext import commands
 from discord.ext import tasks
 from dbutility import *
@@ -53,6 +54,10 @@ class MyBot(commands.Bot):
                             channel = self.get_channel(channelid)
                             await channel.send(embed=embed)
                             await asyncio.sleep(0.4)
+            except discord.errors.HTTPException:
+              from main import logger
+              logger.warning("Rate limited during sending message, sleeping")
+              await asyncio.sleep(60)               
             except Exception as e:
                 from main import logger
                 logger.exception(e)
