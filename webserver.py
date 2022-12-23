@@ -7,6 +7,7 @@ from terminating the bot when the browser tab is closed.
 import logging
 import subprocess
 import sys
+import threading
 from threading import Thread
 from time import sleep
 
@@ -44,6 +45,22 @@ def discord_status():
     else:
       return abort(404)
   return generate()
+
+
+@flask.route('/status')
+def stack_status():
+  def generate():
+    import config
+    d_status = 'off'
+    w_status = 'off'
+    if config.discord_status != None:
+      d_status = str(config.discord_status)
+    if config.websocket_status != None:
+      w_status = str(config.websocket_status)
+    threads = str(threading.enumerate())
+    result = (d_status, w_status, threads)
+    return flask.response_class(result, mimetype='text/plain')
+  return generate()
   
 
 @flask.route('/websocket')
@@ -62,7 +79,7 @@ def keep_alive() -> None:
     def run() -> None:
         log.setLevel(logging.ERROR)
         flask.run(host = '0.0.0.0', port = 8080)
-    thread = Thread(target = run)
+    thread = Thread(target = run, name='webserver')
     thread.start()
 
 if __name__ == '__main__':

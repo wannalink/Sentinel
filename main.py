@@ -31,25 +31,24 @@ logger = logging.getLogger(__name__)
 
 def run_bot():
   import config
-  while True:
-    try:
-      bot.run(environ['DISCORD_TOKEN'])
-    except discord.errors.HTTPException or RuntimeError:
-      config.discord_status = None
-      logger.warning("Rate limited, restarting")
-      system("kill 1")
-    except Exception as err:
-      config.discord_status = None
-      logger.exception(f"Discord Error: {err}")
-      system("kill 1")
+  try:
+    bot.run(environ['DISCORD_TOKEN'])
+  except discord.errors.HTTPException or RuntimeError:
+    config.discord_status = None
+    logger.warning("Rate limited, restarting")
+    system("kill 1")
+  except Exception as err:
+    config.discord_status = None
+    logger.exception(f"Discord Error: {err}")
+    system("kill 1")
 
 
 def main():
     logger.info("---------- Main func initialized ----------")
     keep_alive()
     create_database()
-    Thread(target=initialize_websocket, args=[]).start()
-    t2 = Thread(target=run_bot, args=())
+    Thread(target=initialize_websocket, name='zkbfeed', args=[]).start()
+    t2 = Thread(target=run_bot, name='discord', args=())
     t2.start()
     t2.join()
   
