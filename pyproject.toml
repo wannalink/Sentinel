@@ -16,6 +16,7 @@ discord = "^2.1.0"
 SQLAlchemy = "^1.4.45"
 websocket-client = "^1.4.2"
 python-dotenv = "^0.21.0"
+pygtail = "^0.14.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"

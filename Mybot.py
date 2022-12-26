@@ -53,10 +53,11 @@ class MyBot(commands.Bot):
                                 continue
                             channel = self.get_channel(channelid)
                             await channel.send(embed=embed)
-                            # await asyncio.sleep(0.4)
             except discord.errors.HTTPException:
               from main import logger
-              logger.warning("Rate limited during sending message, sleeping")       
+              # from os import system
+              logger.warning("Rate limited during sending message")
+              # system("kill 1")
             except Exception as e:
                 from main import logger
                 logger.exception(e)

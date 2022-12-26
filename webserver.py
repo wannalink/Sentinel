@@ -7,16 +7,15 @@ from terminating the bot when the browser tab is closed.
 import logging
 import subprocess
 import sys
-import threading
-from threading import Thread
+from threading import Thread, enumerate
+from datetime import datetime, timedelta
 from time import sleep
 from pygtail import Pygtail
-from flask import Flask, abort, Response, render_template
-from main import LOG_FILENAME
+from flask import Flask, Response, render_template
+
 
 SYNTAX                        = 'Syntax: python {0} <script>'
 WEB_SERVER_KEEP_ALIVE_MESSAGE = 'Keeping the repl alive!'
-
 
 flask: Flask          = Flask('replit_keep_alive')
 log:   logging.Logger = logging.getLogger('werkzeug')
@@ -28,8 +27,6 @@ def index() -> str:
 
 @flask.route('/status')
 def entry_point():
-	from datetime import datetime, timedelta
-	from threading import enumerate
 	from config import service_status
 	def service_status_check():
 		def thread_checker(service):
@@ -52,18 +49,22 @@ def entry_point():
 
 @flask.route('/log')
 def progress_log():
-	def generate():
-		for line in Pygtail(LOG_FILENAME, every_n=1):
-			yield "data:" + str(line) + "\n\n"
-			sleep(0.5)
-	return Response(generate(), mimetype= 'text/event-stream')
+  from main import LOG_FILENAME
+  def generate():
+    for line in Pygtail(LOG_FILENAME, every_n=1):
+      yield "data:" + str(line) + "\n\n"
+      sleep(0.5)
+  return Response(generate(), mimetype= 'text/event-stream')
 
 
 def keep_alive() -> None:
     """ Wraps the web server run() method in a Thread object and starts the web server. """
     def run() -> None:
+        from config import service_status
         log.setLevel(logging.ERROR)
-        flask.run(host = '0.0.0.0', port = 8080)
+        service_status['webserver']['started'] = datetime.now()
+        flask.run(host = '0.0.0.0', port = 8080, debug=False)
+        
     thread = Thread(target = run, name='webserver')
     thread.start()
 

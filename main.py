@@ -36,19 +36,19 @@ def run_bot():
     bot.run(environ['DISCORD_TOKEN'])
   except discord.errors.HTTPException or RuntimeError:
     service_status['discord']['stopped'] = datetime.now()
-    logger.warning("Rate limited, restarting")
-    system("kill 1")
+    logger.warning("Rate limited")
+    # system("kill 1")
   except Exception as err:
     service_status['discord']['stopped'] = datetime.now()
     logger.exception(f"Discord Error: {err}")
-    system("kill 1")
+    # system("kill 1")
 
 
 def main():
     logger.info("---------- Main func initialized ----------")
     keep_alive()
     create_database()
-    Thread(target=initialize_websocket, name='zkbfeed', args=[]).start()
+    Thread(target=initialize_websocket, name='websocket', args=[]).start()
     t2 = Thread(target=run_bot, name='discord', args=())
     t2.start()
     t2.join()
