@@ -30,15 +30,16 @@ logger = logging.getLogger(__name__)
 
 
 def run_bot():
-  import config
+  from config import service_status
+  from datetime import datetime
   try:
     bot.run(environ['DISCORD_TOKEN'])
   except discord.errors.HTTPException or RuntimeError:
-    config.discord_status = None
+    service_status['discord']['stopped'] = datetime.now()
     logger.warning("Rate limited, restarting")
     system("kill 1")
   except Exception as err:
-    config.discord_status = None
+    service_status['discord']['stopped'] = datetime.now()
     logger.exception(f"Discord Error: {err}")
     system("kill 1")
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" class="uk-height-1-1">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flasktest</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+<body>
+
+
+	
+
+<section class="section">
+<div class="container">
+	<div class="columns is-centered is-mobile">	
+		<div class="column is-muted notification is-four-fifths">
+			<h1 class="title">flasktest</h1>
+			<div id="progress"></div>
+			<style>
+				table, th, td {
+				border: 1px solid black;
+				}
+			</style>
+			<table style="width: 100%">
+			<thead>
+				<th>Service</th>
+				<th>Start time</th>
+				<th>Stop time</th>
+				<th>Duration</th>
+				<th>Thread</th>
+			</thead>
+			<tbody>
+				{% for item in data %}
+				<tr>
+					<td>{{ item }}</td>
+					<td>{{ data[item]['started'] }}</td>
+					<td>{{ data[item]['stopped'] }}</td>
+					<td>{{ data[item]['duration'] }}</td>
+					<td>{{ data[item]['thread'] }}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+			</table>
+			<div><br></div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="columns is-centered is-mobile">	
+		<div class="column is-dark notification is-four-fifths">
+			<div class="is-size-7 has-text-warning" id="display">
+				<ul id="display_list">
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</section>
+
+<script type="text/javascript">
+	var source = new EventSource("/log");
+	source.onmessage = function(event) {
+		// $('#display').prepend(event.data);
+		$('#display_list').prepend('<li>'+event.data+'</li>');
+		if(event.data == 100){
+			source.close()
+		}
+	}
+
+	// var source_progress = new EventSource("/progress");
+	// source_progress.onmessage = function(event) {
+	// 	$('#progress').text(event.data+'%');
+	// 	$('#progress').value(event.data);
+	// 	if(event.data == 100){
+	// 		source_progress.close()
+	// 	}
+	// }
+</script>
+</body>
+</html>

@@ -486,13 +486,12 @@ def on_message(ws, message):
 
 def on_error(ws, error):
   from main import logger
-  import config
+  from config import service_status
   from datetime import datetime
   logger.exception(f"Error message: {error}")
-  config.websocket_status = None
+  service_status['websocket']['stopped'] = datetime.now()
   collect()
   logger.info("Reinitializing websocket")
-  config.websocket_status = datetime.now()
   Thread(target=initialize_websocket, args=[]).start()
 
 
@@ -500,8 +499,9 @@ def on_error(ws, error):
 
 def on_close(ws, status_code, msg):
   from main import logger
-  import config
-  config.websocket_status = None
+  from config import service_status
+  from datetime import datetime
+  service_status['websocket']['stopped'] = datetime.now()
   if status_code or msg:
     logger.exception(f"Close status code: {status_code}")
     logger.exception(f"Close message: {msg}")
@@ -514,7 +514,7 @@ def on_open(ws):
 
 def initialize_websocket():
   from main import logger
-  import config
+  from config import service_status
   from datetime import datetime
   logger.info("Websocket initialized")
   try:
@@ -523,13 +523,13 @@ def initialize_websocket():
                       on_error=on_error,
                       on_close=on_close,
                       on_open=on_open)
-    config.websocket_status = datetime.now()
+    service_status['websocket']['started'] = datetime.now()
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
-    config.websocket_status = None
+    service_status['websocket']['stopped'] = datetime.now()
     logger.exception(f"Websocket connection Error : {err}")
 
   except Exception as e:
-    config.websocket_status = None
+    service_status['websocket']['stopped'] = datetime.now()
     logger.exception(f"Websocket Error : {e}")
     collect()
