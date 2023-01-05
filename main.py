@@ -37,7 +37,7 @@ def run_bot():
   except discord.errors.HTTPException or RuntimeError:
     service_status['discord']['stopped'] = datetime.now()
     logger.warning("Rate limited")
-    # system("kill 1")
+    system("kill 1")
   except Exception as err:
     service_status['discord']['stopped'] = datetime.now()
     logger.exception(f"Discord Error: {err}")

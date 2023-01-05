@@ -55,9 +55,9 @@ class MyBot(commands.Bot):
                             await channel.send(embed=embed)
             except discord.errors.HTTPException:
               from main import logger
-              # from os import system
+              from os import system
               logger.warning("Rate limited during sending message")
-              # system("kill 1")
+              system("kill 1")
             except Exception as e:
                 from main import logger
                 logger.exception(e)

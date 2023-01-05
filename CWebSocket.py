@@ -488,11 +488,14 @@ def on_error(ws, error):
   from main import logger
   from config import service_status
   from datetime import datetime
-  logger.exception(f"Error message: {error}")
   service_status['websocket']['stopped'] = datetime.now()
+  if error == 'Handshake status 502 Bad Gateway':
+    logger.warning("Handshake status 502 Bad Gateway")
+  else:
+    logger.exception(f"Error message: {error}")
   collect()
   logger.info("Reinitializing websocket")
-  Thread(target=initialize_websocket, args=[]).start()
+  Thread(target=initialize_websocket, args=[], name='websocket').start()
 
 
     
@@ -527,7 +530,7 @@ def initialize_websocket():
     ws.run_forever()
   except websocket.WebSocketConnectionClosedException as err:
     service_status['websocket']['stopped'] = datetime.now()
-    logger.exception(f"Websocket connection Error : {err}")
+    logger.warning(f"Websocket connection Error : {err}")
 
   except Exception as e:
     service_status['websocket']['stopped'] = datetime.now()
