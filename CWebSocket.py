@@ -509,6 +509,7 @@ def on_close(ws, status_code, msg):
     logger.exception(f"Close status code: {status_code}")
     logger.exception(f"Close message: {msg}")
   collect()
+  Thread(target=initialize_websocket, args=[], name='websocket').start()
 
 
 def on_open(ws):
