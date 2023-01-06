@@ -507,14 +507,15 @@ def on_error(ws, error):
 
 
 def on_close(ws, status_code, msg):
-    from main import logger
-    from config import service_status
-    from datetime import datetime
-    service_status['websocket']['stopped'] = datetime.now()
-    if status_code or msg:
-        logger.exception(f"Close status code: {status_code}")
-        logger.exception(f"Close message: {msg}")
-    collect()
+  from main import logger
+  from config import service_status
+  from datetime import datetime
+  service_status['websocket']['stopped'] = datetime.now()
+  if status_code or msg:
+    logger.exception(f"Close status code: {status_code}")
+    logger.exception(f"Close message: {msg}")
+  collect()
+  Thread(target=initialize_websocket, args=[], name='websocket').start()
 
 
 def on_open(ws):
