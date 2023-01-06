@@ -52,6 +52,7 @@ def set_neutral_color_for_guild(interaction: Interaction, color, session):
         result.neutral_color = color
         session.commit()
 
+
 def set_involvedmin_for_guild(interaction: Interaction, invmin, session):
     result = session.query(ServerConfigs).get(interaction.guild_id)
     if result == None:
@@ -60,6 +61,7 @@ def set_involvedmin_for_guild(interaction: Interaction, invmin, session):
     else:
         result.involvedmin = invmin
         session.commit()
+
 
 def get_channel_id_from_guild_id(session, id: int):
     return session.query(ServerConfigs).get(id).channel

@@ -25,7 +25,6 @@ url = "https://esi.evetech.net/latest"
 
 def step1():
 
-
     def submit_request(system):
         with Session as session:
             new_data = requests.get(
@@ -54,7 +53,7 @@ def step2():
             new_data = requests.get(
                 f"{url}/universe/constellations/{constellation}/?datasource=tranquility").json()
             entry = Constellations(id=new_data['constellation_id'], name=new_data["name"],
-                                region_id=new_data["region_id"])
+                                   region_id=new_data["region_id"])
             print(entry)
             session.add(entry)
 
@@ -92,7 +91,7 @@ def step3():
 
 
 def write_regions_to_json_file():
-    
+
     with Session as session:
         mydict = {}
 
@@ -143,6 +142,7 @@ def write_corporations_to_json_file():
         with open("json/corporations.json", "w") as file:
             file.write(obj)
 
+
 def write_alliances_to_json_file():
     with Session as session:
         mydict = {}
@@ -157,6 +157,7 @@ def write_alliances_to_json_file():
         with open("json/alliances.json", "w") as file:
             file.write(obj)
 
+
 def write_server_configurations_to_json_file():
     with Session as session:
         mydict = {}
@@ -169,6 +170,7 @@ def write_server_configurations_to_json_file():
         with open("json/server_configs.json", "w") as file:
             file.write(obj)
 
+
 def write_watchlists_to_json_file():
     with Session as session:
         mydict = {}
@@ -180,6 +182,7 @@ def write_watchlists_to_json_file():
         obj = json.dumps(mydict, indent=4)
         with open("json/watchlists.json", "w") as file:
             file.write(obj)
+
 
 def write_ships_to_json_file():
     with Session as session:

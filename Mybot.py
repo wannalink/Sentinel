@@ -5,19 +5,20 @@ from discord.ext import tasks
 from dbutility import *
 import asyncio
 
+
 class MyBot(commands.Bot):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.blocker = False
-        
+
     @tasks.loop(seconds=1)
     async def background_task(self):
         if self.blocker or len(message_queue) == 0:
             return
 
         self.blocker = True
-        
+
         from commands import Session
         with Session as session:
             # Cache the ready status of the guild to prevent redunant queries
@@ -54,10 +55,10 @@ class MyBot(commands.Bot):
                             channel = self.get_channel(channelid)
                             await channel.send(embed=embed)
             except discord.errors.HTTPException:
-              from main import logger
-              from os import system
-              logger.warning("Rate limited during sending message")
-              system("kill 1")
+                from main import logger
+                from os import system
+                logger.warning("Rate limited during sending message")
+                system("kill 1")
             except Exception as e:
                 from main import logger
                 logger.exception(e)

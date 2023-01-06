@@ -9,7 +9,6 @@ from dbutility import *
 from Mybot import MyBot
 
 
-
 description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
@@ -67,7 +66,8 @@ async def watch(interaction: Interaction, obj: str):
                    (Constellations, "Constellation"),
                    (Regions, "Region")]
         for c, n in objects:
-            added, already_watched, name, _ = add_object_to_watch(interaction, session, obj, c)
+            added, already_watched, name, _ = add_object_to_watch(
+                interaction, session, obj, c)
             if already_watched:
                 await interaction.response.send_message(f"{n}: {name} is already being watched!")
                 return
@@ -158,6 +158,7 @@ async def neutralcolor(interaction: Interaction, color: str):
         except TypeError:
             await interaction.response.send_message(f"Invalid hexadecimal: {color}")
 
+
 @tree.command(name="involvedmin", description="Hide killmails below this number of involved attackers. Accepts numbers only!")
 async def involvedmin(interaction: Interaction, invmin: str):
     with Session as session:
@@ -165,12 +166,13 @@ async def involvedmin(interaction: Interaction, invmin: str):
             set_involvedmin_for_guild(interaction, invmin, session)
             channel = bot.get_channel(interaction.channel_id)
             if int(invmin) > 0:
-              await channel.edit(name=f"killfeed-min-{invmin}")
+                await channel.edit(name=f"killfeed-min-{invmin}")
             else:
-              await channel.edit(name="killfeed")
+                await channel.edit(name="killfeed")
             await interaction.response.send_message(f"Threshold set to: {invmin}")
         else:
             await interaction.response.send_message(f"Invalid number: {invmin}")
+
 
 @bot.event
 async def on_guild_join(guild):

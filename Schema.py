@@ -16,7 +16,6 @@ class ServerConfigs(Base):
     neutral_color = Column(String(20), nullable=True, default=None)
     involvedmin = Column(Integer, nullable=True, default=None)
 
-
     def __repr__(self) -> str:
         return f"ServerConfig{self.id}, {self.name}, {self.channel}"
 
