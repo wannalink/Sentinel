@@ -497,15 +497,14 @@ def on_error(ws, error):
     from config import service_status
     from datetime import datetime
     service_status['websocket']['stopped'] = datetime.now()
-    if error == 'Handshake status 502 Bad Gateway':
-        logger.warning("Handshake status 502 Bad Gateway")
-    elif error == 'Connection to remote host was lost.':
-        logger.warning("Connection to remote host was lost.")    
-    else:
-        logger.exception(f"Error message: {error}")
+    logger.warning(f"Error message: {error}")
+    # if error == 'Handshake status 502 Bad Gateway':
+    #     logger.warning("Handshake status 502 Bad Gateway")
+    # elif error == 'Connection to remote host was lost.':
+    #     logger.warning("Connection to remote host was lost.")    
+    # else:
+    #     logger.exception(f"Error message: {error}")
     collect()
-    # logger.info("Reinitializing websocket")
-    # Thread(target=initialize_websocket, args=[], name='websocket').start()
 
 
 def on_close(ws, status_code, msg):
