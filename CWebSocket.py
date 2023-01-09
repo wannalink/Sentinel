@@ -493,17 +493,11 @@ def on_message(ws, message):
 
 
 def on_error(ws, error):
-    from main import logger
+    # from main import logger
     from config import service_status
     from datetime import datetime
     service_status['websocket']['stopped'] = datetime.now()
-    logger.warning(f"Error message: {error}")
-    # if error == 'Handshake status 502 Bad Gateway':
-    #     logger.warning("Handshake status 502 Bad Gateway")
-    # elif error == 'Connection to remote host was lost.':
-    #     logger.warning("Connection to remote host was lost.")    
-    # else:
-    #     logger.exception(f"Error message: {error}")
+    # logger.exception(f"Error message: {error}")
     collect()
 
 
@@ -527,11 +521,6 @@ def initialize_websocket():
     from main import logger
     from config import service_status
     from datetime import datetime
-    # from threading import enumerate, Thread
-    # for th in enumerate():
-    #     if th.name == 'websocket':
-    #         logger.warning(f"Websocket thread already running")
-    #         return
     logger.info("Websocket initialized")
     try:
         ws = WebSocketApp("wss://zkillboard.com/websocket/",
