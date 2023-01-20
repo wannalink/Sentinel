@@ -8,7 +8,6 @@ import logging
 from dotenv import load_dotenv
 from webserver import keep_alive
 import discord
-from time import sleep
 
 load_dotenv()
 

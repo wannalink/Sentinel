@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands
 from discord.ext import tasks
 from dbutility import *
-import asyncio
 
 
 class MyBot(commands.Bot):
