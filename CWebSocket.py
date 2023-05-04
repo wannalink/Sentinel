@@ -77,7 +77,8 @@ def check_for_unique_ally_ids(json_obj):
         for attacker in json_obj["attackers"]:
             if "alliance_id" in attacker:
                 ids.add(attacker["alliance_id"])
-        for row in session.query(Alliances).filter(Alliances.id.in_(ids)).all():
+        for row in session.query(Alliances).filter(
+                Alliances.id.in_(ids)).all():
             ids.remove(row.id)
 
         if len(ids) == 0:
@@ -96,8 +97,9 @@ def check_for_unique_ally_ids(json_obj):
             executor.map(get_ally_data_from_id, ids)
 
         for key, value in ally_dict.items():
-            alliance = Alliances(
-                id=key, name=value["name"], ticker=value["ticker"])
+            alliance = Alliances(id=key,
+                                 name=value["name"],
+                                 ticker=value["ticker"])
             session.add(alliance)
         session.commit()
 
@@ -131,7 +133,8 @@ def check_for_unique_ship_ids(json_obj):
             executor.map(get_ship_data_from_id, ids)
 
         for key, value in ship_dict.items():
-            ship = Ships(id=key, name=value["name"],
+            ship = Ships(id=key,
+                         name=value["name"],
                          group_id=value["group_id"])
             session.add(ship)
         session.commit()
@@ -255,8 +258,8 @@ def generate_embed_old(kill_obj, status: int, filter, session):
         embed.set_author(name=corp_name, icon_url=corp_logo, url=corp_link)
 
     if "alliance_id" in kill_obj["victim"]:
-        ally_name, ally_logo, ally_link = get_alliance_data(kill_obj["victim"]["alliance_id"],
-                                                            session)
+        ally_name, ally_logo, ally_link = get_alliance_data(
+            kill_obj["victim"]["alliance_id"], session)
         victim_embed_str += f"\nAlliance: [{ally_name}]({ally_link})"
     embed.add_field(name="Victim", value=victim_embed_str, inline=True)
 
@@ -277,7 +280,8 @@ def generate_embed_old(kill_obj, status: int, filter, session):
             finalblow_embed_str += f"\nAlliance: [{ally_name}]({ally_link})"
     if "attackers" in kill_obj and killer != None:
         embed.add_field(name="Final Blow",
-                        value=finalblow_embed_str, inline=True)
+                        value=finalblow_embed_str,
+                        inline=True)
 
     details_embed_str = f"System: [{system_name}](http://evemaps.dotlan.net/map/{region_name.replace(' ', '_')}/{system_name.replace(' ', '_')}/) ({region_name})"
     if "attackers" in kill_obj:
@@ -377,11 +381,14 @@ def generate_embed(kill_obj, status: int, filter, session):
     embed.set_thumbnail(
         url=f"https://images.evetech.net/types/{victim_ship_id}/icon")
     embed.add_field(name=involved_title_str,
-                    value=involved_embed_str, inline=True)
+                    value=involved_embed_str,
+                    inline=True)
     embed.add_field(name=finalblow_ally_str,
-                    value=finalblow_corp_str, inline=True)
+                    value=finalblow_corp_str,
+                    inline=True)
     embed.add_field(name=location_title_str,
-                    value=location_embed_str, inline=True)
+                    value=location_embed_str,
+                    inline=True)
     return embed
 
 
@@ -502,15 +509,15 @@ def on_error(ws, error):
 
 
 def on_close(ws, status_code, msg):
-  from main import logger
-  from config import service_status
-  from datetime import datetime
-  service_status['websocket']['stopped'] = datetime.now()
-  if status_code or msg:
-    logger.exception(f"Close status code: {status_code}")
-    logger.exception(f"Close message: {msg}")
-  collect()
-  Thread(target=initialize_websocket, args=[], name='websocket').start()
+    from main import logger
+    from config import service_status
+    from datetime import datetime
+    service_status['websocket']['stopped'] = datetime.now()
+    if status_code or msg:
+        logger.exception(f"Close status code: {status_code}")
+        logger.exception(f"Close message: {msg}")
+    collect()
+    Thread(target=initialize_websocket, args=[], name='websocket').start()
 
 
 def on_open(ws):
