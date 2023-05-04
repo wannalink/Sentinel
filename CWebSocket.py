@@ -349,7 +349,7 @@ def generate_embed(kill_obj, status: int, filter, session):
             killer_ship_id = killer["ship_type_id"]
             finalblow_embed_ship = f"{get_ship_name(killer_ship_id, session)}"
         if False in ids and "killer" in pilot_names:
-            finalblow_pilot_str = f"[{pilot_names['killer']}](https://zkillboard.com/character/{ids[False]})"
+            finalblow_pilot_str = f"{pilot_names['killer']}"
         if "corporation_id" in killer:
             corp_name, corp_logo, corp_link = get_corporation_data(
                 killer["corporation_id"], session)
