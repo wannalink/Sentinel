@@ -1,7 +1,8 @@
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, Boolean, Float
 from sqlalchemy.ext.declarative import declarative_base
 from ujson import load
 from os import path
+# from dbupdate_steps import csv_to_json
 
 Base = declarative_base()
 
@@ -100,6 +101,68 @@ class Alliances(Base):
         return f"Alliance:{self.id}, {self.name}:{self.ticker}"
 
 
+class Stations(Base):
+    __tablename__ = "stations"
+
+    id = Column(Integer, primary_key=True, autoincrement=False)
+    name = Column(String(50), nullable=False, index=True)
+    solarSystemID = Column(Integer, nullable=False, index=True)
+
+    def __repr__(self) -> str:
+        return f"Stations:{self.id}, {self.name}"
+
+class Items(Base):
+    __tablename__ = "items"
+
+    typeID = Column(Integer, primary_key=True, autoincrement=False)
+    marketGroupID = Column(Integer, nullable=False, index=True)
+    typeName = Column(String(50), nullable=False, index=True)
+
+    def __repr__(self) -> str:
+        return f"Items:{self.typeID}, {self.typeName}"
+
+
+class MarketGroups(Base):
+    __tablename__ = "marketgroups"
+
+    marketGroupID = Column(Integer, primary_key=True, autoincrement=False)
+    parentGroupID = Column(Integer, nullable=True, index=True)
+    marketGroupName = Column(String(50), nullable=False, index=True)
+
+    def __repr__(self) -> str:
+        return f"MarketGroups:{self.marketGroupID}, {self.marketGroupName}"
+
+
+class Orders(Base):
+    __tablename__ = "orders"
+
+    order_id = Column(Integer, primary_key=True, autoincrement=False)
+    volume_remain = Column(Integer, nullable=False, index=True)
+    duration = Column(Integer, nullable=False, index=False)
+    location_id = Column(Integer, nullable=False, index=True)
+    price = Column(Float, nullable=False, index=True)
+    system_id = Column(Integer, nullable=False, index=True)
+    type_id = Column(Integer, nullable=False, index=True)
+
+    def __repr__(self) -> str:
+        return f"Orders:{self.order_id}, {self.type_id}"
+
+
+class MarketWatch(Base):
+    __tablename__ = "marketwatch"
+
+    type_id = Column(Integer, primary_key=True, autoincrement=False)
+    regionID = Column(Integer, nullable=False, index=True)
+    constellationID = Column(Integer, nullable=True, index=False)
+    system_id = Column(Integer, nullable=True, index=False)
+    location_id = Column(Integer, nullable=True, index=False)
+    expires = Column(String(40), nullable=True, index=False)
+    last_modified = Column(String(40), nullable=True, index=False)    
+
+    def __repr__(self) -> str:
+        return f"Watchlist:{self.type_id}, {self.expires}"
+
+
 def write_regions_from_json_file(session):
     with open('json/regions.json', 'r') as file:
         obj = load(file)
@@ -178,6 +241,62 @@ def write_ships_from_json_file(session):
     session.commit()
 
 
+def write_stations_from_json_file(session):
+    filename = 'staStations'
+    # if not path.exists(f"assets/{filename}.json"):
+    #     csv_to_json(filename)
+    with open(f"json/{filename}.json", 'r') as file:
+        obj = load(file)
+        for _ in obj:
+            if _['stationID']:
+                entry = Stations(id=_['stationID'], name=_['stationName'],
+                                 solarSystemID=_['solarSystemID'])
+                session.merge(entry)
+    session.commit()
+
+
+def write_items_from_json_file(session):
+    filename = 'invTypes'
+    # if not path.exists(f"assets/{filename}.json"):
+    #     csv_to_json(filename)
+    with open(f"json/{filename}.json", 'r', encoding="utf8") as file:
+        obj = load(file)
+        for _ in obj:
+            if _['typeID'].isnumeric() and _['marketGroupID'] and _['published'] == "1":
+                entry = Items(typeID=_['typeID'], marketGroupID=_[
+                              'marketGroupID'], typeName=_['typeName'])
+                session.merge(entry)
+    session.commit()
+
+
+def write_market_groups_from_json_file(session):
+    filename = 'invMarketGroups'
+    # if not path.exists(f"assets/{filename}.json"):
+    #     csv_to_json(filename)
+    with open(f"json/{filename}.json", 'r') as file:
+        obj = load(file)
+        for _ in obj:
+            if _['marketGroupID'].isnumeric():
+                entry = MarketGroups(marketGroupID=_['marketGroupID'], parentGroupID=_[
+                                     'parentGroupID'], marketGroupName=_['marketGroupName'])
+                session.merge(entry)
+    session.commit()
+
+
+def write_orders_from_json_file(session):
+    filename = 'data_esi'
+    # if not path.exists(f"assets/{filename}.json"):
+    #     csv_to_json(filename)
+    with open(f"json/{filename}.json", 'r') as file:
+        obj = load(file)
+        for typeid in obj.keys():
+            for order in obj[typeid].keys():
+                entry = Orders(order_id=obj[typeid][order]['order_id'], volume_remain=obj[typeid][order]['volume_remain'], duration=obj[typeid][order]['duration'],
+                               location_id=obj[typeid][order]['location_id'], price=obj[typeid][order]['price'], system_id=obj[typeid][order]['system_id'], type_id=obj[typeid][order]['type_id'])
+                session.merge(entry)
+    session.commit()
+
+
 def create_database():
     if not path.exists('database.db'):
         from commands import Session, engine
@@ -192,4 +311,7 @@ def create_database():
             write_server_configurations_from_json_file(session)
             write_watchlists_from_json_file(session)
             write_ships_from_json_file(session)
+            write_stations_from_json_file(session)
+            write_items_from_json_file(session)
+            write_market_groups_from_json_file(session)
         print("Database Created!")

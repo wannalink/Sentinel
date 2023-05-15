@@ -7,6 +7,7 @@ from discord.ext import commands
 from commandhelpers import *
 from dbutility import *
 from Mybot import MyBot
+import market
 
 
 description = "An early warning system for Eve online."
@@ -204,6 +205,17 @@ async def status(interaction: Interaction):
             await interaction.response.send_message(f"Killstream is currently muted. Enable with /start")
         else:
             await interaction.response.send_message(f"Killstream is currently open. Mute with /stop")
+
+
+@tree.command(name="market", description="Gives the current list of capital ship orders in solar system.")
+async def market_info(interaction: Interaction):
+    orders, sum = market.orders_status()
+    market_response = [f"{sum} orders in total"]
+    for type in orders:
+        type_name, volume, price, time = type.values()
+        market_response.append(f"{volume}: {type_name} [{price} ISK] (Cached: {time} ago)")    
+    market_response_str = '\n'.join(map(str, market_response))
+    await interaction.response.send_message("```" + market_response_str + "```")
 
 
 @bot.event

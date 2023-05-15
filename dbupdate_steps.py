@@ -1,7 +1,10 @@
 from concurrent.futures import ThreadPoolExecutor
+import csv
+import os
 from commands import *
 from Schema import *
 import ujson as json
+import urllib.request
 import requests
 
 
@@ -21,6 +24,41 @@ url = "https://esi.evetech.net/latest"
 
 
 """Populate Systems Database from ESI"""
+
+
+def csv_to_json(filename):
+    '''Using CSV names from
+    https://www.fuzzwork.co.uk/dump/latest/
+    '''
+    # getting file from fuzzwork
+    url_str = (f"https://www.fuzzwork.co.uk/dump/latest/{filename}.csv")
+    filename_final = 'json/' + filename + '.csv'
+    urllib.request.urlretrieve(url_str, filename_final)
+
+    jsonArray = []
+
+    # read csv file
+    with open(f"json/{filename}.csv", encoding='utf-8') as csvf:
+        # load csv file data using csv library's dictionary reader
+        csvReader = csv.DictReader(csvf)
+
+        # convert each csv row into python dict
+        for row in csvReader:
+            # add this python dict to json array
+            jsonArray.append(row)
+
+    # convert python jsonArray to JSON String and write to file
+    with open(f"json/{filename}.json", 'w', encoding='utf-8') as jsonf:
+        jsonString = json.dumps(jsonArray, indent=4)
+        jsonf.write(jsonString)
+
+    myfile = f"json/{filename}.csv"
+    # If file exists, delete it.
+    if os.path.isfile(myfile):
+        os.remove(myfile)
+    else:
+        # If it fails, inform the user.
+        print("Error: %s file not found" % myfile)
 
 
 def step1():
@@ -88,6 +126,61 @@ def step3():
             executor.map(submit_request, data)
         session.commit()
         print("Populate Regions dbupdate step finished")
+
+
+"""Populate Station Database from ESI"""
+
+
+def step4():
+
+    with Session as session:
+        filename = 'staStations'
+        if not path.exists(f"json/{filename}.json"):
+            csv_to_json(filename)
+        with open(f"json/{filename}.json", 'r') as file:
+            obj = load(file)
+            for _ in obj:
+                if _['stationID']:
+                    entry = Stations(id=_['stationID'], name=_['stationName'],
+                                    solarSystemID=_['solarSystemID'])
+                    session.add(entry)
+        session.commit()
+        print("Populate Stations dbupdate step finished")
+
+
+def step5():
+
+    with Session as session:
+        filename = 'invTypes'
+        if not path.exists(f"json/{filename}.json"):
+            csv_to_json(filename)
+        with open(f"json/{filename}.json", 'r') as file:
+            obj = load(file)
+            for _ in obj:
+                if _['typeID'].isnumeric() and _['marketGroupID'] and _['published'] == "1":
+                    entry = Items(typeID=_['typeID'], marketGroupID=_[
+                                'marketGroupID'], typeName=_['typeName'])
+                    session.add(entry)
+        session.commit()
+        print("Populate Items dbupdate step finished")
+
+
+def step6():
+
+    with Session as session:
+        filename = 'invMarketGroups'
+        if not path.exists(f"json/{filename}.json"):
+            csv_to_json(filename)
+        with open(f"json/{filename}.json", 'r') as file:
+            obj = load(file)
+            for _ in obj:
+                if _['marketGroupID'].isnumeric():
+                    entry = MarketGroups(marketGroupID=_['marketGroupID'], parentGroupID=_[
+                                        'parentGroupID'], marketGroupName=_['marketGroupName'])
+                    session.add(entry)
+        session.commit()
+        print("Populate MarketGroups dbupdate step finished")
+
 
 
 def write_regions_to_json_file():
@@ -197,6 +290,42 @@ def write_ships_to_json_file():
             file.write(obj)
 
 
+def write_items_to_json_file():
+    with Session as session:
+        mydict = {}
+
+        results = session.query(Items).all()
+        for Item in results:
+            mydict[Item.typeID] = [Item.typeName, Item.marketGroupID]
+
+        obj = json.dumps(mydict, indent=4)
+        with open("json/invTypes.json", "w") as file:
+            file.write(obj)
+
+
+def write_market_groups_to_json_file():
+    with Session as session:
+        mydict = {}
+
+        results = session.query(MarketGroups).all()
+        for MarketGroup in results:
+            mydict[MarketGroup.MarketGroupID] = [MarketGroup.MarketGroupName, MarketGroup.parentGroupID]
+
+        obj = json.dumps(mydict, indent=4)
+        with open("json/invMarketGroups.json", "w") as file:
+            file.write(obj)
+
+
+def write_stations_to_json_file():
+    with Session as session:
+        mydict = {}
+
+        results = session.query(Stations).all()
+        for station in results:
+            mydict[station.id] = [station.solarSystemID, station.name]
+        obj = json.dumps(mydict, indent=4)
+        with open("json/staStations.json", "w") as file:
+            file.write(obj)
 """Run before database is deleted for schema reformatting!"""
 
 
@@ -209,6 +338,12 @@ def PREPARE_FOR_DB_DELETE():
     write_server_configurations_to_json_file()
     write_watchlists_to_json_file()
     write_ships_to_json_file()
-
+    write_items_to_json_file()
+    write_market_groups_to_json_file()
+    write_stations_to_json_file()
 
 PREPARE_FOR_DB_DELETE()
+
+# step4()
+# step5()
+# step6()
