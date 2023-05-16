@@ -106,16 +106,17 @@ class MyBot(commands.Bot):
             return
 
         self.blocker_market = True
-
+        channel_market = self.get_channel(int(environ['DISCORD_CHANNEL'])) 
+        
         try:
             market_info_ret = market.market_info()
             if market_info_ret:
-                channel = self.get_channel(int(environ['DISCORD_CHANNEL']))  
                 for order in market_info_ret:
-                    await channel.send(discord.utils.get(channel.guild.roles, name=environ['MENTION_ROLE']).mention, embed=generate_market_embed(order, embed_type='diff'))
+                    await channel_market.send(discord.utils.get(channel_market.guild.roles, name=environ['MENTION_ROLE']).mention, embed=generate_market_embed(order, embed_type='diff'))
 
-        except:
-            pass
+        except Exception as e:
+            from main import logger
+            logger.exception(e)
 
         finally:
             self.blocker_market = False
