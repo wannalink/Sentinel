@@ -102,7 +102,6 @@ class MyBot(commands.Bot):
                 print('embed_type not specified')
                 return
 
-        print("second task called, Current time: ", datetime.datetime.now())
         if self.blocker_market:
             return
 

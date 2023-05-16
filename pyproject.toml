@@ -19,6 +19,7 @@ python-dotenv = "^0.21.0"
 pygtail = "^0.14.0"
 "backports.zoneinfo" = "0.2.1"
 tzdata = "2023.3"
+pytz-deprecation-shim = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
