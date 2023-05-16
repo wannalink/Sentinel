@@ -4,7 +4,10 @@ from datetime import datetime, timedelta, timezone
 from functools import lru_cache
 from os import environ
 from urllib.request import Request, urlopen
-from zoneinfo import ZoneInfo
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    from backports.zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 

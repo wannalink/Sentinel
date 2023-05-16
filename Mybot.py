@@ -104,13 +104,11 @@ class MyBot(commands.Bot):
 
         print("second task called, Current time: ", datetime.datetime.now())
         if self.blocker_market:
-            print("second task called, but blocked. Current time: ", datetime.datetime.now())
             return
 
         self.blocker_market = True
 
         try:
-            print("this is a second backgound task running, Current time: ", datetime.datetime.now())
             market_info_ret = market.market_info()
             if market_info_ret:
                 channel = self.get_channel(int(environ['DISCORD_CHANNEL']))  
@@ -123,9 +121,7 @@ class MyBot(commands.Bot):
         finally:
             self.blocker_market = False
             from gc import collect
-            collect()
-            print("second task finished and unlocked. Current time: ", datetime.datetime.now())
-       
+            collect()       
 
 
     async def setup_hook(self):
@@ -137,5 +133,5 @@ class MyBot(commands.Bot):
         await self.wait_until_ready()
 
     @background_task_market.before_loop
-    async def before_my_task(self):
+    async def before_my_task_market(self):
         await self.wait_until_ready()

@@ -17,6 +17,8 @@ SQLAlchemy = "^1.4.45"
 websocket-client = "^1.4.2"
 python-dotenv = "^0.21.0"
 pygtail = "^0.14.0"
+"backports.zoneinfo" = "0.2.1"
+tzdata = "2023.3"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
