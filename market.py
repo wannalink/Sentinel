@@ -134,9 +134,9 @@ def market_info():
         use_headers = {'User-Agent': 'XYZ/3.0'}
         req = Request(url_str, headers=use_headers)
         item_orders = {}
-        for attempt in range(1, 4):
+        for attempt in range(1, 3):
             try:
-                response = urlopen(req, timeout=10)
+                response = urlopen(req, timeout=8)
                 # code = webpage.getcode()
                 headers = dict(response.getheaders())
                 load = json.loads(response.read())
