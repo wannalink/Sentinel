@@ -109,7 +109,8 @@ class MyBot(commands.Bot):
         channel_market = self.get_channel(int(environ['DISCORD_CHANNEL'])) 
         
         try:
-            market_info_ret = market.market_info()
+            # market_info_ret = market.market_info()
+            market_info_ret = await market.as_market_info()
             if market_info_ret:
                 for order in market_info_ret:
                     await channel_market.send(discord.utils.get(channel_market.guild.roles, name=environ['MENTION_ROLE']).mention, embed=generate_market_embed(order, embed_type='diff'))

@@ -1,9 +1,11 @@
+import asyncio
 import json
 import threading
 from datetime import datetime, timedelta, timezone
 from functools import lru_cache
 from os import environ
 from urllib.request import Request, urlopen
+import aiohttp
 try:
     from zoneinfo import ZoneInfo
 except ImportError:
@@ -187,6 +189,7 @@ def market_info():
                         {'name': name_id_lookup(id=typeid), 'name_id': typeid, 'old_vol': old_vol, 'new_vol': new_vol, 'price': human_format(orig[typeid][order]['price']), 'station_name': station_name, 'station_type': station_type, 'region_id': REGIONLIMIT, 'cheapest': cheapest, 'order_age': order_last_seen, 'evetime': time_conv(orig[typeid][order]['Last-Modified'], flags=['header', 'ret_str'])})
         return diff_list
 
+
     id_from_names = load_names('names')
     id_list = []
     for i in id_from_names:
@@ -209,6 +212,71 @@ def market_info():
     new = load_data('data_esi')
     if orig and new:
         return compare_jsons(orig, new)
+
+
+async def as_market_info():
+    async def get_data_json(typeid=None):
+        url_str = (
+            f"https://esi.evetech.net/latest/markets/{REGIONLIMIT}/orders/?datasource=tranquility&order_type=sell&page=1&type_id={typeid}")
+        use_headers = {'User-Agent': 'XYZ/3.0'}
+        async with aiohttp.ClientSession(headers=use_headers) as session:
+            async with session.get(url_str) as response:
+                headers = response.headers
+                load = await response.json()
+                item_orders = {}
+                for order in load:
+                    if USESYSTEM == 0 or order['system_id'] == USESYSTEM:
+                        order['Expires'] = headers['Expires']
+                        order['Last-Modified'] = headers['Last-Modified']
+                        item_orders[order['order_id']] = order
+                new[typeid] = item_orders
+
+    async def compare_jsons(orig, new):
+        if orig == new:
+            return None
+        if len(orig) != len(new):
+            print('json structure is not comparable')
+            return None
+        diff_list = []
+        for typeid in orig.keys():
+            lowest_price_order = None
+            for order in orig[typeid].keys():
+                old_vol = orig[typeid][order]['volume_remain']
+                new_vol = 0
+                if order in new[typeid].keys():                
+                    new_vol = new[typeid][order]['volume_remain']
+                # Checking for expired orders:
+                elif time_conv(orig[typeid][order]['Expires'], flags=['header']) > time_conv(orig[typeid][order]['issued'], flags=['order'], offset=orig[typeid][order]['duration']):
+                    break
+                if old_vol > new_vol:
+                    if not lowest_price_order:
+                        lowest_price_order = min(orig[typeid].values(), key=lambda d: d['price'])['order_id']
+                    cheapest = orig[typeid][order]['order_id'] == lowest_price_order
+                    station_name, station_type = name_id_lookup(
+                        station=orig[typeid][order]['location_id'])
+                    order_last_seen = time_conv(
+                        orig[typeid][order]['Last-Modified'], flags=['header', 'delta'])
+                    diff_list.append(
+                        {'name': name_id_lookup(id=typeid), 'name_id': typeid, 'old_vol': old_vol, 'new_vol': new_vol, 'price': human_format(orig[typeid][order]['price']), 'station_name': station_name, 'station_type': station_type, 'region_id': REGIONLIMIT, 'cheapest': cheapest, 'order_age': order_last_seen, 'evetime': time_conv(orig[typeid][order]['Last-Modified'], flags=['header', 'ret_str'])})
+        return diff_list
+
+    id_from_names = load_names('names')
+    id_list = []
+    for i in id_from_names:
+        id_list.append(i['typeID'])
+    orig = load_data('data_esi')
+    new = {}
+    tasks = []
+    for i in id_list:
+        task = asyncio.create_task(get_data_json(i))
+        tasks.append(task)
+    await asyncio.gather(*tasks)
+    with open('assets/data_esi.json', 'w') as fp:
+        json.dump(new, ensure_ascii=False, indent=4, fp=fp)
+    # For some reason dict doesn't works without reloading from json?
+    new = load_data('data_esi')
+    if orig and new:
+        return await compare_jsons(orig, new)
 
 
 def orders_status():
