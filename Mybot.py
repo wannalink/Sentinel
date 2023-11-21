@@ -88,7 +88,7 @@ class MyBot(commands.Bot):
                     isk = 'ISK*'
                 else:
                     isk = 'ISK'
-                embed = discord.Embed(title=f"{order_type_name} {old_vol} -> {new_vol} ({price} {isk})", url=f"https://evemarketer.com/regions/{region_id}/types/{order_type_id}",
+                embed = discord.Embed(title=f"{order_type_name} {old_vol} -> {new_vol} ({price} {isk})", url=f"https://evetycoon.com/market/{order_type_id}",
                             description=f"Cache age: {order_age} (EVE time: {evetime})", color=0xef600a)
                 embed.set_author(name=station_name, url=f'''https://evemaps.dotlan.net/station/{station_name}'''.replace(
                     " ", "_"), icon_url=f"https://e.dotlan.net/images/Station/{station_type}_32.png")
