@@ -69,7 +69,7 @@ class MyBot(commands.Bot):
                 from gc import collect
                 collect()
 
-    @tasks.loop(seconds=300)
+    @tasks.loop(seconds=310)
     async def background_task_market(self):
 
         def generate_market_embed(input_data, embed_type=None):
