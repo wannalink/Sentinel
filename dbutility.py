@@ -43,6 +43,49 @@ def set_filter_to_all(guild_id: int, session):
     session.commit()
 
 
+def get_object_from_watch(session, obj: str, db_class):
+    reference = None
+    if obj.isdigit():
+        reference = session.query(db_class).get(int(obj))
+    elif db_class is Alliances:
+        reference = session.query(Alliances).filter(
+            or_(Alliances.name.ilike(obj), Alliances.ticker.ilike(obj))).first()
+    elif db_class is Corporations:
+        reference = session.query(Corporations).filter(
+            or_(Corporations.name.ilike(obj), Corporations.ticker.ilike(obj))).first()
+    else:
+        reference = session.query(db_class).filter(
+            db_class.name.ilike(obj)).first()
+
+    if reference == None:
+        return False, False, ""
+
+    return True, False, reference.name
+
+
+def list_filter(guild_id: int, session):
+    filter = does_server_have_filter(guild_id, session)
+    if filter == None:
+        print('empty')
+        return 'Watchlist is empty'
+    else:
+        print(filter.systems)
+        print(filter.constellations)
+        print(filter.regions)
+        print(filter.corporations)
+        print(filter.alliances)
+        objects = [(Systems, "System"),
+                   (Constellations, "Constellation"),
+                   (Regions, "Region"),
+                   (Corporations, "Corporations"),
+                   (Alliances, "Alliances")]
+        for c, n in objects:
+            for i in filter.c:
+                result = get_object_from_watch(session, i, c)
+                print(f"{n}: {result} id: {i}")
+        return filter, filter.systems, filter.constellations, filter.regions, filter.corporations, filter.alliances, filter.players        
+
+
 def set_neutral_color_for_guild(interaction: Interaction, color, session):
     result = session.query(ServerConfigs).get(interaction.guild_id)
     if result == None:
@@ -298,3 +341,5 @@ def remove_object_from_watch(interaction: Interaction, session, obj: str, db_cla
     session.commit()
 
     return True, False, reference.name
+
+

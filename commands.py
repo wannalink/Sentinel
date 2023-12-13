@@ -137,6 +137,12 @@ async def watchall(interaction: Interaction):
     await interaction.response.send_message(f"All filters removed! Watching all kills.")
 
 
+@tree.command(name="watchlist", description="Lists all the entities in the watchlist")
+async def watchlist(interaction: Interaction):
+    with Session as session:
+        await interaction.response.send_message(list_filter(interaction.guild.id, session))
+
+
 @tree.command(name="setchannel", description="Set the channel for the killstream.")
 async def setchannel(interaction: Interaction):
     with Session as session:
