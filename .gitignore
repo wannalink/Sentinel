@@ -10,3 +10,4 @@ database.db
 temp.py
 test.py
 assets/data_esi.json
+fly.toml
