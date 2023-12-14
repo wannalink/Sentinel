@@ -462,7 +462,7 @@ def does_msg_match_guild_watchlist(kill_obj, filter, session):
             if const == const_id:
                 return gen(-1)
     except Exception as e:
-        from main import logger
+        from app import logger
         temp = kill_obj["zkb"]["url"]
         collect()
         logger.debug(f"Error in does_msg_match_guild_watchlist: {e} {temp}")
@@ -494,7 +494,7 @@ def on_message(ws, message):
 
         message_queue.append(json_obj)
     except Exception as e:
-        from main import logger
+        from app import logger
         collect()
         logger.exception(f"On message exception: {e}")
 
@@ -509,7 +509,7 @@ def on_error(ws, error):
 
 
 def on_close(ws, status_code, msg):
-    from main import logger
+    from app import logger
     from config import service_status
     from datetime import datetime
     service_status['websocket']['stopped'] = datetime.now()
@@ -525,7 +525,7 @@ def on_open(ws):
 
 
 def initialize_websocket():
-    from main import logger
+    from app import logger
     from config import service_status
     from datetime import datetime
     logger.info("Websocket initialized")

@@ -226,7 +226,7 @@ async def market_info(interaction: Interaction):
 
 @bot.event
 async def on_ready():
-    from main import logger
+    from app import logger
     from config import service_status
     from datetime import datetime
     print(f"Logged in as {bot.user} (IUD: {bot.user.id})")

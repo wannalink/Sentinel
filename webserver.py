@@ -53,7 +53,7 @@ def entry_point():
 
 @flask.route('/log')
 def progress_log():
-    from main import LOG_FILENAME
+    from app import LOG_FILENAME
 
     def generate():
         for line in Pygtail(LOG_FILENAME, every_n=1):

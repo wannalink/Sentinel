@@ -57,12 +57,12 @@ class MyBot(commands.Bot):
                             channel = self.get_channel(channelid)
                             await channel.send(embed=embed)
             except discord.errors.HTTPException:
-                from main import logger
+                from app import logger
                 from os import system
                 logger.warning("Rate limited during sending message")
                 system("kill 1")
             except Exception as e:
-                from main import logger
+                from app import logger
                 logger.exception(e)
             finally:
                 self.blocker = False
@@ -116,7 +116,7 @@ class MyBot(commands.Bot):
                     await channel_market.send(discord.utils.get(channel_market.guild.roles, name=environ['MENTION_ROLE']).mention, embed=generate_market_embed(order, embed_type='diff'))
 
         except Exception as e:
-            from main import logger
+            from app import logger
             logger.exception(e)
 
         finally:
