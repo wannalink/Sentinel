@@ -1,16 +1,12 @@
-# fly.toml app configuration file generated for ds-sentinel-misty-grass-622 on 2023-12-14T16:22:08+03:00
+# fly.toml app configuration file generated for ds-sentinel-3 on 2023-12-16T19:44:20+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "ds-sentinel"
-primary_region = "arn"
+app = "ds-sentinel-3"
+primary_region = "ams"
 
 [build]
-  builder = "paketobuildpacks/builder:base"
-
-[env]
-  PORT = "8080"
 
 [http_service]
   internal_port = 8080
