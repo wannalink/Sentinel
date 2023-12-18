@@ -1,6 +1,7 @@
 .vscode/launch.json
 __pycache__/*
 storage/tmp/*
+storage/assets/data_esi.json
 storage/database.db
 venv/*
 .env
