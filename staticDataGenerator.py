@@ -11,12 +11,12 @@ def csv_to_json(filename):
     '''
     # getting file from fuzzwork
     url_str = (f"https://www.fuzzwork.co.uk/dump/latest/{filename}.csv")
-    filename_final = 'json/' + filename + '.csv'
+    filename_final = 'storage/json/' + filename + '.csv'
     urllib.request.urlretrieve(url_str, filename_final)
     # try:
         # response = requests.get(url_str)
         
-    #     with open(f"assets/{filename}.csv", 'w') as f:
+    #     with open(f"storage/assets/{filename}.csv", 'w') as f:
     #         writer = csv.writer(f)
     #         for line in response.iter_lines():
     #             writer.writerow(line.decode('utf-8').split(','))
@@ -26,7 +26,7 @@ def csv_to_json(filename):
     jsonArray = []
 
     # read csv file
-    with open(f"json/{filename}.csv", encoding='utf-8') as csvf:
+    with open(f"storage/json/{filename}.csv", encoding='utf-8') as csvf:
         # load csv file data using csv library's dictionary reader
         csvReader = csv.DictReader(csvf)
 
@@ -36,11 +36,11 @@ def csv_to_json(filename):
             jsonArray.append(row)
 
     # convert python jsonArray to JSON String and write to file
-    with open(f"json/{filename}.json", 'w', encoding='utf-8') as jsonf:
+    with open(f"storage/json/{filename}.json", 'w', encoding='utf-8') as jsonf:
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
-    myfile = f"json/{filename}.csv"
+    myfile = f"storage/json/{filename}.csv"
     # If file exists, delete it.
     if os.path.isfile(myfile):
         os.remove(myfile)
@@ -51,13 +51,13 @@ def csv_to_json(filename):
 
 def extract_stations(filename, systemid=None, regionid=None):
     try:
-        with open(f"json/{filename}.json", 'r') as json_data:
+        with open(f"storage/json/{filename}.json", 'r') as json_data:
             json_data = json.load(json_data)
     except FileNotFoundError:
         print(f"{filename} json not found, downloading CSV")
         csv_to_json(filename)
         try:
-            with open(f"json/{filename}.json", 'r') as json_data:
+            with open(f"storage/json/{filename}.json", 'r') as json_data:
                 json_data = json.load(json_data)
         except FileNotFoundError:
             print(f"CSV converting failed")
@@ -66,7 +66,7 @@ def extract_stations(filename, systemid=None, regionid=None):
         if (systemid and i['solarSystemID'] == str(systemid)) or (regionid and i['regionID'] == str(regionid)):
             result_dict[i['stationID']] = i
     result_id = regionid if regionid else systemid
-    with open(f"json/stations_{result_id}.json", 'w') as fp:
+    with open(f"storage/json/stations_{result_id}.json", 'w') as fp:
         json.dump(result_dict, ensure_ascii=False, indent=4, fp=fp)
 
 

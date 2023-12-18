@@ -1,0 +1,57 @@
+2023-07-07 04:39:03,728 INFO __main__ ---------- Main func initialized ----------
+2023-07-07 04:39:03,731 INFO main Websocket initialized
+2023-07-07 04:39:03,731 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-07-07 04:39:03,732 INFO discord.client logging in using static token
+2023-07-07 04:39:04,890 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: 602abb6292d1d2d25a719ca933cc8428).
+2023-07-07 04:39:06,896 INFO main Discord logged in
+2023-12-04 03:30:39,762 INFO __main__ ---------- Main func initialized ----------
+2023-12-04 03:30:39,766 INFO main Websocket initialized
+2023-12-04 03:30:39,766 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-04 03:30:39,767 INFO discord.client logging in using static token
+2023-12-04 03:30:41,042 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: 95920fb649900416e2402631a9031cc3).
+2023-12-04 03:30:43,050 INFO main Discord logged in
+2023-12-04 03:33:16,319 INFO __main__ ---------- Main func initialized ----------
+2023-12-04 03:33:16,322 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-04 03:33:16,322 INFO main Websocket initialized
+2023-12-04 03:33:16,322 INFO discord.client logging in using static token
+2023-12-04 03:33:17,647 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: ea4aa551a2ce26a8da0f9628670fd3ce).
+2023-12-04 03:33:19,657 INFO main Discord logged in
+2023-12-04 03:38:30,023 ERROR main string indices must be integers
+Traceback (most recent call last):
+  File "c:\Projects\Python3\ds-sentinel\Mybot.py", line 113, in background_task_market
+    market_info_ret = await market.as_market_info()
+  File "c:\Projects\Python3\ds-sentinel\market.py", line 273, in as_market_info
+    await asyncio.gather(*tasks)
+  File "c:\Projects\Python3\ds-sentinel\market.py", line 228, in get_data_json
+    if USESYSTEM == 0 or order['system_id'] == USESYSTEM:
+TypeError: string indices must be integers
+2023-12-05 03:15:00,120 INFO __main__ ---------- Main func initialized ----------
+2023-12-05 03:15:00,123 INFO main Websocket initialized
+2023-12-05 03:15:00,123 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-05 03:15:00,124 INFO discord.client logging in using static token
+2023-12-05 03:15:01,524 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: a63bab774ebb3e470505a8b393d11f96).
+2023-12-05 03:15:03,536 INFO main Discord logged in
+2023-12-05 03:18:59,305 INFO __main__ ---------- Main func initialized ----------
+2023-12-05 03:18:59,308 INFO main Websocket initialized
+2023-12-05 03:18:59,309 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-05 03:18:59,309 INFO discord.client logging in using static token
+2023-12-05 03:19:00,752 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: 9a81e97547c3e82c10dc81dfaa153ef9).
+2023-12-05 03:19:02,764 INFO main Discord logged in
+2023-12-14 16:13:44,130 INFO __main__ ---------- Main func initialized ----------
+2023-12-14 16:13:44,136 INFO main Websocket initialized
+2023-12-14 16:13:44,136 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-14 16:13:44,138 INFO discord.client logging in using static token
+2023-12-14 16:13:45,821 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: ef1453c65f5cbac7fd7c3ba75da1c8fa).
+2023-12-14 16:13:47,822 INFO main Discord logged in
+2023-12-16 19:03:52,955 INFO __main__ ---------- Main func initialized ----------
+2023-12-16 19:03:52,959 INFO app Websocket initialized
+2023-12-16 19:03:52,958 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-16 19:03:52,959 INFO discord.client logging in using static token
+2023-12-16 19:03:54,648 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: 502d8fcced1488eaab0a17aa0cba9d76).
+2023-12-16 19:03:56,654 INFO app Discord logged in
+2023-12-18 15:30:23,422 INFO __main__ ---------- Main func initialized ----------
+2023-12-18 15:30:23,425 WARNING discord.ext.commands.bot Privileged message content intent is missing, commands may not work as expected.
+2023-12-18 15:30:23,426 INFO discord.client logging in using static token
+2023-12-18 15:30:23,428 INFO app Websocket initialized
+2023-12-18 15:30:25,213 INFO discord.gateway Shard ID None has connected to Gateway (Session ID: a76eeb0a8ef7054d6449a1135443a309).
+2023-12-18 15:30:27,214 INFO app Discord logged in

@@ -12,7 +12,7 @@ import discord
 load_dotenv()
 
 # Logger
-LOG_FILENAME = 'tmp/sentinel.log'
+LOG_FILENAME = 'storage/tmp/sentinel.log'
 if not path.exists(LOG_FILENAME):
     import os
     try:

@@ -14,7 +14,7 @@ description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
 
-engine = create_engine('sqlite:///database.db', echo=False)
+engine = create_engine('sqlite:///storage/database.db', echo=False)
 Session_factory = sessionmaker(bind=engine)
 Session = M_scoped_session(Session_factory)
 

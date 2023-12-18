@@ -32,13 +32,13 @@ def csv_to_json(filename):
     '''
     # getting file from fuzzwork
     url_str = (f"https://www.fuzzwork.co.uk/dump/latest/{filename}.csv")
-    filename_final = 'json/' + filename + '.csv'
+    filename_final = 'storage/json/' + filename + '.csv'
     urllib.request.urlretrieve(url_str, filename_final)
 
     jsonArray = []
 
     # read csv file
-    with open(f"json/{filename}.csv", encoding='utf-8') as csvf:
+    with open(f"storage/json/{filename}.csv", encoding='utf-8') as csvf:
         # load csv file data using csv library's dictionary reader
         csvReader = csv.DictReader(csvf)
 
@@ -48,11 +48,11 @@ def csv_to_json(filename):
             jsonArray.append(row)
 
     # convert python jsonArray to JSON String and write to file
-    with open(f"json/{filename}.json", 'w', encoding='utf-8') as jsonf:
+    with open(f"storage/json/{filename}.json", 'w', encoding='utf-8') as jsonf:
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
-    myfile = f"json/{filename}.csv"
+    myfile = f"storage/json/{filename}.csv"
     # If file exists, delete it.
     if os.path.isfile(myfile):
         os.remove(myfile)
@@ -135,9 +135,9 @@ def step4():
 
     with Session as session:
         filename = 'staStations'
-        if not path.exists(f"json/{filename}.json"):
+        if not path.exists(f"storage/json/{filename}.json"):
             csv_to_json(filename)
-        with open(f"json/{filename}.json", 'r') as file:
+        with open(f"storage/json/{filename}.json", 'r') as file:
             obj = load(file)
             for _ in obj:
                 if _['stationID']:
@@ -152,9 +152,9 @@ def step5():
 
     with Session as session:
         filename = 'invTypes'
-        if not path.exists(f"json/{filename}.json"):
+        if not path.exists(f"storage/json/{filename}.json"):
             csv_to_json(filename)
-        with open(f"json/{filename}.json", 'r') as file:
+        with open(f"storage/json/{filename}.json", 'r') as file:
             obj = load(file)
             for _ in obj:
                 if _['typeID'].isnumeric() and _['marketGroupID'] and _['published'] == "1":
@@ -169,9 +169,9 @@ def step6():
 
     with Session as session:
         filename = 'invMarketGroups'
-        if not path.exists(f"json/{filename}.json"):
+        if not path.exists(f"storage/json/{filename}.json"):
             csv_to_json(filename)
-        with open(f"json/{filename}.json", 'r') as file:
+        with open(f"storage/json/{filename}.json", 'r') as file:
             obj = load(file)
             for _ in obj:
                 if _['marketGroupID'].isnumeric():
@@ -193,7 +193,7 @@ def write_regions_to_json_file():
             mydict[region.id] = [
                 region.name]
         obj = json.dumps(mydict, indent=4)
-        with open("json/regions.json", "w") as file:
+        with open("storage/json/regions.json", "w") as file:
             file.write(obj)
 
 
@@ -206,7 +206,7 @@ def write_constellations_to_json_file():
             mydict[constellation.id] = [
                 constellation.name, constellation.region_id]
         obj = json.dumps(mydict, indent=4)
-        with open("json/constellations.json", "w") as file:
+        with open("storage/json/constellations.json", "w") as file:
             file.write(obj)
 
 
@@ -218,7 +218,7 @@ def write_systems_to_json_file():
         for system in results:
             mydict[system.id] = [system.name, system.constellation_id]
         obj = json.dumps(mydict, indent=4)
-        with open("json/systems.json", "w") as file:
+        with open("storage/json/systems.json", "w") as file:
             file.write(obj)
 
 
@@ -232,7 +232,7 @@ def write_corporations_to_json_file():
                 corp.name, corp.alliance_id, corp.ticker]
 
         obj = json.dumps(mydict, indent=4)
-        with open("json/corporations.json", "w") as file:
+        with open("storage/json/corporations.json", "w") as file:
             file.write(obj)
 
 
@@ -247,7 +247,7 @@ def write_alliances_to_json_file():
 
         obj = json.dumps(mydict, indent=4)
 
-        with open("json/alliances.json", "w") as file:
+        with open("storage/json/alliances.json", "w") as file:
             file.write(obj)
 
 
@@ -260,7 +260,7 @@ def write_server_configurations_to_json_file():
             mydict[server.id] = [
                 server.name, server.channel, server.muted, server.neutral_color, server.involvedmin]
         obj = json.dumps(mydict, indent=4)
-        with open("json/server_configs.json", "w") as file:
+        with open("storage/json/server_configs.json", "w") as file:
             file.write(obj)
 
 
@@ -273,7 +273,7 @@ def write_watchlists_to_json_file():
             mydict[watchl.server_id] = [watchl.systems, watchl.constellations,
                                         watchl.regions, watchl.corporations, watchl.alliances, watchl.f_corporations, watchl.f_alliances]
         obj = json.dumps(mydict, indent=4)
-        with open("json/watchlists.json", "w") as file:
+        with open("storage/json/watchlists.json", "w") as file:
             file.write(obj)
 
 
@@ -286,7 +286,7 @@ def write_ships_to_json_file():
             mydict[ship.id] = [ship.name, ship.group_id]
 
         obj = json.dumps(mydict, indent=4)
-        with open("json/ships.json", "w") as file:
+        with open("storage/json/ships.json", "w") as file:
             file.write(obj)
 
 
@@ -299,7 +299,7 @@ def write_items_to_json_file():
             mydict[Item.typeID] = [Item.typeName, Item.marketGroupID]
 
         obj = json.dumps(mydict, indent=4)
-        with open("json/invTypes.json", "w") as file:
+        with open("storage/json/invTypes.json", "w") as file:
             file.write(obj)
 
 
@@ -312,7 +312,7 @@ def write_market_groups_to_json_file():
             mydict[MarketGroup.MarketGroupID] = [MarketGroup.MarketGroupName, MarketGroup.parentGroupID]
 
         obj = json.dumps(mydict, indent=4)
-        with open("json/invMarketGroups.json", "w") as file:
+        with open("storage/json/invMarketGroups.json", "w") as file:
             file.write(obj)
 
 
@@ -324,7 +324,7 @@ def write_stations_to_json_file():
         for station in results:
             mydict[station.id] = [station.solarSystemID, station.name]
         obj = json.dumps(mydict, indent=4)
-        with open("json/staStations.json", "w") as file:
+        with open("storage/json/staStations.json", "w") as file:
             file.write(obj)
 """Run before database is deleted for schema reformatting!"""
 
