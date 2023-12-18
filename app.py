@@ -16,7 +16,7 @@ LOG_FILENAME = 'storage/tmp/sentinel.log'
 if not path.exists(LOG_FILENAME):
     import os
     try:
-        os.makedirs("tmp")
+        os.makedirs("storage/tmp")
     except FileExistsError:
         # directory already exists
         pass
