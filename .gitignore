@@ -1,13 +1,8 @@
 .vscode/launch.json
 __pycache__/*
-tmp/*
-.replit
+storage/tmp/*
+storage/database.db
 venv/*
-poetry.lock
-replit.nix
 .env
-database.db
 temp.py
 test.py
-assets/data_esi.json
-fly.toml
