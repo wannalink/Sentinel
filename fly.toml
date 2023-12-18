@@ -20,3 +20,7 @@ primary_region = "ams"
   cpu_kind = "shared"
   cpus = 1
   memory_mb = 256
+
+[mounts]
+  source = "storage_dir"
+  destination = "/storage"
