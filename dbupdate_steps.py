@@ -344,6 +344,9 @@ def PREPARE_FOR_DB_DELETE():
 
 PREPARE_FOR_DB_DELETE()
 
+# step1()
+# step2()
+# step3()
 # step4()
 # step5()
 # step6()

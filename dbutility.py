@@ -66,24 +66,23 @@ def get_object_from_watch(session, obj: str, db_class):
 def list_filter(guild_id: int, session):
     filter = does_server_have_filter(guild_id, session)
     if filter == None:
-        print('empty')
         return 'Watchlist is empty'
     else:
-        print(filter.systems)
-        print(filter.constellations)
-        print(filter.regions)
-        print(filter.corporations)
-        print(filter.alliances)
-        objects = [(Systems, "System"),
-                   (Constellations, "Constellation"),
-                   (Regions, "Region"),
-                   (Corporations, "Corporations"),
-                   (Alliances, "Alliances")]
-        for c, n in objects:
-            for i in filter.c:
-                result = get_object_from_watch(session, i, c)
-                print(f"{n}: {result} id: {i}")
-        return filter, filter.systems, filter.constellations, filter.regions, filter.corporations, filter.alliances, filter.players        
+        objects = [(Systems, "System", [None if filter.systems == "[]" else int(x) for x in filter.systems[1:-1].split(',')]),
+                   (Constellations, "Constellation", [None if filter.constellations == "[]" else int(x) for x in filter.constellations[1:-1].split(',')]),
+                   (Regions, "Region", [None if filter.regions == "[]" else int(x) for x in filter.regions[1:-1].split(',')]),
+                   (Corporations, "Corporations", [None if filter.corporations == "[]" else int(x) for x in filter.corporations[1:-1].split(',')]),
+                   (Alliances, "Alliances", [None if filter.alliances == "[]" else int(x) for x in filter.alliances[1:-1].split(',')])]
+        filter_result = "```Server Filters\n```"
+        for c, n, f in objects:
+            if f != [None]:
+                filter_result += (f"{n}: ")
+                filter_result += "\n```"
+                for i in f:
+                    filter_result += f"ID: {str(i)} Name: {get_object_from_watch(session, str(i), c)[2]}"
+                    filter_result += "\n"
+                filter_result += ("```")
+        return filter_result        
 
 
 def set_neutral_color_for_guild(interaction: Interaction, color, session):

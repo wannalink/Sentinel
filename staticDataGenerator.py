@@ -16,7 +16,7 @@ def csv_to_json(filename):
     # try:
         # response = requests.get(url_str)
         
-    #     with open(f"storage/assets/{filename}.csv", 'w') as f:
+    #     with open(f"storage/json/{filename}.csv", 'w') as f:
     #         writer = csv.writer(f)
     #         for line in response.iter_lines():
     #             writer.writerow(line.decode('utf-8').split(','))

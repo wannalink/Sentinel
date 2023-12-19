@@ -243,7 +243,7 @@ def write_ships_from_json_file(session):
 
 def write_stations_from_json_file(session):
     filename = 'staStations'
-    # if not path.exists(f"assets/{filename}.json"):
+    # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
     with open(f"storage/json/{filename}.json", 'r') as file:
         obj = load(file)
@@ -257,7 +257,7 @@ def write_stations_from_json_file(session):
 
 def write_items_from_json_file(session):
     filename = 'invTypes'
-    # if not path.exists(f"assets/{filename}.json"):
+    # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
     with open(f"storage/json/{filename}.json", 'r', encoding="utf8") as file:
         obj = load(file)
@@ -271,7 +271,7 @@ def write_items_from_json_file(session):
 
 def write_market_groups_from_json_file(session):
     filename = 'invMarketGroups'
-    # if not path.exists(f"assets/{filename}.json"):
+    # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
     with open(f"storage/json/{filename}.json", 'r') as file:
         obj = load(file)
@@ -285,7 +285,7 @@ def write_market_groups_from_json_file(session):
 
 def write_orders_from_json_file(session):
     filename = 'data_esi'
-    # if not path.exists(f"assets/{filename}.json"):
+    # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
     with open(f"storage/json/{filename}.json", 'r') as file:
         obj = load(file)
