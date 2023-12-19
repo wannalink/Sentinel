@@ -1,0 +1,150 @@
+[
+    {
+        "typeID": "28352",
+        "typeName": "Rorqual"
+    },
+    {
+        "typeID": "23919",
+        "typeName": "Aeon"
+    },
+    {
+        "typeID": "23757",
+        "typeName": "Archon"
+    },
+    {
+        "typeID": "23915",
+        "typeName": "Chimera"
+    },
+    {
+        "typeID": "23917",
+        "typeName": "Wyvern"
+    },
+    {
+        "typeID": "3514",
+        "typeName": "Revenant"
+    },
+    {
+        "typeID": "42125",
+        "typeName": "Vendetta"
+    },
+    {
+        "typeID": "23913",
+        "typeName": "Nyx"
+    },
+    {
+        "typeID": "23911",
+        "typeName": "Thanatos"
+    },
+    {
+        "typeID": "10045",
+        "typeName": "Vanguard"
+    },
+    {
+        "typeID": "22852",
+        "typeName": "Hel"
+    },
+    {
+        "typeID": "24483",
+        "typeName": "Nidhoggur"
+    },
+    {
+        "typeID": "19720",
+        "typeName": "Revelation"
+    },
+    {
+        "typeID": "19726",
+        "typeName": "Phoenix"
+    },
+    {
+        "typeID": "42243",
+        "typeName": "Chemosh"
+    },
+    {
+        "typeID": "42124",
+        "typeName": "Vehement"
+    },
+    {
+        "typeID": "19724",
+        "typeName": "Moros"
+    },
+    {
+        "typeID": "19722",
+        "typeName": "Naglfar"
+    },
+    {
+        "typeID": "52907",
+        "typeName": "Zirnitra"
+    },
+    {
+        "typeID": "37604",
+        "typeName": "Apostle"
+    },
+    {
+        "typeID": "37605",
+        "typeName": "Minokawa"
+    },
+    {
+        "typeID": "42242",
+        "typeName": "Dagon"
+    },
+    {
+        "typeID": "45645",
+        "typeName": "Loggerhead"
+    },
+    {
+        "typeID": "37607",
+        "typeName": "Ninazu"
+    },
+    {
+        "typeID": "42133",
+        "typeName": "Venerable"
+    },
+    {
+        "typeID": "37606",
+        "typeName": "Lif"
+    },
+    {
+        "typeID": "11567",
+        "typeName": "Avatar"
+    },
+    {
+        "typeID": "3764",
+        "typeName": "Leviathan"
+    },
+    {
+        "typeID": "45649",
+        "typeName": "Komodo"
+    },
+    {
+        "typeID": "42241",
+        "typeName": "Molok"
+    },
+    {
+        "typeID": "42126",
+        "typeName": "Vanquisher"
+    },
+    {
+        "typeID": "671",
+        "typeName": "Erebus"
+    },
+    {
+        "typeID": "23773",
+        "typeName": "Ragnarok"
+    },
+    {
+        "typeID": "73792",
+        "typeName": "Moros Navy Issue"
+    },
+    {
+        "typeID": "73787",
+        "typeName": "Naglfar Fleet Issue"
+    },
+    {
+        "typeID": "73793",
+        "typeName": "Phoenix Navy Issue"
+    },
+    {
+        "typeID": "73790",
+        "typeName": "Revelation Navy Issue"
+    }
+]

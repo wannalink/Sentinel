@@ -1,10 +1,9 @@
 .vscode/*
 __pycache__/*
-storage/tmp/*
-storage/json/data_esi.json
-storage/json/server_configs.json
-storage/json/watchlist.json
-storage/database.db
+storage/*
+json/data_esi.json
+json/server_configs.json
+json/watchlists.json
 venv/*
 .env
 temp.py

@@ -164,7 +164,7 @@ class MarketWatch(Base):
 
 
 def write_regions_from_json_file(session):
-    with open('storage/json/regions.json', 'r') as file:
+    with open('json/regions.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Regions(id=key, name=value[0])
@@ -173,7 +173,7 @@ def write_regions_from_json_file(session):
 
 
 def write_systems_from_json_file(session):
-    with open('storage/json/systems.json', 'r') as file:
+    with open('json/systems.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Systems(id=key, name=value[0],
@@ -183,7 +183,7 @@ def write_systems_from_json_file(session):
 
 
 def write_constellations_from_json_file(session):
-    with open('storage/json/constellations.json', 'r') as file:
+    with open('json/constellations.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Constellations(id=key, name=value[0],
@@ -193,7 +193,7 @@ def write_constellations_from_json_file(session):
 
 
 def write_corporations_from_json_file(session):
-    with open('storage/json/corporations.json', 'r') as file:
+    with open('json/corporations.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Corporations(id=key, name=value[0],
@@ -203,7 +203,7 @@ def write_corporations_from_json_file(session):
 
 
 def write_alliances_from_json_file(session):
-    with open('storage/json/alliances.json', 'r') as file:
+    with open('json/alliances.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Alliances(id=key, name=value[0], ticker=value[1])
@@ -212,7 +212,7 @@ def write_alliances_from_json_file(session):
 
 
 def write_server_configurations_from_json_file(session):
-    with open('storage/json/server_configs.json', 'r') as file:
+    with open('json/server_configs.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = ServerConfigs(
@@ -222,7 +222,7 @@ def write_server_configurations_from_json_file(session):
 
 
 def write_watchlists_from_json_file(session):
-    with open('storage/json/watchlists.json', 'r') as file:
+    with open('json/watchlists.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = WatchLists(server_id=key, systems=value[0], constellations=value[1],
@@ -232,7 +232,7 @@ def write_watchlists_from_json_file(session):
 
 
 def write_ships_from_json_file(session):
-    with open('storage/json/ships.json', 'r') as file:
+    with open('json/ships.json', 'r') as file:
         obj = load(file)
         for key, value in obj.items():
             entry = Ships(
@@ -245,7 +245,7 @@ def write_stations_from_json_file(session):
     filename = 'staStations'
     # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
-    with open(f"storage/json/{filename}.json", 'r') as file:
+    with open(f"json/{filename}.json", 'r') as file:
         obj = load(file)
         for _ in obj:
             if _['stationID']:
@@ -259,7 +259,7 @@ def write_items_from_json_file(session):
     filename = 'invTypes'
     # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
-    with open(f"storage/json/{filename}.json", 'r', encoding="utf8") as file:
+    with open(f"json/{filename}.json", 'r', encoding="utf8") as file:
         obj = load(file)
         for _ in obj:
             if _['typeID'].isnumeric() and _['marketGroupID'] and _['published'] == "1":
@@ -273,7 +273,7 @@ def write_market_groups_from_json_file(session):
     filename = 'invMarketGroups'
     # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
-    with open(f"storage/json/{filename}.json", 'r') as file:
+    with open(f"json/{filename}.json", 'r') as file:
         obj = load(file)
         for _ in obj:
             if _['marketGroupID'].isnumeric():
@@ -287,7 +287,7 @@ def write_orders_from_json_file(session):
     filename = 'data_esi'
     # if not path.exists(f"json/{filename}.json"):
     #     csv_to_json(filename)
-    with open(f"storage/json/{filename}.json", 'r') as file:
+    with open(f"json/{filename}.json", 'r') as file:
         obj = load(file)
         for typeid in obj.keys():
             for order in obj[typeid].keys():

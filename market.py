@@ -74,7 +74,7 @@ def time_conv(input=None, flags=[], offset=int):
 @lru_cache(maxsize=2)
 def load_names(json_name):
     try:
-        with open(f"storage/json/{json_name}.json", 'r') as json_data:
+        with open(f"json/{json_name}.json", 'r') as json_data:
             json_data = json.load(json_data)
             return json_data
     except FileNotFoundError:
@@ -82,7 +82,7 @@ def load_names(json_name):
             from staticDataGenerator import extract_stations
             extract_stations('staStations', systemid=USESYSTEM)
             try:
-                with open(f"storage/json/{json_name}.json", 'r') as json_data:
+                with open(f"json/{json_name}.json", 'r') as json_data:
                     json_data = json.load(json_data)
                 return json_data
             except FileNotFoundError:
@@ -122,11 +122,12 @@ def name_id_lookup(id=None, name=None, station=None):
 
 def load_data(json_filename):
     try:
-        with open(f"storage/json/{json_filename}.json", 'r') as json_data:
+        with open(f"json/{json_filename}.json", 'r') as json_data:
             json_data = json.load(json_data)
             return json_data
     except FileNotFoundError:
         print(f"{json_filename} json not found.")
+        return None
 
 
 def market_info():
@@ -206,7 +207,7 @@ def market_info():
     for downloadThread in downloadThreads:
         downloadThread.join()
 
-    with open('storage/json/data_esi.json', 'w') as fp:
+    with open('json/data_esi.json', 'w') as fp:
         json.dump(new, ensure_ascii=False, indent=4, fp=fp)
     # For some reason dict doesn't works without reloading from json?
     new = load_data('data_esi')
@@ -260,6 +261,7 @@ async def as_market_info():
                         {'name': name_id_lookup(id=typeid), 'name_id': typeid, 'old_vol': old_vol, 'new_vol': new_vol, 'price': human_format(orig[typeid][order]['price']), 'station_name': station_name, 'station_type': station_type, 'region_id': REGIONLIMIT, 'cheapest': cheapest, 'order_age': order_last_seen, 'evetime': time_conv(orig[typeid][order]['Last-Modified'], flags=['header', 'ret_str'])})
         return diff_list
 
+
     id_from_names = load_names('names')
     id_list = []
     for i in id_from_names:
@@ -271,7 +273,7 @@ async def as_market_info():
         task = asyncio.create_task(get_data_json(i))
         tasks.append(task)
     await asyncio.gather(*tasks)
-    with open('storage/json/data_esi.json', 'w') as fp:
+    with open('json/data_esi.json', 'w') as fp:
         json.dump(new, ensure_ascii=False, indent=4, fp=fp)
     # For some reason dict doesn't works without reloading from json?
     new = load_data('data_esi')
@@ -304,9 +306,9 @@ def orders_status():
 # import time
 # start_time = time.time()
 
-# with open('storage/json/data_esi.json', 'r') as json_data:
+# with open('json/data_esi.json', 'r') as json_data:
 #             orig = json.load(json_data)
-# with open('storage/json/data_esi copy.json', 'r') as json_data:
+# with open('json/data_esi copy.json', 'r') as json_data:
 #             new = json.load(json_data)
 
 # print("--- %s seconds ---" % (time.time() - start_time))
