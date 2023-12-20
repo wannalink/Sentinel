@@ -23,4 +23,4 @@ primary_region = "ams"
 
 [mounts]
   source = "storage_dir"
-  destination = "/storage"
+  destination = "/ds-sentinel/storage"

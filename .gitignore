@@ -8,3 +8,5 @@ venv/*
 .env
 temp.py
 test.py
+key
+key-cert.pub
