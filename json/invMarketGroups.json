@@ -3769,7 +3769,7 @@
     },
     {
         "marketGroupID": "762",
-        "parentGroupID": "761",
+        "parentGroupID": "3509",
         "marketGroupName": "Amarr",
         "description": "Amarr dreadnought designs.",
         "iconID": "20959",
@@ -3777,7 +3777,7 @@
     },
     {
         "marketGroupID": "763",
-        "parentGroupID": "761",
+        "parentGroupID": "3509",
         "marketGroupName": "Caldari",
         "description": "Caldari dreadnought designs.",
         "iconID": "20966",
@@ -3785,7 +3785,7 @@
     },
     {
         "marketGroupID": "764",
-        "parentGroupID": "761",
+        "parentGroupID": "3509",
         "marketGroupName": "Gallente",
         "description": "Gallente dreadnought designs.",
         "iconID": "20967",
@@ -3793,7 +3793,7 @@
     },
     {
         "marketGroupID": "765",
-        "parentGroupID": "761",
+        "parentGroupID": "3509",
         "marketGroupName": "Minmatar",
         "description": "Minmatar dreadnought designs.",
         "iconID": "20968",
@@ -13131,7 +13131,7 @@
         "marketGroupID": "2288",
         "parentGroupID": "761",
         "marketGroupName": "Faction Dreadnoughts",
-        "description": "Faction Dreadnought designs.",
+        "description": "Faction Dreadnoughts",
         "iconID": "1443",
         "hasTypes": "0"
     },
@@ -14945,7 +14945,7 @@
     },
     {
         "marketGroupID": "2690",
-        "parentGroupID": "761",
+        "parentGroupID": "3508",
         "marketGroupName": "Triglavian",
         "description": "Triglavian Dreadnoughts",
         "iconID": "24135",
@@ -15595,6 +15595,222 @@
         "marketGroupID": "3497",
         "parentGroupID": "3496",
         "marketGroupName": "Navy Faction",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3508",
+        "parentGroupID": "761",
+        "marketGroupName": "Precursor Dreadnoughts",
+        "description": "Precursor Dreadnoughts",
+        "iconID": "1443",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3509",
+        "parentGroupID": "761",
+        "marketGroupName": "Standard Dreadnoughts",
+        "description": "Tech 1 Dreadnoughts",
+        "iconID": "1443",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3510",
+        "parentGroupID": "761",
+        "marketGroupName": "Advanced Dreadnoughts",
+        "description": "Specialized Tech 2 Dreadnoughts",
+        "iconID": "1443",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3511",
+        "parentGroupID": "3510",
+        "marketGroupName": "Lancer Dreadnoughts",
+        "description": "Specialized Dreadnoughts capable of operating disruptive lance superweapons",
+        "iconID": "1443",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3512",
+        "parentGroupID": "3511",
+        "marketGroupName": "Amarr",
+        "description": "Amarr Lancer Dreadnoughts",
+        "iconID": "20959",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3513",
+        "parentGroupID": "3511",
+        "marketGroupName": "Caldari",
+        "description": "Caldari Lancer Dreadnoughts",
+        "iconID": "20966",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3514",
+        "parentGroupID": "3511",
+        "marketGroupName": "Minmatar",
+        "description": "Minmatar Lancer Dreadnoughts",
+        "iconID": "20968",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3515",
+        "parentGroupID": "3511",
+        "marketGroupName": "Gallente",
+        "description": "Gallente Lancer Dreadnoughts",
+        "iconID": "20967",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3519",
+        "parentGroupID": "1971",
+        "marketGroupName": "Advanced Dreadnoughts",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3520",
+        "parentGroupID": "3519",
+        "marketGroupName": "Lancer Dreadnoughts",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3521",
+        "parentGroupID": "3520",
+        "marketGroupName": "Gallente",
+        "description": "",
+        "iconID": "20967",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3523",
+        "parentGroupID": "3520",
+        "marketGroupName": "Minmatar",
+        "description": "",
+        "iconID": "20968",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3531",
+        "parentGroupID": "3480",
+        "marketGroupName": "Pirate Faction",
+        "description": "Pirate faction destroyer designs.",
+        "iconID": "1443",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3534",
+        "parentGroupID": "1703",
+        "marketGroupName": "Pirate Faction",
+        "description": "",
+        "iconID": "1443",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3535",
+        "parentGroupID": "3520",
+        "marketGroupName": "Amarr",
+        "description": "",
+        "iconID": "20959",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3536",
+        "parentGroupID": "1362",
+        "marketGroupName": "EDENCOM",
+        "description": "EDENCOM frigate designs.",
+        "iconID": "24419",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3537",
+        "parentGroupID": "1369",
+        "marketGroupName": "EDENCOM",
+        "description": "EDENCOM cruiser designs.",
+        "iconID": "24419",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3538",
+        "parentGroupID": "1378",
+        "marketGroupName": "EDENCOM",
+        "description": "EDENCOM battleship designs.",
+        "iconID": "24419",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3539",
+        "parentGroupID": "1961",
+        "marketGroupName": "EDENCOM",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3540",
+        "parentGroupID": "2029",
+        "marketGroupName": "EDENCOM",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3541",
+        "parentGroupID": "1999",
+        "marketGroupName": "EDENCOM",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3542",
+        "parentGroupID": "2512",
+        "marketGroupName": "Vorton Tuning System Mutaplasmids",
+        "description": "",
+        "iconID": "None",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3546",
+        "parentGroupID": "3520",
+        "marketGroupName": "Caldari",
+        "description": "",
+        "iconID": "20966",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3548",
+        "parentGroupID": "1998",
+        "marketGroupName": "Special Frigates",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "0"
+    },
+    {
+        "marketGroupID": "3549",
+        "parentGroupID": "3548",
+        "marketGroupName": "Special Frigates",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3567",
+        "parentGroupID": "2100",
+        "marketGroupName": "Pirate Faction",
+        "description": "",
+        "iconID": "21420",
+        "hasTypes": "1"
+    },
+    {
+        "marketGroupID": "3568",
+        "parentGroupID": "3496",
+        "marketGroupName": "Pirate Faction",
         "description": "",
         "iconID": "21420",
         "hasTypes": "1"

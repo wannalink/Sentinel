@@ -159,10 +159,6 @@
         "Immolator",
         237
     ],
-    "617": [
-        "Echo",
-        237
-    ],
     "620": [
         "Osprey",
         26
@@ -311,14 +307,6 @@
         "Amarr Sentry Gun",
         99
     ],
-    "1233": [
-        "Polaris Enigma Frigate",
-        237
-    ],
-    "1914": [
-        "Concord Special Ops Battleship",
-        27
-    ],
     "1944": [
         "Bestower",
         28
@@ -335,45 +323,17 @@
         "Terrorist Leader",
         597
     ],
-    "2045": [
-        "SARO Frigate",
-        693
-    ],
     "2052": [
         "Mercenary Trainee",
         286
-    ],
-    "2072": [
-        "Anire Scarlet",
-        602
     ],
     "2078": [
         "Zephyr",
         1022
     ],
-    "2098": [
-        "Phenod's Broke-Ass Destroyer",
-        632
-    ],
-    "2126": [
-        "Anakism",
-        633
-    ],
-    "2128": [
-        "Locced's Destroyer",
-        632
-    ],
     "2161": [
         "Crucifier",
         25
-    ],
-    "2165": [
-        "Haunter Cruise Missile",
-        386
-    ],
-    "2182": [
-        "Guristas Inferno XL Cruise Missile",
-        1019
     ],
     "2190": [
         "Renyn Meten",
@@ -381,10 +341,6 @@
     ],
     "2191": [
         "Antem Neo",
-        1054
-    ],
-    "2208": [
-        "Uitra Telen",
         1054
     ],
     "2209": [
@@ -398,10 +354,6 @@
     "2212": [
         "Ghost Heavy Missile",
         385
-    ],
-    "2222": [
-        "Scions of the Superior Gene",
-        673
     ],
     "2233": [
         "Customs Office",
@@ -423,10 +375,6 @@
         "Serpentis Chief Spy",
         571
     ],
-    "2382": [
-        "Guristas Arrogator",
-        562
-    ],
     "2383": [
         "Guristas Invader",
         562
@@ -446,10 +394,6 @@
     "2387": [
         "Guristas Silencer",
         561
-    ],
-    "2506": [
-        "Mjolnir Torpedo",
-        89
     ],
     "2508": [
         "Nova Torpedo",
@@ -471,25 +415,9 @@
         "Utu",
         324
     ],
-    "2836": [
-        "Adrestia",
-        358
-    ],
-    "2845": [
-        "Outuni Mesen",
-        1056
-    ],
-    "2846": [
-        "Domination Excavator",
-        820
-    ],
     "2847": [
         "True Sansha Foreman",
         820
-    ],
-    "2855": [
-        "Intaki Colliculus",
-        1056
     ],
     "2859": [
         "Romi Thalamus",
@@ -506,14 +434,6 @@
     "2896": [
         "Patient Zero",
         319
-    ],
-    "2907": [
-        "Schmaeel Medulla",
-        1053
-    ],
-    "2909": [
-        "Niarja Myelen",
-        1053
     ],
     "2932": [
         "Ostingele Tectum",
@@ -547,33 +467,9 @@
         "Noctis",
         28
     ],
-    "3486": [
-        "Slave Tama01",
-        1056
-    ],
-    "3487": [
-        "Slave Heavenbound02",
-        1056
-    ],
     "3514": [
         "Revenant",
         659
-    ],
-    "3518": [
-        "Vangel",
-        358
-    ],
-    "3524": [
-        "Jel Rhomben",
-        1053
-    ],
-    "3525": [
-        "Youl Meten",
-        1053
-    ],
-    "3526": [
-        "Orkashu Myelen",
-        1053
     ],
     "3527": [
         "Raa Thalamus",
@@ -582,10 +478,6 @@
     "3532": [
         "Echelon",
         25
-    ],
-    "3628": [
-        "Nation",
-        659
     ],
     "3739": [
         "Caldari Sentry Gun III",
@@ -611,10 +503,6 @@
         "Silverfish Alvi",
         805
     ],
-    "3745": [
-        "Viral Infector Alvum",
-        803
-    ],
     "3746": [
         "Wrecker Alvum",
         803
@@ -625,10 +513,6 @@
     ],
     "3748": [
         "Strain Infester Alvi",
-        805
-    ],
-    "3749": [
-        "Decimator Alvi",
         805
     ],
     "3750": [
@@ -655,30 +539,6 @@
         "Sansha's Nation Central Bastion",
         495
     ],
-    "3809": [
-        "Serpentis Administration Facility",
-        495
-    ],
-    "3821": [
-        "Dread Guristas Commanding Officer",
-        821
-    ],
-    "3823": [
-        "True Sansha Archduke",
-        821
-    ],
-    "3825": [
-        "Dark Blood Hunter",
-        821
-    ],
-    "3827": [
-        "Shadow Serpentis Big Boss",
-        821
-    ],
-    "3882": [
-        "Exsanguinator",
-        820
-    ],
     "3883": [
         "DED Army Officer",
         288
@@ -690,22 +550,6 @@
     "3885": [
         "CONCORD Police Captain",
         301
-    ],
-    "3886": [
-        "DED Army Captain",
-        288
-    ],
-    "3889": [
-        "Slave Ation09",
-        820
-    ],
-    "3890": [
-        "Sarpati Family Enforcer",
-        820
-    ],
-    "3962": [
-        "Customs Office Gantry",
-        1106
     ],
     "4302": [
         "Oracle",
@@ -726,14 +570,6 @@
     "4318": [
         "InterBus Customs Office",
         1025
-    ],
-    "4357": [
-        "Amarr Drone Mine",
-        319
-    ],
-    "4363": [
-        "Miasmos Quafe Ultra Edition",
-        28
     ],
     "9959": [
         "Amarr Surveillance Officer",
@@ -757,10 +593,6 @@
     ],
     "9984": [
         "Gallente Police Captain",
-        182
-    ],
-    "9987": [
-        "Khanid Surveillance Officer",
         182
     ],
     "9989": [
@@ -823,10 +655,6 @@
         "Sansha's Ravager",
         566
     ],
-    "10035": [
-        "CONCORD SWAT Officer",
-        182
-    ],
     "10036": [
         "CONCORD SWAT Captain",
         182
@@ -839,20 +667,8 @@
         "Federation Navy Fleet Major",
         288
     ],
-    "10076": [
-        "Khanid Navy Sergeant",
-        288
-    ],
     "10078": [
         "Republic Fleet High Captain",
-        288
-    ],
-    "10082": [
-        "Khanid Navy Colonel",
-        288
-    ],
-    "10089": [
-        "Ammatar Navy General",
         288
     ],
     "10097": [
@@ -883,25 +699,9 @@
         "Guristas Wrecker",
         562
     ],
-    "10273": [
-        "Sansha's Minion",
-        567
-    ],
     "10274": [
         "Sansha's Ravisher",
         566
-    ],
-    "10275": [
-        "Blood Follower",
-        557
-    ],
-    "10276": [
-        "Blood Herald",
-        557
-    ],
-    "10277": [
-        "Blood Upholder",
-        557
     ],
     "10278": [
         "Blood Seeker",
@@ -921,10 +721,6 @@
     ],
     "10284": [
         "Serpentis Watchman",
-        572
-    ],
-    "10285": [
-        "Serpentis Patroller",
         572
     ],
     "10286": [
@@ -951,52 +747,12 @@
         "Republic Fleet Private 1st Rank",
         288
     ],
-    "10669": [
-        "Ammatar Navy Colonel",
-        288
-    ],
-    "10674": [
-        "Khanid Surveillance Sergeant Major",
-        182
-    ],
-    "10760": [
-        "Acidic Cloud",
-        227
-    ],
-    "10986": [
-        "Moth Apis",
-        806
-    ],
-    "10987": [
-        "Dragonfly Apis",
-        806
-    ],
     "10988": [
         "Termite Apis",
         806
     ],
-    "10989": [
-        "Scorpionfly Apis",
-        806
-    ],
     "10990": [
         "Arachula Apis",
-        806
-    ],
-    "10991": [
-        "Tarantula Apis",
-        806
-    ],
-    "10992": [
-        "Beelzebub Apis",
-        806
-    ],
-    "10993": [
-        "Mammon Apis",
-        806
-    ],
-    "10994": [
-        "Asmodeus Apis",
         806
     ],
     "10995": [
@@ -1067,17 +823,9 @@
         "Guristas Killer",
         561
     ],
-    "11037": [
-        "Sansha's Beast",
-        566
-    ],
     "11038": [
         "Sansha's Juggernaut",
         566
-    ],
-    "11039": [
-        "Blood Worshipper",
-        557
     ],
     "11040": [
         "Blood Raider",
@@ -1103,6 +851,10 @@
         "Serpentis Agent",
         572
     ],
+    "11046": [
+        "Serpentis Patroller",
+        572
+    ],
     "11047": [
         "Serpentis Safeguard",
         572
@@ -1119,10 +871,6 @@
         "Serpentis Chief Watchman",
         571
     ],
-    "11079": [
-        "Guristas War Installation",
-        319
-    ],
     "11125": [
         "CONCORD Police Commander",
         301
@@ -1130,10 +878,6 @@
     "11126": [
         "CONCORD SWAT Commander",
         182
-    ],
-    "11127": [
-        "DED Army Commander",
-        288
     ],
     "11129": [
         "Gallente Shuttle",
@@ -1227,10 +971,6 @@
         "Vengeance",
         324
     ],
-    "11369": [
-        "Particle Acceleration Superstructure",
-        226
-    ],
     "11371": [
         "Wolf",
         324
@@ -1263,14 +1003,6 @@
         "Amarr Surveillance General Major",
         182
     ],
-    "11517": [
-        "Ammatar Surveillance General Major",
-        182
-    ],
-    "11518": [
-        "Khanid Surveillance General Major",
-        182
-    ],
     "11520": [
         "Minmatar Security High Captain",
         182
@@ -1283,101 +1015,17 @@
         "Avatar",
         30
     ],
-    "11593": [
-        "The Thief",
-        818
-    ],
     "11596": [
         "Sangrel Minn",
         818
-    ],
-    "11597": [
-        "Kruul",
-        817
-    ],
-    "11598": [
-        "Kruul's Henchman",
-        818
-    ],
-    "11601": [
-        "Guristas Emissary",
-        613
-    ],
-    "11657": [
-        "Imperial Navy Detective",
-        665
-    ],
-    "11660": [
-        "Republic Fleet Detective",
-        705
-    ],
-    "11661": [
-        "Federation Navy Detective",
-        678
-    ],
-    "11662": [
-        "Imperial Navy Scout",
-        665
     ],
     "11663": [
         "Ammatar Navy Scout",
         665
     ],
-    "11664": [
-        "Caldari Navy Scout",
-        671
-    ],
-    "11665": [
-        "Minmatar Freedom Fighter",
-        683
-    ],
-    "11668": [
-        "Bounty Hunter Ikaruz",
-        817
-    ],
-    "11672": [
-        "Bounty Hunter Rookie",
-        818
-    ],
     "11673": [
         "Mercenary Fighter",
         818
-    ],
-    "11679": [
-        "Mercenary Rookie",
-        818
-    ],
-    "11683": [
-        "Shogon",
-        818
-    ],
-    "11685": [
-        "Durim",
-        818
-    ],
-    "11710": [
-        "Minmatar Transport Ship",
-        705
-    ],
-    "11714": [
-        "Gallente Transport Ship",
-        927
-    ],
-    "11716": [
-        "Blood Raider Transport Ship",
-        604
-    ],
-    "11717": [
-        "Sanshas Transport Ship",
-        622
-    ],
-    "11720": [
-        "Serpentis Transport Ship",
-        631
-    ],
-    "11722": [
-        "Rogue Pirate Escort",
-        817
     ],
     "11894": [
         "Angel Breaker",
@@ -1539,10 +1187,6 @@
         "Guristas Extinguisher",
         560
     ],
-    "11947": [
-        "Khanid Fighter",
-        687
-    ],
     "11957": [
         "Falcon",
         833
@@ -1655,10 +1299,6 @@
         "Enyo",
         324
     ],
-    "12048": [
-        "Amarr Slave Trader",
-        668
-    ],
     "12198": [
         "Mobile Small Warp Disruptor I",
         361
@@ -1683,57 +1323,13 @@
         "Ship Maintenance Array",
         363
     ],
-    "12238": [
-        "Reprocessing Array",
-        311
-    ],
-    "12239": [
-        "Compression Array",
-        1282
-    ],
-    "12251": [
-        "Sarrah",
-        817
-    ],
-    "12252": [
-        "Schmidt",
-        817
-    ],
-    "12253": [
-        "Olufami",
-        817
-    ],
-    "12255": [
-        "Elena Gazky",
-        817
-    ],
     "12256": [
         "Zor",
         816
     ],
-    "12390": [
-        "Federation Navy Megathron",
-        680
-    ],
-    "12391": [
-        "Caldari Navy Raven",
-        674
-    ],
     "12394": [
         "Caldari Navy Blackbird",
         673
-    ],
-    "12438": [
-        "Republic Fleet Stabber",
-        705
-    ],
-    "12439": [
-        "Imperial Navy Omen",
-        668
-    ],
-    "12440": [
-        "Federation Navy Vexor",
-        678
     ],
     "12464": [
         "Mercenary Overlord",
@@ -1775,22 +1371,6 @@
         "Mercenary Commander",
         817
     ],
-    "12989": [
-        "Rent-A-Dream Pleasure Gardens",
-        319
-    ],
-    "12999": [
-        "Ammatar Navy Augoror",
-        668
-    ],
-    "13032": [
-        "Arch Angel Rogue",
-        550
-    ],
-    "13033": [
-        "Arch Angel Thug",
-        550
-    ],
     "13035": [
         "Arch Angel Hijacker",
         550
@@ -1811,52 +1391,16 @@
         "Elder Blood Follower",
         557
     ],
-    "13040": [
-        "Elder Blood Herald",
-        557
-    ],
-    "13041": [
-        "Dire Guristas Invader",
-        562
-    ],
     "13042": [
         "Dire Guristas Infiltrator",
-        562
-    ],
-    "13043": [
-        "Dire Guristas Imputor",
         562
     ],
     "13044": [
         "Dire Guristas Arrogator",
         562
     ],
-    "13045": [
-        "Sansha's Loyal Ravener",
-        567
-    ],
-    "13046": [
-        "Sansha's Loyal Scavenger",
-        567
-    ],
-    "13047": [
-        "Sansha's Loyal Minion",
-        567
-    ],
-    "13048": [
-        "Sansha's Loyal Servant",
-        567
-    ],
-    "13049": [
-        "Guardian Agent",
-        572
-    ],
     "13050": [
         "Guardian Spy",
-        572
-    ],
-    "13051": [
-        "Guardian Scout",
         572
     ],
     "13052": [
@@ -1867,25 +1411,9 @@
         "Guristas Sentry Gun",
         383
     ],
-    "13104": [
-        "Caldari Navy Officer",
-        671
-    ],
-    "13105": [
-        "Republic Fleet Officer",
-        683
-    ],
-    "13107": [
-        "Imperial Navy Officer",
-        668
-    ],
     "13112": [
         "Federation Navy Officer",
         677
-    ],
-    "13113": [
-        "Sansha Sentry Gun",
-        383
     ],
     "13114": [
         "Angel Sentry Gun",
@@ -1907,108 +1435,20 @@
         "Rogue Pirate",
         817
     ],
-    "13519": [
-        "Domination Ambusher",
-        789
-    ],
-    "13520": [
-        "Domination Depredator",
-        790
-    ],
-    "13521": [
-        "Domination Hunter",
-        789
-    ],
-    "13522": [
-        "Domination Impaler",
-        789
-    ],
-    "13523": [
-        "Domination Crusher",
-        790
-    ],
-    "13524": [
-        "Domination Smasher",
-        790
-    ],
-    "13525": [
-        "Domination Nomad",
-        789
-    ],
-    "13526": [
-        "Domination Predator",
-        790
-    ],
-    "13527": [
-        "Domination Raider",
-        789
-    ],
-    "13528": [
-        "Domination Ruffian",
-        789
-    ],
-    "13530": [
-        "Domination Defeater",
-        790
-    ],
-    "13536": [
-        "Mizuro Cybon",
-        553
-    ],
-    "13538": [
-        "Hakim Stormare",
-        553
-    ],
-    "13540": [
-        "Domination Saint",
+    "13537": [
+        "Domination General",
         848
     ],
-    "13541": [
-        "Gotan Kreiss",
-        553
-    ],
-    "13542": [
-        "Domination Nephilim",
-        848
-    ],
-    "13543": [
-        "Domination Warlord",
-        848
-    ],
-    "13544": [
-        "Tobias Kruzhor",
-        553
-    ],
-    "13545": [
-        "Dark Blood Reaver",
-        792
-    ],
-    "13547": [
-        "Dark Blood Arch Engraver",
+    "13550": [
+        "Dark Blood Arch Reaver",
         791
     ],
-    "13554": [
-        "Dark Blood Diviner",
-        792
-    ],
-    "13555": [
-        "Dark Blood Upholder",
-        792
-    ],
-    "13556": [
-        "Dark Blood Prophet",
-        849
+    "13553": [
+        "Dark Blood Arch Templar",
+        791
     ],
     "13557": [
         "Raysere Giant",
-        559
-    ],
-    "13558": [
-        "Dark Blood Collector",
-        792
-    ],
-    "13561": [
-        "Ahremen Arkah",
         559
     ],
     "13562": [
@@ -2019,537 +1459,57 @@
         "Dark Blood Harbinger",
         849
     ],
-    "13564": [
-        "Draclira Merlonne",
-        559
-    ],
-    "13565": [
-        "Dark Blood Priest",
-        791
-    ],
-    "13566": [
-        "Dark Blood Raider",
-        792
-    ],
-    "13568": [
-        "Dark Blood Seeker",
-        792
-    ],
-    "13570": [
-        "Dark Blood Sage",
-        791
-    ],
-    "13572": [
-        "Dark Blood Archon",
-        849
-    ],
     "13573": [
         "Tairei Namazoth",
         559
     ],
-    "13575": [
-        "Dread Guristas Killer",
-        798
-    ],
-    "13576": [
-        "Dread Guristas Arrogator",
-        800
-    ],
-    "13577": [
-        "Dread Guristas Ascriber",
-        798
-    ],
-    "13579": [
-        "Dread Guristas Eliminator",
+    "13578": [
+        "Dread Guristas Dismantler",
         850
     ],
-    "13581": [
-        "Dread Guristas Demolisher",
-        800
-    ],
-    "13582": [
-        "Dread Guristas Despoiler",
-        800
-    ],
-    "13583": [
-        "Dread Guristas Obliterator",
-        850
-    ],
-    "13584": [
-        "Thon Eney",
-        564
-    ],
-    "13588": [
-        "Dread Guristas Eradicator",
-        850
-    ],
-    "13589": [
-        "Kaikka Peunato",
-        564
-    ],
-    "13593": [
-        "Dread Guristas Infiltrator",
-        800
-    ],
-    "13594": [
-        "Dread Guristas Invader",
-        800
-    ],
-    "13596": [
-        "Dread Guristas Murderer",
+    "13587": [
+        "Dread Guristas Abolisher",
         798
     ],
-    "13597": [
-        "Dread Guristas Plunderer",
-        800
-    ],
-    "13598": [
-        "Dread Guristas Saboteur",
-        800
-    ],
-    "13599": [
-        "Dread Guristas Annihilator",
-        798
-    ],
-    "13600": [
-        "Dread Guristas Silencer",
-        798
-    ],
-    "13601": [
-        "Dread Guristas Extinguisher",
-        850
-    ],
-    "13602": [
-        "Dread Guristas Exterminator",
-        850
-    ],
-    "13603": [
-        "Estamel Tharchon",
-        564
-    ],
-    "13604": [
-        "Dread Guristas Wrecker",
-        800
-    ],
-    "13605": [
-        "True Sansha's Beast",
-        808
-    ],
-    "13609": [
-        "Brokara Ryver",
-        569
-    ],
-    "13610": [
-        "True Sansha's Butcher",
+    "13625": [
+        "True Sansha's Ravener",
         810
-    ],
-    "13613": [
-        "True Sansha's Juggernaut",
-        808
-    ],
-    "13614": [
-        "True Sansha's Slave Lord",
-        851
-    ],
-    "13615": [
-        "Selynne Mardakar",
-        569
-    ],
-    "13620": [
-        "True Sansha's Mutant Lord",
-        851
-    ],
-    "13621": [
-        "True Sansha's Plague Lord",
-        851
-    ],
-    "13622": [
-        "Vizan Ankonin",
-        569
-    ],
-    "13623": [
-        "True Sansha's Plague",
-        810
-    ],
-    "13626": [
-        "True Sansha's Ravisher",
-        808
-    ],
-    "13628": [
-        "True Sansha's Scavenger",
-        810
-    ],
-    "13632": [
-        "True Sansha's Slavehunter",
-        810
-    ],
-    "13633": [
-        "True Sansha's Beast Lord",
-        851
-    ],
-    "13634": [
-        "True Sansha's Savage Lord",
-        851
-    ],
-    "13635": [
-        "Chelm Soran",
-        569
-    ],
-    "13637": [
-        "Shadow Serpentis Chief Watchman",
-        812
     ],
     "13638": [
         "Shadow Serpentis Chief Patroller",
         812
     ],
-    "13639": [
-        "Shadow Serpentis Chief Scout",
-        812
-    ],
-    "13640": [
-        "Shadow Serpentis Safeguard",
-        814
-    ],
-    "13641": [
-        "Shadow Serpentis Chief Spy",
-        812
-    ],
-    "13642": [
-        "Shadow Serpentis Guard",
-        814
-    ],
-    "13643": [
-        "Shadow Serpentis Spy",
-        814
-    ],
-    "13644": [
-        "Shadow Serpentis Watchman",
-        814
-    ],
-    "13645": [
-        "Shadow Serpentis Scout",
-        814
-    ],
-    "13646": [
-        "Shadow Serpentis Agent",
-        814
-    ],
-    "13647": [
-        "Shadow Serpentis Defender",
-        814
-    ],
-    "13648": [
-        "Shadow Serpentis Patroller",
-        814
-    ],
-    "13650": [
-        "Shadow Serpentis Protector",
-        814
-    ],
-    "13652": [
-        "Shadow Serpentis Vice Admiral",
-        852
-    ],
-    "13653": [
-        "Shadow Serpentis Rear Admiral",
-        852
-    ],
-    "13654": [
-        "Cormack Vaaja",
-        574
-    ],
     "13659": [
         "Tuvan Orth",
         574
     ],
-    "13661": [
-        "Brynn Jerdola",
-        574
-    ],
-    "13663": [
-        "Shadow Serpentis Chief Safeguard",
-        812
-    ],
-    "13664": [
-        "Shadow Serpentis Chief Guard",
-        812
-    ],
-    "13665": [
-        "Shadow Serpentis Port Admiral",
-        852
-    ],
-    "13666": [
-        "Shadow Serpentis Flotilla Admiral",
-        852
-    ],
-    "13667": [
-        "Setele Schellan",
-        574
-    ],
-    "13668": [
-        "Shadow Serpentis Chief Defender",
-        812
-    ],
-    "13670": [
-        "Korrani Salemo",
-        817
-    ],
-    "13671": [
-        "Zerak Cheryn",
-        817
-    ],
-    "13673": [
-        "Kuran 'Scarface' Lonan",
-        817
-    ],
-    "13771": [
-        "Drazin Jaruk",
-        817
-    ],
-    "13780": [
-        "Equipment Assembly Array",
-        397
-    ],
-    "13900": [
-        "Maru Harbinger",
-        817
-    ],
-    "13901": [
-        "Odamian Privateer",
+    "13898": [
+        "Maru Raider",
         818
-    ],
-    "13902": [
-        "Odamian Veteran",
-        817
-    ],
-    "14343": [
-        "Silo",
-        404
-    ],
-    "14353": [
-        "Federation Navy Soldier",
-        677
-    ],
-    "14354": [
-        "Republic Fleet Soldier",
-        683
-    ],
-    "14355": [
-        "Caldari Navy Soldier",
-        671
-    ],
-    "14356": [
-        "Ammatar Navy Apocalypse",
-        667
-    ],
-    "14361": [
-        "Federation Navy Atron",
-        677
-    ],
-    "14362": [
-        "Imperial Navy Executioner",
-        665
-    ],
-    "14363": [
-        "Ammatar Navy Executioner",
-        665
-    ],
-    "14364": [
-        "Ammatar Navy Officer",
-        665
-    ],
-    "14478": [
-        "Caldari Navy Griffin",
-        671
-    ],
-    "14481": [
-        "Federation Navy Maulus",
-        677
-    ],
-    "14482": [
-        "Ammatar Navy Inquisitor",
-        665
-    ],
-    "15320": [
-        "Caldari Navy Moa",
-        673
-    ],
-    "15322": [
-        "Imperial Navy Maller",
-        668
-    ],
-    "15323": [
-        "Ammatar Navy Maller",
-        668
-    ],
-    "15324": [
-        "Republic Fleet Rupture",
-        705
-    ],
-    "15325": [
-        "Federation Navy Thorax",
-        678
     ],
     "15326": [
         "Caldari Navy Scorpion",
         674
     ],
-    "15327": [
-        "Republic Fleet Typhoon",
-        706
-    ],
-    "15330": [
-        "Federation Navy Dominix",
-        680
-    ],
-    "15336": [
-        "Ammatar Navy Fleet Commander",
-        667
-    ],
-    "15338": [
-        "Caldari Navy Fleet Commander",
-        674
-    ],
-    "15394": [
-        "Taisu Magdesh",
-        816
-    ],
-    "15970": [
-        "Caldari Navy Gamma II Support Frigate",
-        671
-    ],
-    "15972": [
-        "Caldari Navy Delta II Support Frigate",
-        671
-    ],
-    "15973": [
-        "Republic Fleet C-2 Support Frigate",
-        683
-    ],
-    "15974": [
-        "Republic Fleet D-2 Support Frigate",
-        683
-    ],
-    "15975": [
-        "Republic Fleet C-1 Support Frigate",
-        683
-    ],
-    "15976": [
-        "Republic Fleet D-1 Support Frigate",
-        683
-    ],
-    "15977": [
-        "Ammatar Navy Gamma II Support Frigate",
-        665
-    ],
-    "15978": [
-        "Ammatar Navy Gamma I Support Frigate",
-        665
-    ],
-    "15982": [
-        "Ammatar Navy Delta I Support Frigate",
-        665
-    ],
     "15984": [
         "Imperial Navy Gamma II Support Frigate",
         665
     ],
-    "15985": [
-        "Imperial Navy Gamma I Support Frigate",
-        665
-    ],
-    "15986": [
-        "Imperial Navy Delta II Support Frigate",
-        665
-    ],
-    "15987": [
-        "Imperial Navy Delta I Support Frigate",
-        665
-    ],
-    "15988": [
-        "Federation Navy Gamma II Support Frigate",
-        677
-    ],
     "15989": [
         "Federation Navy Delta II Support Frigate",
-        677
-    ],
-    "15990": [
-        "Federation Navy Gamma I Support Frigate",
-        677
-    ],
-    "15991": [
-        "Federation Navy Delta I Support Frigate",
         677
     ],
     "16010": [
         "Mercenary Wingman",
         818
     ],
-    "16019": [
-        "Mordus Rookie",
-        699
-    ],
-    "16020": [
-        "Mordus Sabre",
-        699
-    ],
-    "16021": [
-        "Mordus Rapier",
-        699
-    ],
-    "16022": [
-        "Mordus Gladius",
-        699
-    ],
-    "16023": [
-        "Mordus Katana",
-        699
-    ],
-    "16027": [
-        "Mordus Bobcat",
-        701
-    ],
-    "16028": [
-        "Mordus Cheetah",
-        701
-    ],
-    "16030": [
-        "Mordus Puma",
-        701
-    ],
-    "16031": [
-        "Mordus Leopard",
-        701
-    ],
     "16033": [
         "Mordus Lion",
         701
     ],
-    "16034": [
-        "Mordus Phanti",
-        703
-    ],
     "16036": [
         "Mordus Gigamar",
         703
-    ],
-    "16037": [
-        "Mordus Mammoth",
-        703
-    ],
-    "16040": [
-        "Mordus Bounty Hunter",
-        699
-    ],
-    "16087": [
-        "EoM Imp",
-        818
-    ],
-    "16088": [
-        "EoM Fiend",
-        818
     ],
     "16089": [
         "EoM Incubus",
@@ -2563,141 +1523,21 @@
         "EoM Demon",
         818
     ],
-    "16092": [
-        "EoM Saboteur",
-        818
-    ],
-    "16093": [
-        "EoM Priest",
-        817
-    ],
-    "16094": [
-        "EoM Prophet",
-        817
-    ],
-    "16095": [
-        "EoM Black Priest",
-        817
-    ],
-    "16096": [
-        "EoM Crusader",
-        817
-    ],
-    "16097": [
-        "EoM Death Knight",
-        817
-    ],
-    "16098": [
-        "EoM Hydra",
-        816
-    ],
-    "16099": [
-        "EoM Death Lord",
-        816
-    ],
-    "16105": [
-        "DED Soldier 3rd Class",
-        693
-    ],
-    "16106": [
-        "DED Soldier 2nd Class",
-        693
-    ],
     "16107": [
         "DED Soldier 1st Class",
         693
     ],
-    "16108": [
-        "DED Special Ops Piranha",
-        693
-    ],
-    "16109": [
-        "DED Special Ops Panther",
-        693
-    ],
-    "16110": [
-        "DED Officer 3rd Class",
-        695
-    ],
     "16112": [
         "DED Officer 1st Class",
-        695
-    ],
-    "16114": [
-        "DED Captain",
-        695
-    ],
-    "16115": [
-        "DED Special Ops Raptor",
         695
     ],
     "16116": [
         "DED Army Colonel",
         697
     ],
-    "16117": [
-        "DED Army General",
-        697
-    ],
-    "16161": [
-        "Amarr Personnel Transport",
-        668
-    ],
-    "16162": [
-        "Caldari Personnel Transport",
-        673
-    ],
-    "16165": [
-        "Angel Cartel Personnel Transport",
-        595
-    ],
     "16166": [
         "Blood Raider Personnel Transport",
         604
-    ],
-    "16167": [
-        "Sanshas Personnel Transport",
-        622
-    ],
-    "16168": [
-        "Serpentis Personnel Transport",
-        631
-    ],
-    "16169": [
-        "Guristas Personnel Transport",
-        613
-    ],
-    "16171": [
-        "Khanid Rookie",
-        687
-    ],
-    "16172": [
-        "Khanid Sparrow",
-        687
-    ],
-    "16174": [
-        "Khanid Eagle",
-        689
-    ],
-    "16175": [
-        "Khanid Warbird",
-        689
-    ],
-    "16202": [
-        "Tauron",
-        816
-    ],
-    "16208": [
-        "Ex-Secret Agent",
-        818
-    ],
-    "16209": [
-        "Ex-Elite Secret Agent",
-        817
-    ],
-    "16210": [
-        "Spider Drone I",
-        805
     ],
     "16211": [
         "Spider Drone II",
@@ -2714,10 +1554,6 @@
     "16216": [
         "Research Laboratory",
         413
-    ],
-    "16221": [
-        "Moon Harvesting Array",
-        416
     ],
     "16227": [
         "Ferox",
@@ -2751,42 +1587,6 @@
         "Thrasher",
         420
     ],
-    "16251": [
-        "Freedom Patriot",
-        817
-    ],
-    "16252": [
-        "Freedom Liberty",
-        816
-    ],
-    "16561": [
-        "Angel Viper",
-        550
-    ],
-    "16562": [
-        "Angel Webifier",
-        550
-    ],
-    "16563": [
-        "Blood Wraith",
-        606
-    ],
-    "16565": [
-        "Guristas Kyoukan",
-        615
-    ],
-    "16566": [
-        "Guristas Webifier",
-        615
-    ],
-    "16567": [
-        "Sansha's Demon",
-        624
-    ],
-    "16568": [
-        "Sansha's Berserker",
-        624
-    ],
     "16569": [
         "Guardian Veteran",
         633
@@ -2795,24 +1595,12 @@
         "Militia Guardian",
         817
     ],
-    "16627": [
-        "Militia Protector",
-        818
-    ],
-    "16628": [
-        "Militia Leader",
-        818
-    ],
     "16631": [
         "Small Artillery Battery",
         426
     ],
     "16688": [
         "Medium Artillery Battery",
-        426
-    ],
-    "16689": [
-        "Large Artillery Battery",
         426
     ],
     "16690": [
@@ -2823,20 +1611,12 @@
         "Medium Railgun Battery",
         449
     ],
-    "16692": [
-        "Large Railgun Battery",
-        449
-    ],
     "16694": [
         "Large Beam Laser Battery",
         430
     ],
     "16696": [
         "Cruise Missile Battery",
-        417
-    ],
-    "16697": [
-        "Torpedo Battery",
         417
     ],
     "16739": [
@@ -2859,14 +1639,6 @@
         "Tower Sentry Gallente III",
         383
     ],
-    "16744": [
-        "Tower Sentry Guristas III",
-        383
-    ],
-    "16745": [
-        "Tower Sentry Minmatar III",
-        383
-    ],
     "16746": [
         "Tower Sentry Sansha III",
         383
@@ -2874,14 +1646,6 @@
     "16747": [
         "Tower Sentry Serpentis III",
         383
-    ],
-    "16750": [
-        "Amarr Junction",
-        319
-    ],
-    "16856": [
-        "Pressure Silo",
-        319
     ],
     "16874": [
         "Gistii Ambusher",
@@ -2907,18 +1671,6 @@
         "Gistum Crusher",
         595
     ],
-    "16881": [
-        "Gistum Smasher",
-        595
-    ],
-    "16882": [
-        "Gistii Nomad",
-        597
-    ],
-    "16883": [
-        "Gistii Outlaw",
-        597
-    ],
     "16884": [
         "Gistum Predator",
         595
@@ -2927,16 +1679,8 @@
         "Gistii Raider",
         597
     ],
-    "16886": [
-        "Gistii Rogue",
-        597
-    ],
     "16887": [
         "Gistii Ruffian",
-        597
-    ],
-    "16888": [
-        "Gistii Thug",
         597
     ],
     "16889": [
@@ -2946,14 +1690,6 @@
     "16890": [
         "Arch Gistii Hijacker",
         597
-    ],
-    "16891": [
-        "Gistum Marauder",
-        595
-    ],
-    "16892": [
-        "Gist Commander",
-        594
     ],
     "16893": [
         "Gist General",
@@ -2987,14 +1723,6 @@
         "Gist War General",
         594
     ],
-    "16925": [
-        "Gist Domination Nephilim",
-        594
-    ],
-    "16927": [
-        "Corpum Arch Engraver",
-        604
-    ],
     "16928": [
         "Corpum Arch Priest",
         604
@@ -3007,16 +1735,8 @@
         "Corpum Arch Sage",
         604
     ],
-    "16931": [
-        "Corpum Arch Templar",
-        604
-    ],
     "16932": [
         "Corpii Diviner",
-        606
-    ],
-    "16933": [
-        "Corpii Upholder",
         606
     ],
     "16934": [
@@ -3027,20 +1747,8 @@
         "Corpii Collector",
         606
     ],
-    "16936": [
-        "Corpii Follower",
-        606
-    ],
-    "16938": [
-        "Corpus Oracle",
-        603
-    ],
     "16939": [
         "Elder Corpii Herald",
-        606
-    ],
-    "16940": [
-        "Corpii Reaver",
         606
     ],
     "16941": [
@@ -3067,21 +1775,9 @@
         "Corpii Herald",
         606
     ],
-    "16947": [
-        "Corpii Seeker",
-        606
-    ],
-    "16948": [
-        "Corpum Revenant",
-        604
-    ],
     "16949": [
         "Corpum Sage",
         604
-    ],
-    "16950": [
-        "Corpii Worshipper",
-        606
     ],
     "16951": [
         "Elder Corpii Worshiper",
@@ -3102,10 +1798,6 @@
     "16970": [
         "Dark Corpus Harbinger",
         603
-    ],
-    "16980": [
-        "Pithum Killer",
-        613
     ],
     "16981": [
         "Pithi Arrogator",
@@ -3131,10 +1823,6 @@
         "Pithi Demolisher",
         615
     ],
-    "16987": [
-        "Pithi Despoiler",
-        615
-    ],
     "16988": [
         "Pith Obliterator",
         612
@@ -3154,10 +1842,6 @@
     "16992": [
         "Pith Eradicator",
         612
-    ],
-    "16994": [
-        "Pithi Imputor",
-        615
     ],
     "16995": [
         "Pithum Mortifier",
@@ -3191,10 +1875,6 @@
         "Pithi Saboteur",
         615
     ],
-    "17003": [
-        "Pithum Annihilator",
-        613
-    ],
     "17004": [
         "Pithum Silencer",
         613
@@ -3227,14 +1907,6 @@
         "Core Commodore",
         630
     ],
-    "17038": [
-        "Core Baron",
-        630
-    ],
-    "17039": [
-        "Corelum Chief Guard",
-        631
-    ],
     "17040": [
         "Coreli Guardian Initiate",
         633
@@ -3263,21 +1935,9 @@
         "Centus Lord",
         621
     ],
-    "17059": [
-        "Centii Butcher",
-        624
-    ],
-    "17060": [
-        "Centii Loyal Minion",
-        624
-    ],
     "17061": [
         "Centii Loyal Ravener",
         624
-    ],
-    "17062": [
-        "Centum Slaughterer",
-        622
     ],
     "17063": [
         "Centii Enslaver",
@@ -3287,18 +1947,6 @@
         "Centum Juggernaut",
         622
     ],
-    "17066": [
-        "Centus Slave Lord",
-        621
-    ],
-    "17067": [
-        "Centii Manslayer",
-        624
-    ],
-    "17068": [
-        "Centii Minion",
-        624
-    ],
     "17069": [
         "Centii Loyal Servant",
         624
@@ -3307,24 +1955,12 @@
         "Centum Torturer",
         622
     ],
-    "17071": [
-        "Centus Mutant Lord",
-        621
-    ],
     "17072": [
         "Centii Plague",
         624
     ],
     "17073": [
         "Centum Ravager",
-        622
-    ],
-    "17074": [
-        "Centii Ravener",
-        624
-    ],
-    "17075": [
-        "Centum Ravisher",
         622
     ],
     "17076": [
@@ -3335,40 +1971,8 @@
         "Centii Scavenger",
         624
     ],
-    "17078": [
-        "Centii Servant",
-        624
-    ],
-    "17079": [
-        "Centii Loyal Scavenger",
-        624
-    ],
-    "17080": [
-        "Centum Mutilator",
-        622
-    ],
     "17081": [
         "Centii Slavehunter",
-        624
-    ],
-    "17082": [
-        "Centus Savage Lord",
-        621
-    ],
-    "17083": [
-        "Centum Execrator",
-        622
-    ],
-    "17090": [
-        "True Centus Slave Lord",
-        621
-    ],
-    "17096": [
-        "True Centus Plague Lord",
-        621
-    ],
-    "17106": [
-        "True Centii Slavehunter",
         624
     ],
     "17110": [
@@ -3379,17 +1983,9 @@
         "Corelum Chief Patroller",
         631
     ],
-    "17112": [
-        "Corelum Chief Scout",
-        631
-    ],
     "17113": [
         "Coreli Safeguard",
         633
-    ],
-    "17114": [
-        "Corelum Chief Spy",
-        631
     ],
     "17116": [
         "Coreli Watchman",
@@ -3443,10 +2039,6 @@
         "Tower Sentry Caldari I",
         383
     ],
-    "17150": [
-        "Tower Sentry Gallente II",
-        383
-    ],
     "17151": [
         "Tower Sentry Gallente I",
         383
@@ -3457,14 +2049,6 @@
     ],
     "17153": [
         "Tower Sentry Guristas II",
-        383
-    ],
-    "17154": [
-        "Tower Sentry Minmatar II",
-        383
-    ],
-    "17156": [
-        "Tower Sentry Sansha II",
         383
     ],
     "17157": [
@@ -3479,28 +2063,8 @@
         "Tower Sentry Serpentis I",
         383
     ],
-    "17160": [
-        "Tower Sentry Amarr I",
-        383
-    ],
-    "17161": [
-        "Tower Sentry Amarr II",
-        383
-    ],
-    "17162": [
-        "The Stronghold General",
-        821
-    ],
-    "17163": [
-        "Serpentis Stasis Tower",
-        383
-    ],
     "17167": [
         "Small Beam Laser Battery",
-        430
-    ],
-    "17168": [
-        "Medium Beam Laser Battery",
         430
     ],
     "17174": [
@@ -3522,10 +2086,6 @@
     "17178": [
         "Stasis Webification Battery",
         441
-    ],
-    "17180": [
-        "Sensor Dampening Battery",
-        440
     ],
     "17181": [
         "Warp Disruption Battery",
@@ -3559,48 +2119,8 @@
         "Coreli Spy",
         633
     ],
-    "17283": [
-        "Sansha Black Ops Squad Leader",
-        819
-    ],
-    "17284": [
-        "Guristas Scout Officer",
-        820
-    ],
-    "17285": [
-        "Centus Black Ops Commander",
-        819
-    ],
-    "17402": [
-        "Large Blaster Battery",
-        449
-    ],
-    "17403": [
-        "Medium Blaster Battery",
-        449
-    ],
-    "17404": [
-        "Small Blaster Battery",
-        449
-    ],
-    "17406": [
-        "Large Pulse Laser Battery",
-        430
-    ],
-    "17407": [
-        "Medium Pulse Laser Battery",
-        430
-    ],
-    "17408": [
-        "Small Pulse Laser Battery",
-        430
-    ],
     "17412": [
         "Phi-Operation Protector",
-        821
-    ],
-    "17413": [
-        "Captain Rouge",
         821
     ],
     "17476": [
@@ -3615,10 +2135,6 @@
         "Procurer",
         463
     ],
-    "17568": [
-        "Serpentis Point Defense Battery",
-        383
-    ],
     "17569": [
         "Serpentis Light Missile Battery",
         383
@@ -3631,28 +2147,12 @@
         "Serpentis Cruise Missile Battery",
         383
     ],
-    "17573": [
-        "Angel Light Missile Battery",
-        383
-    ],
     "17574": [
         "Angel Heavy Missile Battery",
         383
     ],
     "17575": [
         "Angel Cruise Missile Battery",
-        383
-    ],
-    "17578": [
-        "Minmatar Heavy Missile Battery",
-        383
-    ],
-    "17579": [
-        "Minmatar Cruise Missile Battery",
-        383
-    ],
-    "17580": [
-        "Sansha Point Defense Battery",
         383
     ],
     "17581": [
@@ -3667,36 +2167,8 @@
         "Sansha Cruise Missile Battery",
         383
     ],
-    "17584": [
-        "Gallente Point Defense Battery",
-        383
-    ],
-    "17585": [
-        "Gallente Light Missile Battery",
-        383
-    ],
-    "17586": [
-        "Gallente Heavy Missile Battery",
-        383
-    ],
-    "17587": [
-        "Gallente Cruise Missile Battery",
-        383
-    ],
-    "17588": [
-        "Amarr Point Defense Battery",
-        383
-    ],
-    "17590": [
-        "Amarr Heavy Missile Battery",
-        383
-    ],
     "17591": [
         "Amarr Cruise Missile Battery",
-        383
-    ],
-    "17592": [
-        "Blood Point Defense Battery",
         383
     ],
     "17593": [
@@ -3709,10 +2181,6 @@
     ],
     "17595": [
         "Blood Cruise Missile Battery",
-        383
-    ],
-    "17596": [
-        "Guristas Point Defense Battery",
         383
     ],
     "17597": [
@@ -3731,53 +2199,9 @@
         "Caldari Point Defense Battery",
         383
     ],
-    "17601": [
-        "Caldari Light Missile Battery",
-        383
-    ],
-    "17602": [
-        "Caldari Heavy Missile Battery",
-        383
-    ],
-    "17603": [
-        "Caldari Cruise Missile Battery",
-        383
-    ],
-    "17605": [
-        "Angel Stasis Tower",
-        383
-    ],
-    "17606": [
-        "Minmatar Stasis Tower",
-        383
-    ],
-    "17607": [
-        "Sansha Stasis Tower",
-        383
-    ],
-    "17608": [
-        "Gallente Stasis Tower",
-        383
-    ],
-    "17609": [
-        "Amarr Stasis Tower",
-        383
-    ],
-    "17610": [
-        "Blood Stasis Tower",
-        383
-    ],
-    "17611": [
-        "Guristas Stasis Tower",
-        383
-    ],
     "17612": [
         "Caldari Stasis Tower",
         383
-    ],
-    "17616": [
-        "Mul-Zatah Gatekeeper",
-        820
     ],
     "17619": [
         "Caldari Navy Hookbill",
@@ -3786,10 +2210,6 @@
     "17621": [
         "Corporate Hangar Array",
         471
-    ],
-    "17622": [
-        "Jenmai Hirokan",
-        818
     ],
     "17634": [
         "Caracal Navy Issue",
@@ -3851,21 +2271,9 @@
         "Vindicator",
         27
     ],
-    "17744": [
-        "Purple Particle Research Patrol",
-        821
-    ],
-    "17745": [
-        "General Hixous Puxley",
-        821
-    ],
     "17749": [
         "The Antimatter Channeler",
         821
-    ],
-    "17770": [
-        "Large AutoCannon Battery",
-        426
     ],
     "17771": [
         "Medium AutoCannon Battery",
@@ -3875,24 +2283,12 @@
         "Small AutoCannon Battery",
         426
     ],
-    "17773": [
-        "XL Torpedo Battery",
-        417
-    ],
-    "17787": [
-        "Starbase Storage Facility",
-        319
-    ],
     "17812": [
         "Republic Fleet Firetail",
         25
     ],
     "17823": [
         "Serpentis Chief of Security",
-        820
-    ],
-    "17824": [
-        "Serpentis Refinery Headmaster",
         820
     ],
     "17841": [
@@ -3906,34 +2302,6 @@
     "17857": [
         "Mjolnir XL Torpedo",
         476
-    ],
-    "17859": [
-        "Scourge XL Torpedo",
-        476
-    ],
-    "17861": [
-        "Inferno XL Torpedo",
-        476
-    ],
-    "17863": [
-        "Nova XL Torpedo",
-        476
-    ],
-    "17876": [
-        "Sentinel Sansha",
-        383
-    ],
-    "17877": [
-        "Sentinel Serpentis",
-        383
-    ],
-    "17900": [
-        "Crimson Lord",
-        821
-    ],
-    "17917": [
-        "Rogue Pirate Grunt",
-        818
     ],
     "17918": [
         "Rattlesnake",
@@ -3967,14 +2335,6 @@
         "Dramiel",
         25
     ],
-    "17973": [
-        "Angel Cartel Jailor",
-        821
-    ],
-    "17993": [
-        "Crimson Sentinel",
-        495
-    ],
     "18023": [
         "Drone Wall Sentry Gun",
         383
@@ -3985,10 +2345,6 @@
     ],
     "18027": [
         "Tower Sentry Drone II",
-        383
-    ],
-    "18028": [
-        "Tower Sentry Drone I",
         383
     ],
     "18031": [
@@ -4047,10 +2403,6 @@
         "Sunder Alvi",
         805
     ],
-    "18080": [
-        "Raider Alvi",
-        805
-    ],
     "18082": [
         "Destructor Alvum",
         803
@@ -4079,157 +2431,17 @@
         "Render Alvi",
         805
     ],
-    "18113": [
-        "Incubus Apis",
-        806
-    ],
-    "18114": [
-        "Malphas Apis",
-        806
-    ],
     "18564": [
         "Hunter Alvi",
         805
-    ],
-    "18565": [
-        "Serpentis Executive Officer",
-        821
-    ],
-    "18573": [
-        "Rogue Mercenary Thorn",
-        817
-    ],
-    "18574": [
-        "Seven Grunt",
-        818
-    ],
-    "18575": [
-        "Seven Death Dealer",
-        818
-    ],
-    "18576": [
-        "Seven Deathguard",
-        818
-    ],
-    "18577": [
-        "Seven Thug",
-        817
-    ],
-    "18578": [
-        "Seven Assassin",
-        817
-    ],
-    "18579": [
-        "Seven Bodyguard",
-        817
-    ],
-    "18584": [
-        "Intoxicated Commander",
-        820
-    ],
-    "18630": [
-        "Serpentis Fleet Stronghold",
-        495
-    ],
-    "18631": [
-        "Angel Retention Facility",
-        495
-    ],
-    "18641": [
-        "Guristas Harlot Procurer",
-        820
-    ],
-    "18678": [
-        "Zelfarios Kashnostramus",
-        816
     ],
     "19367": [
         "Caldari Customs Commissioner",
         446
     ],
-    "19368": [
-        "Khanid Customs General Major",
-        446
-    ],
-    "19369": [
-        "Gallente Customs Major",
-        446
-    ],
-    "19370": [
-        "Minmatar Customs Commander",
-        446
-    ],
-    "19371": [
-        "Amarr Customs General",
-        446
-    ],
-    "19372": [
-        "Amarr Customs Surveillance Officer",
-        446
-    ],
-    "19383": [
-        "Gallente Customs Official",
-        446
-    ],
     "19385": [
         "Caldari Customs Agent",
         446
-    ],
-    "19386": [
-        "Khanid Customs Surveillance Officer",
-        446
-    ],
-    "19387": [
-        "Ammatar Customs Surveillance Officer",
-        446
-    ],
-    "19423": [
-        "Watch Officer",
-        821
-    ],
-    "19470": [
-        "Intensive Reprocessing Array",
-        311
-    ],
-    "19505": [
-        "Guristas Starbase Control Tower",
-        319
-    ],
-    "19563": [
-        "CONCORD Customs Commander",
-        446
-    ],
-    "19592": [
-        "'Screaming' Dewak Humfry",
-        821
-    ],
-    "19620": [
-        "Drone Commandeered Battleship",
-        821
-    ],
-    "19667": [
-        "Ammatar Cruise Missile Battery",
-        383
-    ],
-    "19677": [
-        "Commander Dakin Gara",
-        816
-    ],
-    "19701": [
-        "Swarm Parasite Worker",
-        821
-    ],
-    "19703": [
-        "Swarm Defense Battery",
-        495
-    ],
-    "19704": [
-        "Supreme Hive Defender",
-        821
-    ],
-    "19707": [
-        "Outgrowth Strain Mother",
-        495
     ],
     "19720": [
         "Revelation",
@@ -4263,14 +2475,6 @@
         "Mercenary Lieutenant",
         817
     ],
-    "19955": [
-        "'True Power' Assembly Security HQ",
-        495
-    ],
-    "19961": [
-        "Station Ultima",
-        495
-    ],
     "20059": [
         "Amarr Control Tower Medium",
         365
@@ -4303,29 +2507,9 @@
         "Minmatar Control Tower Small",
         365
     ],
-    "20078": [
-        "True Creation's Park Overseer",
-        821
-    ],
-    "20079": [
-        "Effotber's Transit Overseer",
-        821
-    ],
-    "20080": [
-        "Overseer Skomener Effotber",
-        821
-    ],
     "20125": [
         "Curse",
         906
-    ],
-    "20173": [
-        "Serpentis Major",
-        821
-    ],
-    "20174": [
-        "Serpentis Deadspace Sergeant",
-        821
     ],
     "20183": [
         "Providence",
@@ -4343,417 +2527,57 @@
         "Fenrir",
         513
     ],
-    "20279": [
-        "Rogue Pirate Raider",
-        817
-    ],
-    "20306": [
-        "Mjolnir Heavy Assault Missile",
-        772
-    ],
     "20308": [
         "Inferno Heavy Assault Missile",
         772
     ],
-    "20330": [
-        "Imperial Navy Jakar",
-        667
-    ],
-    "20333": [
-        "Republic Fleet Darkana",
-        706
-    ],
-    "20334": [
-        "Caldari Navy Temura",
-        674
-    ],
-    "20335": [
-        "Federation Navy Orion",
-        680
-    ],
-    "20373": [
-        "General 'Buck' Turgidson",
-        816
-    ],
-    "20438": [
-        "Faramon Mundan",
-        816
-    ],
-    "20440": [
-        "Rachen Mysuna",
-        816
-    ],
-    "20441": [
-        "Xevni Jipon",
-        816
-    ],
     "20463": [
         "COSMOS Caldari Assassin",
-        520
-    ],
-    "20464": [
-        "COSMOS Caldari Death Dealer",
-        520
-    ],
-    "20465": [
-        "COSMOS Caldari Demolisher",
-        520
-    ],
-    "20466": [
-        "COSMOS Caldari Despoiler",
-        520
-    ],
-    "20468": [
-        "COSMOS Caldari Eliminator",
-        520
-    ],
-    "20470": [
-        "COSMOS Caldari Infiltrator",
         520
     ],
     "20472": [
         "COSMOS Caldari Nihilist",
         520
     ],
-    "20473": [
-        "COSMOS Caldari Plunderer",
-        520
-    ],
-    "20474": [
-        "COSMOS Caldari Saboteur",
-        520
-    ],
-    "20475": [
-        "COSMOS Caldari Wrecker",
-        520
-    ],
-    "20482": [
-        "COSMOS Caldari Annihilator",
-        522
-    ],
-    "20483": [
-        "COSMOS Caldari Ascriber",
-        522
-    ],
-    "20484": [
-        "COSMOS Caldari Eraser",
-        522
-    ],
-    "20485": [
-        "COSMOS Caldari Inferno",
-        522
-    ],
-    "20486": [
-        "COSMOS Caldari Mortifier",
-        522
-    ],
-    "20487": [
-        "COSMOS Caldari Nullifier",
-        522
-    ],
     "20488": [
         "COSMOS Caldari Silencer",
         522
-    ],
-    "20490": [
-        "COSMOS Caldari Conquistador",
-        523
-    ],
-    "20491": [
-        "COSMOS Caldari Destroyer",
-        523
-    ],
-    "20492": [
-        "COSMOS Caldari Extinguisher",
-        523
-    ],
-    "20493": [
-        "COSMOS Caldari Usurper",
-        523
-    ],
-    "20549": [
-        "Manchura Todaki",
-        533
-    ],
-    "21060": [
-        "COSMOS Caldari Non-Pirate Frigate Elite 4",
-        520
-    ],
-    "21090": [
-        "Bai Tarziiki",
-        533
-    ],
-    "21092": [
-        "Motani Ihura",
-        533
     ],
     "21097": [
         "Goru's Shuttle",
         31
     ],
-    "21127": [
-        "Payo Ming",
-        534
-    ],
-    "21128": [
-        "COSMOS Magye Eraser",
-        522
-    ],
-    "21129": [
-        "COSMOS Magye Silencer",
-        522
-    ],
-    "21130": [
-        "COSMOS Magye Death Dealer",
-        520
-    ],
-    "21131": [
-        "COSMOS Magye Wrecker",
-        520
-    ],
-    "21181": [
-        "Illian Gara",
-        534
-    ],
-    "21490": [
-        "Zarkona Mirei's Worm",
-        527
-    ],
-    "21515": [
-        "The Duke",
-        533
-    ],
     "21628": [
         "Guristas Shuttle",
         31
-    ],
-    "21648": [
-        "Guristas Maniac",
-        533
-    ],
-    "21650": [
-        "Nugoeihuvi Propagandist",
-        533
-    ],
-    "21653": [
-        "Nugoeihuvi Defender",
-        527
-    ],
-    "21654": [
-        "Nugoeihuvi Miner",
-        527
-    ],
-    "21656": [
-        "Propel Dynamics Defender",
-        527
-    ],
-    "21657": [
-        "Guristas Propagandist",
-        527
     ],
     "21658": [
         "Guristas Defender",
         527
     ],
-    "21744": [
-        "Siege Artillery Sentry",
-        383
-    ],
-    "21745": [
-        "Siege Autocannon Sentry",
-        383
-    ],
-    "21746": [
-        "Siege Beam Laser Sentry",
-        383
-    ],
-    "21747": [
-        "Siege Pulse Laser Sentry",
-        383
-    ],
-    "21748": [
-        "Siege Railgun Sentry",
-        383
-    ],
-    "21749": [
-        "Siege Blaster Sentry",
-        383
-    ],
-    "21756": [
-        "COSMOS Minmatar Gist Seraphim",
-        523
-    ],
-    "21757": [
-        "COSMOS Minmatar Warlord",
-        523
-    ],
-    "21759": [
-        "COSMOS Minmatar Liquidator",
-        522
-    ],
-    "21765": [
-        "COSMOS Minmatar Angel Scout",
-        522
-    ],
-    "21768": [
-        "COSMOS Minmatar Impaler",
-        520
-    ],
     "21769": [
         "COSMOS Minmatar Hunter",
-        520
-    ],
-    "21771": [
-        "COSMOS Minmatar Outlaw",
-        520
-    ],
-    "21772": [
-        "COSMOS Minmatar Raider",
-        520
-    ],
-    "21775": [
-        "COSMOS Minmatar Thug",
-        520
-    ],
-    "21780": [
-        "COSMOS Minmatar Arch Hunter",
         520
     ],
     "21781": [
         "COSMOS Minmatar Arch Impaler",
         520
     ],
-    "21792": [
-        "Bandit Jailor",
-        534
-    ],
     "21814": [
         "Elite Drone Parasite",
         802
-    ],
-    "21859": [
-        "Cybertron",
-        533
-    ],
-    "21867": [
-        "Nova Heavy Assault Missile",
-        772
-    ],
-    "21974": [
-        "Outlaw Arrogator",
-        562
     ],
     "21978": [
         "Outlaw Despoiler",
         562
     ],
-    "21979": [
-        "Outlaw Saboteur",
-        562
-    ],
-    "21980": [
-        "Outlaw Plunderer",
-        562
-    ],
-    "21981": [
-        "Outlaw Wrecker",
-        562
-    ],
-    "21982": [
-        "Outlaw Destructor",
-        562
-    ],
-    "21983": [
-        "Outlaw Demolisher",
-        562
-    ],
-    "21984": [
-        "Gunslinger Silencer",
-        561
-    ],
-    "21985": [
-        "Gunslinger Ascriber",
-        561
-    ],
-    "21986": [
-        "Gunslinger Killer",
-        561
-    ],
-    "21987": [
-        "Gunslinger Murderer",
-        561
-    ],
-    "21999": [
-        "Deuce Ascriber",
-        798
-    ],
-    "22007": [
-        "Cyber Outlaw",
-        550
-    ],
-    "22008": [
-        "Cyber Thug",
-        550
-    ],
-    "22009": [
-        "Cyber Ruffian",
-        550
-    ],
-    "22010": [
-        "Cyber Nomad",
-        550
-    ],
     "22011": [
         "Cyber Ambusher",
-        550
-    ],
-    "22012": [
-        "Cyber Raider",
         550
     ],
     "22013": [
         "Cyber Hunter",
         550
-    ],
-    "22014": [
-        "Cyber Impaler",
-        550
-    ],
-    "22097": [
-        "Bazeri Palen",
-        534
-    ],
-    "22104": [
-        "ST 60",
-        533
-    ],
-    "22160": [
-        "Famon Gurch",
-        533
-    ],
-    "22236": [
-        "Angel Drug Addict",
-        527
-    ],
-    "22261": [
-        "COSMOS Amarr Phantom",
-        520
-    ],
-    "22265": [
-        "COSMOS Amarr Priest",
-        522
-    ],
-    "22268": [
-        "COSMOS Amarr Harbinger",
-        523
-    ],
-    "22269": [
-        "COSMOS Amarr Patriarch",
-        523
-    ],
-    "22271": [
-        "COSMOS Amarr Jakar",
-        523
     ],
     "22428": [
         "Redeemer",
@@ -4831,33 +2655,9 @@
         "Mackinaw",
         543
     ],
-    "22666": [
-        "COSMOS Gallente Elite Frigate",
-        520
-    ],
-    "22667": [
-        "COSMOS Gallente Drug Baron",
-        522
-    ],
-    "22670": [
-        "COSMOS Gallente Captain",
-        522
-    ],
     "22672": [
         "COSMOS Gallente Commodore",
         523
-    ],
-    "22673": [
-        "COSMOS Gallente Non-Pirate Elite Frigate",
-        520
-    ],
-    "22729": [
-        "Strain Domination Drone Replica",
-        803
-    ],
-    "22800": [
-        "Caldari Military Transport",
-        673
     ],
     "22812": [
         "Angel Shatterer",
@@ -4883,10 +2683,6 @@
         "Angel Trasher",
         575
     ],
-    "22818": [
-        "Arch Angel Ruffian",
-        550
-    ],
     "22819": [
         "Arch Angel Nomad",
         550
@@ -4911,10 +2707,6 @@
         "Angel Tribuni",
         576
     ],
-    "22825": [
-        "Angel Praefectus",
-        576
-    ],
     "22826": [
         "Angel Tribunus",
         576
@@ -4923,36 +2715,8 @@
         "Angel Legatus",
         576
     ],
-    "22830": [
-        "Arch Angel Marauder",
-        551
-    ],
-    "22831": [
-        "Arch Angel Liquidator",
-        551
-    ],
-    "22832": [
-        "Arch Angel Phalanx",
-        551
-    ],
-    "22833": [
-        "Arch Angel Centurion",
-        551
-    ],
-    "22834": [
-        "Arch Angel Ambusher",
-        550
-    ],
-    "22835": [
-        "Arch Angel Raider",
-        550
-    ],
     "22836": [
         "Arch Angel Hunter",
-        550
-    ],
-    "22837": [
-        "Arch Angel Impaler",
         550
     ],
     "22838": [
@@ -4975,40 +2739,12 @@
         "Angel Cherubim",
         552
     ],
-    "22843": [
-        "Angel Seraphim",
-        552
-    ],
     "22852": [
         "Hel",
         659
     ],
-    "22857": [
-        "Domination Shatterer",
-        794
-    ],
-    "22858": [
-        "Domination Defacer",
-        794
-    ],
-    "22865": [
-        "Domination Legionnaire",
-        793
-    ],
-    "22867": [
-        "Domination Tribuni",
-        793
-    ],
-    "22872": [
-        "Domination Throne",
-        848
-    ],
     "23055": [
         "Templar I",
-        1652
-    ],
-    "23057": [
-        "Dragonfly I",
         1652
     ],
     "23059": [
@@ -5018,10 +2754,6 @@
     "23061": [
         "Einherji I",
         1652
-    ],
-    "23243": [
-        "Temko Interceptor",
-        520
     ],
     "23244": [
         "Blood Bishop",
@@ -5079,28 +2811,8 @@
         "Blood Dark Priest",
         555
     ],
-    "23259": [
-        "Elder Blood Seeker",
-        557
-    ],
-    "23260": [
-        "Elder Blood Collector",
-        557
-    ],
-    "23261": [
-        "Elder Blood Raider",
-        557
-    ],
-    "23262": [
-        "Elder Blood Diviner",
-        557
-    ],
     "23263": [
         "Elder Blood Reaver",
-        557
-    ],
-    "23264": [
-        "Elder Blood Engraver",
         557
     ],
     "23265": [
@@ -5119,97 +2831,9 @@
         "Blood Cardinal",
         556
     ],
-    "23269": [
-        "Blood Patriarch",
-        556
-    ],
     "23270": [
         "Blood Pope",
         556
-    ],
-    "23275": [
-        "FON Cruiser 2",
-        522
-    ],
-    "23279": [
-        "FON Battleship",
-        523
-    ],
-    "23283": [
-        "Elder Blood Arch Sage",
-        555
-    ],
-    "23284": [
-        "Elder Blood Arch Priest",
-        555
-    ],
-    "23285": [
-        "Elder Blood Shadow Sage",
-        555
-    ],
-    "23286": [
-        "Elder Blood Dark Priest",
-        555
-    ],
-    "23287": [
-        "Dark Blood Visionary",
-        796
-    ],
-    "23288": [
-        "Dark Blood Converter",
-        796
-    ],
-    "23290": [
-        "Dark Blood Devoter",
-        796
-    ],
-    "23291": [
-        "Dark Blood Friar",
-        796
-    ],
-    "23293": [
-        "Dark Blood Bishop",
-        795
-    ],
-    "23294": [
-        "Dark Blood Seer",
-        795
-    ],
-    "23296": [
-        "Dark Blood Fanatic",
-        795
-    ],
-    "23297": [
-        "Dark Blood Phantom",
-        795
-    ],
-    "23300": [
-        "Dark Blood Cardinal",
-        849
-    ],
-    "23301": [
-        "Dark Blood Patriarch",
-        849
-    ],
-    "23302": [
-        "Dark Blood Pope",
-        849
-    ],
-    "23307": [
-        "Dire Guristas Mortifier",
-        561
-    ],
-    "23308": [
-        "Dire Guristas Inferno",
-        561
-    ],
-    "23309": [
-        "Dire Guristas Eraser",
-        561
-    ],
-    "23310": [
-        "Dire Guristas Abolisher",
-        561
     ],
     "23312": [
         "Guristas Nihilist",
@@ -5223,16 +2847,8 @@
         "Guristas Renegade",
         579
     ],
-    "23315": [
-        "Guristas Guerilla",
-        579
-    ],
     "23319": [
         "Guristas Eraser",
-        561
-    ],
-    "23320": [
-        "Guristas Abolisher",
         561
     ],
     "23321": [
@@ -5267,28 +2883,12 @@
         "Guristas Supremacist",
         579
     ],
-    "23330": [
-        "Dire Guristas Despoiler",
-        562
-    ],
     "23331": [
         "Dire Guristas Saboteur",
         562
     ],
     "23332": [
         "Dire Guristas Plunderer",
-        562
-    ],
-    "23333": [
-        "Dire Guristas Wrecker",
-        562
-    ],
-    "23334": [
-        "Dire Guristas Destructor",
-        562
-    ],
-    "23335": [
-        "Dire Guristas Demolisher",
         562
     ],
     "23337": [
@@ -5315,65 +2915,9 @@
         "Guristas Usurper",
         560
     ],
-    "23343": [
-        "Dread Guristas Nihilist",
-        799
-    ],
-    "23344": [
-        "Dread Guristas Anarchist",
-        799
-    ],
-    "23352": [
-        "Dread Guristas Assassin",
-        797
-    ],
-    "23353": [
-        "Dread Guristas Death Dealer",
-        797
-    ],
-    "23354": [
-        "Dread Guristas Revolter",
-        797
-    ],
-    "23356": [
-        "Dread Guristas Conquistador",
-        850
-    ],
-    "23357": [
-        "Dread Guristas Massacrer",
-        850
-    ],
     "23360": [
         "Sansha's Loyal Savage",
         567
-    ],
-    "23361": [
-        "Sansha's Loyal Slavehunter",
-        567
-    ],
-    "23362": [
-        "Sansha's Loyal Enslaver",
-        567
-    ],
-    "23363": [
-        "Sansha's Loyal Plague",
-        567
-    ],
-    "23364": [
-        "Sansha's Loyal Manslayer",
-        567
-    ],
-    "23365": [
-        "Sansha's Loyal Butcher",
-        567
-    ],
-    "23369": [
-        "Sansha's Loyal Torturer",
-        566
-    ],
-    "23370": [
-        "Sansha's Loyal Fiend",
-        566
     ],
     "23372": [
         "Sansha's Plague Lord",
@@ -5383,16 +2927,8 @@
         "Sansha's Beast Lord",
         565
     ],
-    "23374": [
-        "Sansha's Overlord",
-        565
-    ],
     "23375": [
         "Sansha's Dark Lord",
-        565
-    ],
-    "23376": [
-        "Sansha's Dread Lord",
         565
     ],
     "23377": [
@@ -5439,28 +2975,8 @@
         "Sansha's Behemoth",
         582
     ],
-    "23391": [
-        "True Sansha's Misshape",
-        809
-    ],
-    "23392": [
-        "True Sansha's Cannibal",
-        809
-    ],
-    "23394": [
-        "True Sansha's Phantasm",
-        807
-    ],
-    "23398": [
-        "True Sansha's Daemon",
-        807
-    ],
     "23405": [
         "Sansha's Devourer",
-        581
-    ],
-    "23406": [
-        "Sansha's Abomination",
         581
     ],
     "23407": [
@@ -5470,10 +2986,6 @@
     "23408": [
         "Sansha's Horror",
         581
-    ],
-    "23422": [
-        "Eule Vitrauze",
-        533
     ],
     "23423": [
         "Serpentis Trooper",
@@ -5499,28 +3011,12 @@
         "Serpentis Artillery",
         583
     ],
-    "23429": [
-        "Guardian Watchman",
-        572
-    ],
-    "23430": [
-        "Guardian Patroller",
-        572
-    ],
     "23431": [
         "Guardian Guard",
         572
     ],
-    "23432": [
-        "Guardian Safeguard",
-        572
-    ],
     "23434": [
         "Guardian Defender",
-        572
-    ],
-    "23435": [
-        "Guardian Protector",
         572
     ],
     "23436": [
@@ -5555,20 +3051,8 @@
         "Serpentis High Captain",
         584
     ],
-    "23446": [
-        "Guardian Chief Defender",
-        571
-    ],
-    "23447": [
-        "Guardian Chief Protector",
-        571
-    ],
     "23448": [
         "Guardian Chief Infantry",
-        571
-    ],
-    "23449": [
-        "Guardian Chief Sentinel",
         571
     ],
     "23450": [
@@ -5599,29 +3083,9 @@
         "Shadow Serpentis Trooper",
         813
     ],
-    "23458": [
-        "Shadow Serpentis Soldier",
-        813
-    ],
-    "23463": [
-        "Shadow Serpentis Wing Leader",
-        811
-    ],
     "23465": [
         "Shadow Serpentis Platoon Leader",
         811
-    ],
-    "23466": [
-        "Shadow Serpentis Captain",
-        811
-    ],
-    "23471": [
-        "Shadow Serpentis Grand Admiral",
-        852
-    ],
-    "23472": [
-        "Shadow Serpentis Lord Admiral",
-        852
     ],
     "23475": [
         "Shatter Alvior",
@@ -5647,10 +3111,6 @@
         "Dismantler Alvior",
         804
     ],
-    "23481": [
-        "Strain Sunder Alvi",
-        805
-    ],
     "23482": [
         "Strain Raider Alvi",
         805
@@ -5661,10 +3121,6 @@
     ],
     "23484": [
         "Strain Silverfish Alvi",
-        805
-    ],
-    "23485": [
-        "Strain Devilfish Alvi",
         805
     ],
     "23486": [
@@ -5687,16 +3143,8 @@
         "Exterminator Alvatis",
         801
     ],
-    "23492": [
-        "Strain Destructor Alvum",
-        803
-    ],
     "23493": [
         "Strain Disintegrator Alvum",
-        803
-    ],
-    "23494": [
-        "Strain Bomber Alvum",
         803
     ],
     "23495": [
@@ -5743,38 +3191,6 @@
         "Alvus Queen",
         802
     ],
-    "23598": [
-        "Pourpas Aunten",
-        533
-    ],
-    "23623": [
-        "Maschteri Markan",
-        534
-    ],
-    "23638": [
-        "Arch Angel Smasher",
-        551
-    ],
-    "23639": [
-        "Arch Angel Crusher",
-        551
-    ],
-    "23640": [
-        "Arch Angel Breaker",
-        551
-    ],
-    "23641": [
-        "Arch Angel Defeater",
-        551
-    ],
-    "23643": [
-        "Elder Blood Arch Templar",
-        555
-    ],
-    "23644": [
-        "Elder Blood Revenant",
-        555
-    ],
     "23645": [
         "Elder Blood Sage",
         555
@@ -5791,57 +3207,13 @@
         "Dire Guristas Murderer",
         561
     ],
-    "23649": [
-        "Dire Guristas Annihilator",
-        561
-    ],
-    "23650": [
-        "Dire Guristas Nullifier",
-        561
-    ],
-    "23651": [
-        "Sansha's Loyal Beast",
-        566
-    ],
-    "23652": [
-        "Sansha's Loyal Juggernaut",
-        566
-    ],
-    "23653": [
-        "Sansha's Loyal Slaughterer",
-        566
-    ],
-    "23654": [
-        "Sansha's Loyal Execrator",
-        566
-    ],
-    "23655": [
-        "Guardian Chief Watchman",
-        571
-    ],
     "23656": [
         "Guardian Chief Patroller",
         571
     ],
-    "23657": [
-        "Guardian Chief Guard",
-        571
-    ],
-    "23658": [
-        "Guardian Chief Safeguard",
-        571
-    ],
-    "23663": [
-        "Asteroid Station - 1",
-        319
-    ],
     "23685": [
         "Serpentis Drug Runner",
         533
-    ],
-    "23753": [
-        "Cloven Red Asteroid",
-        226
     ],
     "23757": [
         "Archon",
@@ -5875,77 +3247,25 @@
         "Strain Annihilator Alvum",
         803
     ],
-    "23922": [
-        "Strain Devastator Alvum",
-        803
-    ],
-    "23923": [
-        "Strain Viral Infector Alvum",
-        803
-    ],
-    "23924": [
-        "Strain Violator Alvum",
-        803
-    ],
-    "23940": [
-        "Vagrant Nihilist",
-        579
-    ],
-    "23941": [
-        "Vagrant Anarchist",
-        579
-    ],
     "23955": [
         "Thukker Mercenary Fighter",
         826
-    ],
-    "23956": [
-        "Thukker Mercenary Captain",
-        824
     ],
     "23957": [
         "Thukker Mercenary Eliminator",
         824
     ],
-    "23958": [
-        "Thukker Mercenary Rookie",
-        826
-    ],
     "23959": [
         "Thukker Mercenary Elite Fighter",
         826
-    ],
-    "23969": [
-        "Gistior Shatterer",
-        596
-    ],
-    "23970": [
-        "Corpior Visionary",
-        605
     ],
     "23971": [
         "Pithior Nihilist",
         614
     ],
-    "23972": [
-        "Centior Misshape",
-        623
-    ],
     "23973": [
         "Corelior Trooper",
         632
-    ],
-    "23974": [
-        "Gistior Defacer",
-        596
-    ],
-    "23975": [
-        "Gistior Haunter",
-        596
-    ],
-    "23976": [
-        "Gistior Defiler",
-        596
     ],
     "23977": [
         "Gistior Seizer",
@@ -5995,20 +3315,12 @@
         "Pithior Supremacist",
         614
     ],
-    "23989": [
-        "Centior Cannibal",
-        623
-    ],
     "23990": [
         "Centior Devourer",
         623
     ],
     "23991": [
         "Centior Abomination",
-        623
-    ],
-    "23992": [
-        "Centior Monster",
         623
     ],
     "23993": [
@@ -6029,10 +3341,6 @@
     ],
     "23997": [
         "Corelior Cannoneer",
-        632
-    ],
-    "23998": [
-        "Corelior Artillery",
         632
     ],
     "23999": [
@@ -6159,10 +3467,6 @@
         "Arch Gistii Ruffian",
         597
     ],
-    "24034": [
-        "Arch Gistii Nomad",
-        597
-    ],
     "24035": [
         "Arch Gistii Ambusher",
         597
@@ -6227,10 +3531,6 @@
         "Dire Pithi Demolisher",
         615
     ],
-    "24051": [
-        "Centii Loyal Savage",
-        624
-    ],
     "24052": [
         "Centii Loyal Slavehunter",
         624
@@ -6239,25 +3539,9 @@
         "Centii Loyal Enslaver",
         624
     ],
-    "24054": [
-        "Centii Loyal Plague",
-        624
-    ],
     "24055": [
         "Centii Loyal Manslayer",
         624
-    ],
-    "24056": [
-        "Centii Loyal Butcher",
-        624
-    ],
-    "24057": [
-        "Coreli Guardian Watchman",
-        633
-    ],
-    "24058": [
-        "Coreli Guardian Patroller",
-        633
     ],
     "24059": [
         "Coreli Guardian Guard",
@@ -6269,10 +3553,6 @@
     ],
     "24061": [
         "Coreli Guardian Defender",
-        633
-    ],
-    "24062": [
-        "Coreli Guardian Protector",
         633
     ],
     "24063": [
@@ -6287,10 +3567,6 @@
         "Corelum Guardian Chief Watchman",
         631
     ],
-    "24068": [
-        "Corelum Guardian Chief Patroller",
-        631
-    ],
     "24069": [
         "Corelum Guardian Chief Guard",
         631
@@ -6301,10 +3577,6 @@
     ],
     "24071": [
         "Corelum Guardian Chief Defender",
-        631
-    ],
-    "24072": [
-        "Corelum Guardian Chief Protector",
         631
     ],
     "24073": [
@@ -6331,20 +3603,12 @@
         "Centum Loyal Juggernaut",
         622
     ],
-    "24081": [
-        "Centum Loyal Slaughterer",
-        622
-    ],
     "24082": [
         "Centum Loyal Execrator",
         622
     ],
     "24083": [
         "Centum Loyal Mutilator",
-        622
-    ],
-    "24084": [
-        "Centum Loyal Torturer",
         622
     ],
     "24085": [
@@ -6403,16 +3667,8 @@
         "Corpum Dark Priest",
         604
     ],
-    "24103": [
-        "Elder Corpum Arch Templar",
-        604
-    ],
     "24104": [
         "Elder Corpum Revenant",
-        604
-    ],
-    "24105": [
-        "Elder Corpum Sage",
         604
     ],
     "24106": [
@@ -6435,28 +3691,8 @@
         "Elder Corpum Dark Priest",
         604
     ],
-    "24111": [
-        "Gistum Phalanx",
-        595
-    ],
-    "24112": [
-        "Gistum Centurion",
-        595
-    ],
-    "24115": [
-        "Arch Gistum Smasher",
-        595
-    ],
-    "24116": [
-        "Arch Gistum Crusher",
-        595
-    ],
     "24117": [
         "Arch Gistum Breaker",
-        595
-    ],
-    "24118": [
-        "Arch Gistum Defeater",
         595
     ],
     "24119": [
@@ -6551,10 +3787,6 @@
         "Centus Plague Lord",
         621
     ],
-    "24156": [
-        "Centus Beast Lord",
-        621
-    ],
     "24157": [
         "Centus Overlord",
         621
@@ -6595,141 +3827,25 @@
         "Core Lord Admiral",
         630
     ],
-    "24252": [
-        "Fortified Smuggler Stargate",
-        226
-    ],
-    "24271": [
-        "Federation Navy Officer Vexor",
-        678
-    ],
-    "24282": [
-        "New Breed Queen",
-        534
-    ],
-    "24361": [
-        "Crook Spy",
-        572
-    ],
-    "24362": [
-        "Crook Agent",
-        572
-    ],
-    "24363": [
-        "Crook Watchman",
-        572
-    ],
-    "24364": [
-        "Crook Patroller",
-        572
-    ],
-    "24365": [
-        "Crook Guard",
-        572
-    ],
-    "24366": [
-        "Crook Safeguard",
-        572
-    ],
-    "24367": [
-        "Crook Defender",
-        572
-    ],
-    "24368": [
-        "Crook Protector",
-        572
-    ],
-    "24375": [
-        "Marauder Defender",
-        814
-    ],
-    "24385": [
-        "Warrior Collector",
-        557
-    ],
-    "24386": [
-        "Warrior Raider",
-        557
-    ],
-    "24387": [
-        "Warrior Diviner",
-        557
-    ],
-    "24388": [
-        "Warrior Reaver",
-        557
-    ],
     "24389": [
         "Warrior Engraver",
         557
-    ],
-    "24393": [
-        "Sellsword Reaver",
-        792
     ],
     "24407": [
         "Warrior Seeker",
         557
     ],
-    "24473": [
-        "Nova Rage Rocket",
-        648
-    ],
     "24483": [
         "Nidhoggur",
         547
     ],
-    "24533": [
-        "Scourge Fury Cruise Missile",
-        656
-    ],
-    "24567": [
-        "Experimental Laboratory",
-        413
+    "24525": [
+        "Inferno Javelin Torpedo",
+        657
     ],
     "24574": [
         "Small Ship Assembly Array",
         397
-    ],
-    "24583": [
-        "Arcana Patron",
-        534
-    ],
-    "24646": [
-        "X-Large Ship Maintenance Array",
-        363
-    ],
-    "24654": [
-        "Medium Ship Assembly Array",
-        397
-    ],
-    "24655": [
-        "Advanced Medium Ship Assembly Array",
-        397
-    ],
-    "24657": [
-        "Advanced Large Ship Assembly Array",
-        397
-    ],
-    "24658": [
-        "Ammunition Assembly Array",
-        397
-    ],
-    "24659": [
-        "Drone Assembly Array",
-        397
-    ],
-    "24660": [
-        "Component Assembly Array",
-        397
-    ],
-    "24661": [
-        "Ytari Niaga",
-        533
-    ],
-    "24662": [
-        "Ratah Niaga",
-        534
     ],
     "24688": [
         "Rokh",
@@ -6763,205 +3879,33 @@
         "Hurricane",
         419
     ],
-    "24759": [
-        "Dari Akell's Maulus",
-        818
-    ],
     "24767": [
         "Guristas Basic Defense Battery",
         383
     ],
-    "24777": [
-        "Republic Radur",
-        683
-    ],
     "24781": [
         "Republic Otur",
-        683
-    ],
-    "24784": [
-        "Republic Kvarm",
-        683
-    ],
-    "24785": [
-        "Republic Tribal Gleeda",
         683
     ],
     "24786": [
         "Republic Tribal Baldur",
         683
     ],
-    "24787": [
-        "Republic Gleeda",
-        683
-    ],
     "24790": [
         "Republic Baldur",
         683
-    ],
-    "24791": [
-        "Republic Takan",
-        683
-    ],
-    "24793": [
-        "Republic Tribal Takan",
-        683
-    ],
-    "24797": [
-        "Republic Faxi",
-        684
-    ],
-    "24798": [
-        "Republic Austri",
-        684
     ],
     "24799": [
         "Republic Bormin",
         684
     ],
-    "24801": [
-        "Republic Tribal Faxi",
-        684
-    ],
-    "24805": [
-        "Republic Tribal Bormin",
-        684
-    ],
-    "24810": [
-        "Republic Tribal Austri",
-        684
-    ],
-    "24811": [
-        "Chief Republic Isak",
-        683
-    ],
-    "24812": [
-        "Chief Republic Iflin",
-        683
-    ],
-    "24813": [
-        "Chief Republic Ivan",
-        683
-    ],
-    "24814": [
-        "Chief Republic Magni",
-        683
-    ],
-    "24815": [
-        "Chief Republic Kvarm",
-        683
-    ],
-    "24816": [
-        "Chief Republic Gleeda",
-        683
-    ],
-    "24817": [
-        "Chief Republic Baldur",
-        683
-    ],
-    "24818": [
-        "Chief Republic Ofeg",
-        683
-    ],
-    "24819": [
-        "Chief Republic Hrakt",
-        683
-    ],
-    "24821": [
-        "Republic Solon",
-        705
-    ],
-    "24823": [
-        "Republic Ormur",
-        705
-    ],
-    "24826": [
-        "Republic Manadis",
-        705
-    ],
     "24828": [
         "Republic Jarpur",
-        705
-    ],
-    "24832": [
-        "Republic Tribal Ormur",
-        705
-    ],
-    "24834": [
-        "Republic Tribal Rodul",
-        705
-    ],
-    "24835": [
-        "Republic Tribal Manadis",
-        705
-    ],
-    "24836": [
-        "Republic Tribal Jarpur",
-        705
-    ],
-    "24843": [
-        "Republic Nutia",
-        685
-    ],
-    "24847": [
-        "Republic Venis",
-        685
-    ],
-    "24848": [
-        "Republic Tribal Nutia",
-        685
-    ],
-    "24851": [
-        "Republic Norn",
-        685
-    ],
-    "24855": [
-        "Republic Tribal Venis",
-        685
-    ],
-    "24857": [
-        "Republic Tribal Norn",
-        685
-    ],
-    "24859": [
-        "Chief Republic Klaki",
-        705
-    ],
-    "24860": [
-        "Chief Republic Orsin",
-        705
-    ],
-    "24861": [
-        "Chief Republic Pafi",
-        705
-    ],
-    "24862": [
-        "Chief Republic Tenar",
-        705
-    ],
-    "24863": [
-        "Chief Republic Rodul",
-        705
-    ],
-    "24864": [
-        "Chief Republic Manadis",
         705
     ],
     "24865": [
         "Chief Republic Orka",
         705
-    ],
-    "24866": [
-        "Chief Republic Jarpur",
-        705
-    ],
-    "24867": [
-        "Republic Pytara",
-        706
-    ],
-    "24868": [
-        "Republic Jarl",
-        706
     ],
     "24869": [
         "Republic Jotun",
@@ -6971,281 +3915,29 @@
         "Republic Sigur",
         706
     ],
-    "24875": [
-        "Republic Ymir",
-        706
-    ],
-    "24876": [
-        "Republic Tribal Pytara",
-        706
-    ],
-    "24883": [
-        "Republic Tribal Sigur",
-        706
-    ],
-    "24884": [
-        "Republic Tribal Ymir",
-        706
-    ],
-    "24886": [
-        "Republic Tribal Jarl",
-        706
-    ],
-    "24888": [
-        "Republic Tribal Jotun",
-        706
-    ],
-    "24891": [
-        "Imperial Disciple",
-        665
-    ],
-    "24893": [
-        "Imperial Haran",
-        665
-    ],
-    "24895": [
-        "Imperial Matendi",
-        665
-    ],
-    "24898": [
-        "Imperial Sixtus",
-        665
-    ],
-    "24899": [
-        "Imperial Bahir",
-        665
-    ],
-    "24900": [
-        "Imperial Templar Forian",
-        665
-    ],
-    "24901": [
-        "Imperial Forian",
-        665
-    ],
-    "24904": [
-        "Imperial Paladin",
-        665
-    ],
-    "24905": [
-        "Imperial Felix",
-        665
-    ],
-    "24907": [
-        "Imperial Templar Paladin",
-        665
-    ],
-    "24911": [
-        "Imperial Deacon",
-        669
-    ],
-    "24912": [
-        "Imperial Exarp",
-        669
-    ],
-    "24913": [
-        "Imperial Caius",
-        669
-    ],
-    "24915": [
-        "Imperial Crusader",
-        669
-    ],
-    "24917": [
-        "Imperial Templar Caius",
-        669
-    ],
-    "24919": [
-        "Imperial Templar Crusader",
-        669
-    ],
-    "24923": [
-        "Divine Imperial Nabih",
-        665
-    ],
-    "24924": [
-        "Divine Imperial Felix",
-        665
-    ],
-    "24925": [
-        "Divine Imperial Imran",
-        665
-    ],
-    "24926": [
-        "Divine Imperial Sixtus",
-        665
-    ],
-    "24927": [
-        "Divine Imperial Bahir",
-        665
-    ],
-    "24928": [
-        "Divine Imperial Napat",
-        665
-    ],
-    "24929": [
-        "Divine Imperial Sprite",
-        665
-    ],
-    "24930": [
-        "Divine Imperial Forian",
-        665
-    ],
-    "24931": [
-        "Divine Imperial Valok",
-        665
-    ],
-    "24932": [
-        "Divine Imperial Paladin",
-        665
-    ],
-    "24933": [
-        "Imperial Muzakir",
-        668
-    ],
-    "24935": [
-        "Imperial Mathura",
-        668
-    ],
-    "24938": [
-        "Imperial Donus",
-        668
-    ],
     "24940": [
         "Imperial Tamir",
-        668
-    ],
-    "24941": [
-        "Imperial Agatho",
-        668
-    ],
-    "24942": [
-        "Imperial Templar Muzakir",
         668
     ],
     "24944": [
         "Imperial Templar Mathura",
         668
     ],
-    "24947": [
-        "Imperial Templar Donus",
-        668
-    ],
-    "24949": [
-        "Imperial Templar Tamir",
-        668
-    ],
-    "24952": [
-        "Imperial Templar Agatho",
-        668
-    ],
-    "24956": [
-        "Imperial Equalizer",
-        666
-    ],
-    "24957": [
-        "Imperial Avenger",
-        666
-    ],
-    "24958": [
-        "Imperial Justicar",
-        666
-    ],
-    "24959": [
-        "Imperial Champion",
-        666
-    ],
-    "24960": [
-        "Imperial Templar Justicar",
-        666
-    ],
-    "24962": [
-        "Imperial Templar Champion",
-        666
-    ],
-    "24968": [
-        "Divine Imperial Wrath",
-        668
-    ],
-    "24969": [
-        "Divine Imperial Tamir",
-        668
-    ],
-    "24970": [
-        "Divine Imperial Ambrose",
-        668
-    ],
-    "24971": [
-        "Divine Imperial Basil",
-        668
-    ],
-    "24972": [
-        "Divine Imperial Equalizer",
-        668
-    ],
-    "24973": [
-        "Divine Imperial Avenger",
-        668
-    ],
     "24974": [
         "Divine Imperial Justicar",
         668
     ],
-    "24975": [
-        "Divine Imperial Champion",
-        668
-    ],
-    "24976": [
-        "Imperial Origen",
-        667
-    ],
     "24977": [
         "Imperial Bataivah",
-        667
-    ],
-    "24978": [
-        "Imperial Tanakh",
         667
     ],
     "24979": [
         "Imperial Ultara",
         667
     ],
-    "24982": [
-        "Imperial Dominator",
-        667
-    ],
     "24983": [
         "Imperial Martyr",
         667
-    ],
-    "24985": [
-        "Imperial Templar Torah",
-        667
-    ],
-    "24988": [
-        "Imperial Templar Ultara",
-        667
-    ],
-    "24991": [
-        "Imperial Templar Dominator",
-        667
-    ],
-    "24992": [
-        "Imperial Templar Martyr",
-        667
-    ],
-    "24997": [
-        "State Bo-Hi",
-        671
-    ],
-    "24999": [
-        "State Showato",
-        671
-    ],
-    "25001": [
-        "State Nagasa",
-        671
     ],
     "25004": [
         "State Shinai",
@@ -7255,16 +3947,8 @@
         "State Wakizashi",
         671
     ],
-    "25012": [
-        "State Katana",
-        671
-    ],
     "25013": [
         "State Shukuro Shinai",
-        671
-    ],
-    "25015": [
-        "State Shukuro Shuriken",
         671
     ],
     "25020": [
@@ -7275,125 +3959,17 @@
         "State Yumi",
         676
     ],
-    "25022": [
-        "State Kissaki",
-        676
-    ],
-    "25024": [
-        "State Tsuba",
-        676
-    ],
-    "25026": [
-        "State Shukuro Choji",
-        676
-    ],
-    "25028": [
-        "State Shukuro Kamikazi",
-        676
-    ],
-    "25033": [
-        "Taibu State Shirasaya",
-        671
-    ],
-    "25034": [
-        "Taibu State Suriage",
-        671
-    ],
-    "25035": [
-        "Taibu State Nagasa",
-        671
-    ],
-    "25036": [
-        "Taibu State Shinai",
-        671
-    ],
-    "25037": [
-        "Taibu State Shuriken",
-        671
-    ],
-    "25038": [
-        "Taibu State Tachi",
-        671
-    ],
-    "25039": [
-        "Taibu State Yari",
-        671
-    ],
-    "25041": [
-        "Taibu State Wakizashi",
-        671
-    ],
     "25042": [
         "Taibu State Katana",
         671
-    ],
-    "25043": [
-        "State Bushi",
-        673
     ],
     "25045": [
         "State Dogo",
         673
     ],
-    "25054": [
-        "State Shukuro Ashigaru",
-        673
-    ],
-    "25056": [
-        "State Shukuro Chugen",
-        673
-    ],
-    "25057": [
-        "State Shukuro Buke",
-        673
-    ],
-    "25058": [
-        "State Shukuro Ashura",
-        673
-    ],
-    "25063": [
-        "State Kerai",
-        672
-    ],
-    "25064": [
-        "State Ronin",
-        672
-    ],
     "25065": [
         "State Oni",
         672
-    ],
-    "25066": [
-        "State Kanpaku",
-        672
-    ],
-    "25067": [
-        "State Shukuro Bajo",
-        672
-    ],
-    "25069": [
-        "State Shukuro Samurai",
-        672
-    ],
-    "25075": [
-        "Taibu State Tendai",
-        673
-    ],
-    "25077": [
-        "Taibu State Shugo",
-        673
-    ],
-    "25078": [
-        "Taibu State Daimyo",
-        673
-    ],
-    "25079": [
-        "Taibu State Oni",
-        673
-    ],
-    "25080": [
-        "Taibu State Kanpaku",
-        673
     ],
     "25081": [
         "Taibu State Bajo",
@@ -7403,164 +3979,20 @@
         "Taibu State Samurai",
         673
     ],
-    "25083": [
-        "State Tenkyu",
-        674
-    ],
-    "25084": [
-        "State Utaisho",
-        674
-    ],
-    "25085": [
-        "State Yojimbo",
-        674
-    ],
-    "25086": [
-        "State Zen",
-        674
-    ],
-    "25092": [
-        "State Shukuro Taisho",
-        674
-    ],
-    "25094": [
-        "State Shukuro Daijo",
-        674
-    ],
-    "25097": [
-        "State Shukuro Bishamon",
-        674
-    ],
     "25098": [
         "State Shukuro Shogun",
         674
     ],
-    "25103": [
-        "Federation Clavis",
-        677
-    ],
-    "25105": [
-        "Federation Hastile",
-        677
-    ],
-    "25106": [
-        "Federation Kontos",
-        677
-    ],
-    "25107": [
-        "Federation Hoplon",
-        677
-    ],
-    "25110": [
-        "Federation Manica",
-        677
-    ],
-    "25112": [
-        "Federation Libertus",
-        677
-    ],
-    "25116": [
-        "Federation Insidiator",
-        677
-    ],
-    "25117": [
-        "Federation Praktor Balra",
-        677
-    ],
     "25118": [
         "Federation Praktor Belos",
-        677
-    ],
-    "25120": [
-        "Federation Praktor Harpago",
-        677
-    ],
-    "25125": [
-        "Federation Machaira",
-        679
-    ],
-    "25126": [
-        "Federation Matara",
-        679
-    ],
-    "25127": [
-        "Federation Arcus",
-        679
-    ],
-    "25129": [
-        "Federation Pelekus",
-        679
-    ],
-    "25131": [
-        "Federation Praktor Phalarica",
-        679
-    ],
-    "25133": [
-        "Federation Praktor Machina",
-        679
-    ],
-    "25137": [
-        "Elite Federation Lixa",
-        677
-    ],
-    "25138": [
-        "Elite Federation Lochos",
-        677
-    ],
-    "25139": [
-        "Elite Federation Manica",
-        677
-    ],
-    "25140": [
-        "Elite Federation Libertus",
-        677
-    ],
-    "25141": [
-        "Elite Federation Insidiator",
-        677
-    ],
-    "25142": [
-        "Elite Federation Matara",
-        677
-    ],
-    "25143": [
-        "Elite Federation Arcus",
-        677
-    ],
-    "25144": [
-        "Elite Federation Pelekus",
         677
     ],
     "25145": [
         "Elite Federation Phalarica",
         677
     ],
-    "25146": [
-        "Elite Federation Machina",
-        677
-    ],
     "25147": [
         "Federation Loras",
-        678
-    ],
-    "25149": [
-        "Federation Hastarius",
-        678
-    ],
-    "25150": [
-        "Federation Hastatus",
-        678
-    ],
-    "25152": [
-        "Federation Misthios",
-        678
-    ],
-    "25154": [
-        "Federation Nauclarius",
-        678
-    ],
-    "25156": [
-        "Federation Praktor Hippeus",
         678
     ],
     "25158": [
@@ -7579,14 +4011,6 @@
         "Federation Praktor Centurion",
         678
     ],
-    "25167": [
-        "Federation Pezos",
-        681
-    ],
-    "25168": [
-        "Federation Praeco",
-        681
-    ],
     "25169": [
         "Federation Calo",
         681
@@ -7594,22 +4018,6 @@
     "25170": [
         "Federation Praktor Bearcus",
         681
-    ],
-    "25171": [
-        "Federation Praktor Arx",
-        681
-    ],
-    "25173": [
-        "Federation Praktor Auxilia",
-        681
-    ],
-    "25179": [
-        "Elite Federation Calo",
-        678
-    ],
-    "25180": [
-        "Elite Federation Bearcus",
-        678
     ],
     "25181": [
         "Elite Federation Arx",
@@ -7619,72 +4027,16 @@
         "Elite Federation Auxilia",
         678
     ],
-    "25183": [
-        "Elite Federation Liburna",
-        678
-    ],
-    "25184": [
-        "Elite Federation Navis",
-        678
-    ],
     "25185": [
         "Elite Federation Quadrieris",
         678
-    ],
-    "25186": [
-        "Elite Federation Mentes",
-        678
-    ],
-    "25187": [
-        "Federation Triarius",
-        680
-    ],
-    "25188": [
-        "Federation Xenan",
-        680
-    ],
-    "25189": [
-        "Federation Helepolis",
-        680
-    ],
-    "25190": [
-        "Federation Covinus",
-        680
-    ],
-    "25193": [
-        "Federation Navis Longa",
-        680
-    ],
-    "25194": [
-        "Federation Praktor Navis Praetoria",
-        680
     ],
     "25196": [
         "Federation Praktor Hexeris",
         680
     ],
-    "25198": [
-        "Federation Praktor Praeses",
-        680
-    ],
-    "25201": [
-        "Federation Praktor Phanix",
-        680
-    ],
-    "25202": [
-        "Federation Praktor Magister",
-        680
-    ],
     "25268": [
         "Amber Cytoserocin",
-        711
-    ],
-    "25273": [
-        "Golden Cytoserocin",
-        711
-    ],
-    "25274": [
-        "Viridian Cytoserocin",
         711
     ],
     "25275": [
@@ -7695,25 +4047,9 @@
         "Malachite Cytoserocin",
         711
     ],
-    "25277": [
-        "Lime Cytoserocin",
-        711
-    ],
     "25278": [
         "Vermillion Cytoserocin",
         711
-    ],
-    "25279": [
-        "Azure Cytoserocin",
-        711
-    ],
-    "25305": [
-        "Drug Lab",
-        397
-    ],
-    "25306": [
-        "Pithatis Speaker",
-        820
     ],
     "25528": [
         "Guristas Fleet Stronghold",
@@ -7723,125 +4059,13 @@
         "Blood Raider Fleet Stronghold",
         495
     ],
-    "25818": [
-        "Black Jack",
-        821
-    ],
-    "25821": [
-        "General Storage",
-        404
-    ],
-    "25825": [
-        "Pithi Defender",
-        615
-    ],
-    "26269": [
-        "Elite Repair Drone",
-        803
-    ],
-    "26275": [
-        "Hive mother 2_Complex",
-        495
-    ],
-    "26276": [
-        "Floating Debris",
-        1207
-    ],
     "26277": [
         "Ancient Ruins",
         1207
     ],
-    "26694": [
-        "Shadow Grand Admiral",
-        821
-    ],
-    "26716": [
-        "Centus Colony General",
-        821
-    ],
-    "26717": [
-        "Serpentis Prankster",
-        520
-    ],
-    "26733": [
-        "Blood Research Outpost",
+    "26738": [
+        "Serpentis Research Outpost",
         494
-    ],
-    "26735": [
-        "Guristas Research Outpost",
-        494
-    ],
-    "26736": [
-        "Sansha Research Outpost",
-        494
-    ],
-    "26742": [
-        "Einhas Malak",
-        534
-    ],
-    "26745": [
-        "High Ritualist Padio Atour",
-        821
-    ],
-    "26747": [
-        "Guristas Annihilation Missile Battery_Uber",
-        383
-    ],
-    "26749": [
-        "Terrorist Overlord Inzi Kika",
-        821
-    ],
-    "26754": [
-        "Corpus Messiah",
-        603
-    ],
-    "26756": [
-        "Gurista Special Acquirement Captain",
-        820
-    ],
-    "26757": [
-        "Sansha Shipyard Foreman",
-        821
-    ],
-    "26764": [
-        "Rogue Production Captain",
-        820
-    ],
-    "26765": [
-        "Hive Overseer",
-        820
-    ],
-    "26771": [
-        "Radiant Hive Mother",
-        821
-    ],
-    "26793": [
-        "Colonial Master Diabolus Maytor",
-        821
-    ],
-    "26796": [
-        "Privateer Admiral Heysus Sarpati",
-        821
-    ],
-    "26797": [
-        "Black Caesar",
-        821
-    ],
-    "26806": [
-        "Haruo Wako",
-        534
-    ],
-    "26807": [
-        "Jorun 'Red Legs' Greaves",
-        821
-    ],
-    "26832": [
-        "Captain Blood Raven",
-        821
-    ],
-    "26880": [
-        "Motoh Olin",
-        533
     ],
     "26888": [
         "Mobile Large Warp Disruptor II",
@@ -7855,53 +4079,13 @@
         "Mobile Small Warp Disruptor II",
         361
     ],
-    "26970": [
-        "Amarr Slave Transport Ship",
-        668
-    ],
-    "27001": [
-        "Stolen Imperial Deacon",
-        669
-    ],
-    "27280": [
-        "Angel Basic Defense Battery",
-        383
-    ],
     "27299": [
         "Civilian Amarr Shuttle",
-        31
-    ],
-    "27301": [
-        "Civilian Caldari Shuttle",
-        31
-    ],
-    "27305": [
-        "Civilian Minmatar Shuttle",
         31
     ],
     "27313": [
         "Guristas Inferno Rocket",
         387
-    ],
-    "27317": [
-        "Dread Guristas Inferno Rocket",
-        387
-    ],
-    "27321": [
-        "Caldari Navy Mjolnir Rocket",
-        387
-    ],
-    "27327": [
-        "Caldari Navy Nova Rocket",
-        387
-    ],
-    "27333": [
-        "Caldari Navy Scourge Rocket",
-        387
-    ],
-    "27339": [
-        "Caldari Navy Mjolnir Torpedo",
-        89
     ],
     "27347": [
         "Dread Guristas Scourge Torpedo",
@@ -7911,24 +4095,16 @@
         "Guristas Scourge Light Missile",
         384
     ],
-    "27359": [
-        "Caldari Navy Nova Torpedo",
-        89
-    ],
-    "27365": [
-        "Dread Guristas Scourge Light Missile",
-        384
-    ],
     "27367": [
         "Guristas Inferno Light Missile",
         384
     ],
-    "27377": [
-        "Caldari Navy Mjolnir Cruise Missile",
+    "27373": [
+        "Guristas Mjolnir Cruise Missile",
         386
     ],
-    "27381": [
-        "Caldari Navy Nova Light Missile",
+    "27379": [
+        "Guristas Nova Light Missile",
         384
     ],
     "27383": [
@@ -7939,33 +4115,13 @@
         "Caldari Navy Mjolnir Light Missile",
         384
     ],
-    "27391": [
-        "Guristas Scourge Cruise Missile",
-        386
-    ],
-    "27399": [
-        "Dread Guristas Scourge Cruise Missile",
-        386
-    ],
-    "27401": [
-        "Caldari Navy Nova Heavy Assault Missile",
-        772
-    ],
-    "27407": [
-        "Dread Guristas Inferno Heavy Assault Missile",
-        772
-    ],
     "27409": [
         "Guristas Inferno Cruise Missile",
         386
     ],
-    "27433": [
-        "Guristas Mjolnir Heavy Missile",
-        385
-    ],
-    "27435": [
-        "Caldari Navy Mjolnir Heavy Missile",
-        385
+    "27427": [
+        "Guristas Nova Cruise Missile",
+        386
     ],
     "27439": [
         "Guristas Scourge Heavy Missile",
@@ -7983,505 +4139,61 @@
         "Caldari Navy Nova Heavy Missile",
         385
     ],
-    "27530": [
-        "Blood Control Tower",
-        365
-    ],
-    "27532": [
-        "Dark Blood Control Tower",
-        365
-    ],
-    "27533": [
-        "Guristas Control Tower",
-        365
-    ],
     "27535": [
         "Dread Guristas Control Tower",
-        365
-    ],
-    "27536": [
-        "Serpentis Control Tower",
         365
     ],
     "27538": [
         "Shadow Control Tower",
         365
     ],
-    "27539": [
-        "Angel Control Tower",
-        365
-    ],
     "27540": [
         "Domination Control Tower",
         365
     ],
-    "27544": [
-        "Shadow Large Blaster Battery",
-        449
-    ],
-    "27545": [
-        "Serpentis Large Railgun Battery",
-        449
-    ],
-    "27547": [
-        "Shadow Large Railgun Battery",
-        449
-    ],
-    "27548": [
-        "Blood Large Pulse Laser Battery",
-        430
-    ],
-    "27550": [
-        "Dark Blood Large Pulse Laser Battery",
-        430
-    ],
-    "27554": [
-        "Angel Large AutoCannon Battery",
-        426
-    ],
-    "27556": [
-        "Domination Large AutoCannon Battery",
-        426
-    ],
-    "27557": [
-        "Angel Large Artillery Battery",
-        426
-    ],
-    "27559": [
-        "Domination Large Artillery Battery",
-        426
-    ],
-    "27560": [
-        "Guristas XL Torpedo Battery",
-        417
-    ],
-    "27563": [
-        "Serpentis Warp Disruption Battery",
-        443
-    ],
     "27565": [
         "Shadow Warp Disruption Battery",
-        443
-    ],
-    "27567": [
-        "Serpentis Warp Scrambling Battery",
         443
     ],
     "27569": [
         "Shadow Warp Scrambling Battery",
         443
     ],
-    "27570": [
-        "Angel Stasis Webification Battery",
-        441
-    ],
     "27573": [
         "Domination Stasis Webification Battery",
         441
     ],
-    "27574": [
-        "Guristas Ion Field Projection Battery",
-        439
-    ],
     "27576": [
         "Dread Guristas Ion Field Projection Battery",
-        439
-    ],
-    "27577": [
-        "Guristas Phase Inversion Battery",
         439
     ],
     "27579": [
         "Dread Guristas Phase Inversion Battery",
         439
     ],
-    "27580": [
-        "Guristas Spatial Destabilization Battery",
-        439
-    ],
     "27582": [
         "Dread Guristas Spatial Destabilization Battery",
-        439
-    ],
-    "27583": [
-        "Guristas White Noise Generation Battery",
         439
     ],
     "27585": [
         "Dread Guristas White Noise Generation Battery",
         439
     ],
-    "27589": [
-        "Blood Control Tower Medium",
-        365
-    ],
-    "27591": [
-        "Dark Blood Control Tower Medium",
-        365
-    ],
-    "27594": [
-        "Dark Blood Control Tower Small",
-        365
-    ],
-    "27595": [
-        "Guristas Control Tower Medium",
-        365
-    ],
-    "27597": [
-        "Dread Guristas Control Tower Medium",
-        365
-    ],
-    "27598": [
-        "Guristas Control Tower Small",
-        365
-    ],
-    "27600": [
-        "Dread Guristas Control Tower Small",
-        365
-    ],
-    "27601": [
-        "Serpentis Control Tower Medium",
-        365
-    ],
-    "27603": [
-        "Shadow Control Tower Medium",
-        365
-    ],
-    "27604": [
-        "Serpentis Control Tower Small",
-        365
-    ],
     "27606": [
         "Shadow Control Tower Small",
         365
-    ],
-    "27607": [
-        "Angel Control Tower Medium",
-        365
-    ],
-    "27609": [
-        "Domination Control Tower Medium",
-        365
-    ],
-    "27610": [
-        "Angel Control Tower Small",
-        365
-    ],
-    "27612": [
-        "Domination Control Tower Small",
-        365
-    ],
-    "27615": [
-        "Shadow Medium Blaster Battery",
-        449
-    ],
-    "27616": [
-        "Serpentis Medium Railgun Battery",
-        449
-    ],
-    "27618": [
-        "Shadow Medium Railgun Battery",
-        449
-    ],
-    "27619": [
-        "Serpentis Small Blaster Battery",
-        449
-    ],
-    "27621": [
-        "Shadow Small Blaster Battery",
-        449
-    ],
-    "27622": [
-        "Serpentis Small Railgun Battery",
-        449
-    ],
-    "27624": [
-        "Shadow Small Railgun Battery",
-        449
-    ],
-    "27627": [
-        "Dark Blood Medium Beam Laser Battery",
-        430
-    ],
-    "27630": [
-        "Dark Blood Medium Pulse Laser Battery",
-        430
-    ],
-    "27631": [
-        "Blood Small Beam Laser Battery",
-        430
-    ],
-    "27633": [
-        "Dark Blood Small Beam Laser Battery",
-        430
-    ],
-    "27634": [
-        "Blood Small Pulse Laser Battery",
-        430
-    ],
-    "27638": [
-        "Guristas Cruise Missile Battery",
-        417
-    ],
-    "27640": [
-        "Dread Guristas Cruise Missile Battery",
-        417
-    ],
-    "27641": [
-        "Guristas Torpedo Battery",
-        417
-    ],
-    "27643": [
-        "Dread Guristas Torpedo Battery",
-        417
-    ],
-    "27644": [
-        "Angel Medium Artillery Battery",
-        426
-    ],
-    "27646": [
-        "Domination Medium Artillery Battery",
-        426
-    ],
-    "27647": [
-        "Angel Medium AutoCannon Battery",
-        426
-    ],
-    "27649": [
-        "Domination Medium AutoCannon Battery",
-        426
-    ],
-    "27650": [
-        "Angel Small Artillery Battery",
-        426
-    ],
-    "27652": [
-        "Domination Small Artillery Battery",
-        426
-    ],
-    "27653": [
-        "Angel Small AutoCannon Battery",
-        426
-    ],
-    "27655": [
-        "Domination Small AutoCannon Battery",
-        426
     ],
     "27672": [
         "Energy Neutralizing Battery",
         837
     ],
-    "27674": [
-        "Cynosural System Jammer",
-        839
-    ],
-    "27719": [
-        "State Izanaki",
-        866
-    ],
-    "27722": [
-        "Sentient Alvus Queen",
-        844
-    ],
-    "27723": [
-        "Sentient Alvus Controller",
-        844
-    ],
-    "27724": [
-        "Sentient Alvus Creator",
-        844
-    ],
-    "27725": [
-        "Sentient Alvus Ruler",
-        844
-    ],
-    "27726": [
-        "Sentient Domination Alvus",
-        844
-    ],
-    "27727": [
-        "Sentient Matriarch Alvus",
-        844
-    ],
-    "27729": [
-        "Sentient Spearhead Alvus",
-        844
-    ],
-    "27730": [
-        "Sentient Supreme Alvus Parasite",
-        844
-    ],
-    "27732": [
-        "Sentient Crippler Alvatis",
-        843
-    ],
-    "27734": [
-        "Sentient Enforcer Alvatis",
-        843
-    ],
-    "27741": [
-        "Sentient Destructor Alvum",
-        845
-    ],
-    "27742": [
-        "Sentient Devastator Alvum",
-        845
-    ],
-    "27743": [
-        "Sentient Disintegrator Alvum",
-        845
-    ],
-    "27747": [
-        "Sentient Wrecker Alvum",
-        845
-    ],
-    "27748": [
-        "Sentient Dismantler Alvior",
-        846
-    ],
-    "27749": [
-        "Sentient Marauder Alvior",
-        846
-    ],
-    "27750": [
-        "Sentient Predator Alvior",
-        846
-    ],
-    "27751": [
-        "Sentient Ripper Alvior",
-        846
-    ],
     "27752": [
         "Sentient Shatter Alvior",
         846
     ],
-    "27753": [
-        "Sentient Shredder Alvior",
-        846
-    ],
-    "27754": [
-        "Sentient Barracuda Alvi",
-        847
-    ],
-    "27755": [
-        "Sentient Decimator Alvi",
-        847
-    ],
-    "27756": [
-        "Sentient Devilfish Alvi",
-        847
-    ],
-    "27757": [
-        "Sentient Hunter Alvi",
-        847
-    ],
-    "27759": [
-        "Sentient Raider Alvi",
-        847
-    ],
-    "27760": [
-        "Sentient Render Alvi",
-        847
-    ],
-    "27763": [
-        "Sentient Sunder Alvi",
-        847
-    ],
-    "27766": [
-        "Sansha Large Beam Laser Battery",
-        430
-    ],
-    "27767": [
-        "Sansha Large Pulse Laser Battery",
-        430
-    ],
-    "27768": [
-        "Sansha Medium Beam Laser Battery",
-        430
-    ],
-    "27769": [
-        "Sansha Medium Pulse Laser Battery",
-        430
-    ],
-    "27770": [
-        "Sansha Small Beam Laser Battery",
-        430
-    ],
-    "27771": [
-        "Sansha Small Pulse Laser Battery",
-        430
-    ],
-    "27772": [
-        "True Sansha Large Beam Laser Battery",
-        430
-    ],
-    "27773": [
-        "True Sansha Large Pulse Laser Battery",
-        430
-    ],
-    "27774": [
-        "True Sansha Medium Beam Laser Battery",
-        430
-    ],
-    "27775": [
-        "True Sansha Medium Pulse Laser Battery",
-        430
-    ],
-    "27776": [
-        "True Sansha Small Beam Laser Battery",
-        430
-    ],
-    "27777": [
-        "True Sansha Small Pulse Laser Battery",
-        430
-    ],
-    "27778": [
-        "Serpentis Sensor Dampening Battery",
-        440
-    ],
-    "27779": [
-        "Shadow Sensor Dampening Battery",
-        440
-    ],
-    "27780": [
-        "Sansha Control Tower",
-        365
-    ],
-    "27782": [
-        "Sansha Control Tower Medium",
-        365
-    ],
-    "27784": [
-        "Sansha Control Tower Small",
-        365
-    ],
     "27786": [
         "True Sansha Control Tower",
         365
-    ],
-    "27788": [
-        "True Sansha Control Tower Medium",
-        365
-    ],
-    "27790": [
-        "True Sansha Control Tower Small",
-        365
-    ],
-    "27794": [
-        "Caldari Energy Neutralizer Sentry III",
-        383
-    ],
-    "27796": [
-        "Gallente Energy Neutralizer Sentry II",
-        383
-    ],
-    "27797": [
-        "Gallente Energy Neutralizer Sentry III",
-        383
-    ],
-    "27800": [
-        "Minmatar Energy Neutralizer Sentry III",
-        383
     ],
     "27855": [
         "Sansha Energy Neutralizing Battery",
@@ -8491,153 +4203,25 @@
         "True Sansha Energy Neutralizing Battery",
         837
     ],
-    "27857": [
-        "Blood Energy Neutralizing Battery",
-        837
-    ],
-    "27858": [
-        "Dark Blood Energy Neutralizing Battery",
-        837
-    ],
-    "27879": [
-        "Gallente Station 150k",
-        319
-    ],
-    "27898": [
-        "Imperial Fighter",
-        861
-    ],
-    "27899": [
-        "State Fighter",
-        861
-    ],
     "27900": [
         "Federation Fighter",
-        861
-    ],
-    "27901": [
-        "Republic Fighter",
         861
     ],
     "27953": [
         "Drone Energy Neutralizer Sentry I",
         383
     ],
-    "27954": [
-        "Drone Energy Neutralizer Sentry II",
-        383
-    ],
-    "27955": [
-        "Drone Energy Neutralizer Sentry III",
-        383
-    ],
-    "27956": [
-        "Drone Stasis Tower",
-        383
-    ],
-    "28136": [
-        "Drone Battleship Boss lvl5",
-        802
-    ],
-    "28144": [
-        "Angel Energy Neutralizer Sentry II",
-        383
-    ],
-    "28145": [
-        "Blood Energy Neutralizer Sentry II",
-        383
-    ],
-    "28148": [
-        "Serpentis Energy Neutralizer Sentry II",
-        383
-    ],
-    "28153": [
-        "Serpentis Energy Neutralizer Sentry III",
-        383
-    ],
     "28167": [
         "Imperial Templar Judgment",
         667
-    ],
-    "28168": [
-        "Imperial Templar Diviner",
-        667
-    ],
-    "28169": [
-        "Imperial Templar Phalanx",
-        666
-    ],
-    "28170": [
-        "Imperial Templar Seer",
-        666
-    ],
-    "28171": [
-        "State Shukuro Nagashin",
-        674
-    ],
-    "28172": [
-        "State Shukuro Seki",
-        672
-    ],
-    "28175": [
-        "Federation Praktor Diablic",
-        681
-    ],
-    "28177": [
-        "Federation Praktor Polemo",
-        680
-    ],
-    "28178": [
-        "Federation Praktor Dionia",
-        680
-    ],
-    "28179": [
-        "Republic Tribal Caluka",
-        685
-    ],
-    "28181": [
-        "Republic Tribal Kinai",
-        706
-    ],
-    "28182": [
-        "Republic Tribal Akila",
-        706
-    ],
-    "28351": [
-        "Design Laboratory",
-        413
     ],
     "28352": [
         "Rorqual",
         883
     ],
-    "28506": [
-        "Drone Commandeered Battleship Deluxe",
-        821
-    ],
-    "28507": [
-        "Swarm Parasite Worker Deluxe",
-        821
-    ],
-    "28509": [
-        "Supreme Hive Defender Deluxe",
-        821
-    ],
     "28510": [
         "Kuari Strain Mother",
         495
-    ],
-    "28571": [
-        "Damaged Sentinel Angel",
-        383
-    ],
-    "28572": [
-        "Damaged Sentinel Bloodraider",
-        383
-    ],
-    "28575": [
-        "Damaged Sentinel Chimera Strain Mother",
-        383
     ],
     "28606": [
         "Orca",
@@ -8659,14 +4243,6 @@
         "Golem",
         900
     ],
-    "28772": [
-        "Syndicate Mobile Medium Warp Disruptor",
-        361
-    ],
-    "28826": [
-        "Opux Luxury Yacht - Level 1",
-        817
-    ],
     "28844": [
         "Rhea",
         902
@@ -8683,49 +4259,9 @@
         "Ark",
         902
     ],
-    "28863": [
-        "Hashi Keptzh",
-        821
-    ],
-    "28864": [
-        "Uehiro Katsen",
-        821
-    ],
-    "29019": [
-        "Sagacious Path Fighter",
-        818
-    ],
-    "29020": [
-        "Serpentis Fleet Outpost",
-        495
-    ],
-    "29021": [
-        "Guristas Fleet Outpost",
-        495
-    ],
     "29022": [
         "Blood Raider Fleet Outpost",
         495
-    ],
-    "29023": [
-        "Sansha Fleet Outpost",
-        495
-    ],
-    "29024": [
-        "Scope Reporter",
-        817
-    ],
-    "29025": [
-        "Outpost Defender",
-        861
-    ],
-    "29200": [
-        "Athran Agent",
-        687
-    ],
-    "29201": [
-        "Athran Operative",
-        687
     ],
     "29248": [
         "Magnate",
@@ -8751,229 +4287,13 @@
         "Exequror Navy Issue",
         26
     ],
-    "29466": [
-        "The Incredible Hulk",
-        927
-    ],
-    "29613": [
-        "Large Ship Assembly Array",
-        397
-    ],
-    "29675": [
-        "Independent Abaddon",
-        667
-    ],
-    "29676": [
-        "Independent Veteran Armageddon",
-        667
-    ],
-    "29677": [
-        "Independent Veteran Apocalypse",
-        667
-    ],
-    "29678": [
-        "Independent Veteran Abaddon",
-        667
-    ],
-    "29693": [
-        "Independent Hyperion",
-        680
-    ],
-    "29694": [
-        "Independent Megathron",
-        680
-    ],
-    "29695": [
-        "Independent Veteran Dominix",
-        680
-    ],
-    "29696": [
-        "Independent Veteran Hyperion",
-        680
-    ],
-    "29697": [
-        "Independent Veteran Megathron",
-        680
-    ],
-    "29705": [
-        "Independent Veteran Maelstrom",
-        706
-    ],
-    "29706": [
-        "Independent Veteran Tempest",
-        706
-    ],
     "29707": [
         "Independent Veteran Typhoon",
         706
     ],
-    "29757": [
-        "Independent Veteran Arbitrator",
-        668
-    ],
-    "29758": [
-        "Independent Veteran Augoror",
-        668
-    ],
-    "29760": [
-        "Independent Veteran Omen",
-        668
-    ],
-    "29764": [
-        "Independent Green-Crewed Osprey",
-        673
-    ],
-    "29775": [
-        "Independent Green-Crewed Exequror",
-        678
-    ],
-    "29777": [
-        "Independent Green-Crewed Thorax",
-        678
-    ],
-    "29778": [
-        "Independent Green-Crewed Vexor",
-        678
-    ],
-    "29782": [
-        "Independent Vexor",
-        678
-    ],
-    "29783": [
-        "Independent Veteran Celestis",
-        678
-    ],
-    "29786": [
-        "Independent Veteran Vexor",
-        678
-    ],
-    "29791": [
-        "Independent Bellicose",
-        705
-    ],
-    "29792": [
-        "Independent Rupture",
-        705
-    ],
-    "29793": [
-        "Independent Scythe",
-        705
-    ],
-    "29794": [
-        "Independent Stabber",
-        705
-    ],
-    "29808": [
-        "Independent Crucifier",
-        665
-    ],
-    "29809": [
-        "Independent Executioner",
-        665
-    ],
-    "29810": [
-        "Independent Inquisitor",
-        665
-    ],
-    "29811": [
-        "Independent Punisher",
-        665
-    ],
-    "29812": [
-        "Independent Veteran Crucifier",
-        665
-    ],
-    "29813": [
-        "Independent Veteran Executioner",
-        665
-    ],
-    "29815": [
-        "Independent Veteran Punisher",
-        665
-    ],
-    "29820": [
-        "Independent Griffin",
-        671
-    ],
-    "29821": [
-        "Independent Heron",
-        671
-    ],
-    "29822": [
-        "Independent Kestrel",
-        671
-    ],
-    "29823": [
-        "Independent Merlin",
-        671
-    ],
-    "29863": [
-        "Independent Green-Crewed Incursus",
-        677
-    ],
-    "29866": [
-        "Independent Atron",
-        677
-    ],
-    "29867": [
-        "Independent Imicus",
-        677
-    ],
-    "29868": [
-        "Independent Incursus",
-        677
-    ],
-    "29869": [
-        "Independent Maulus",
-        677
-    ],
-    "29870": [
-        "Independent Tristan",
-        677
-    ],
-    "29876": [
-        "Independent Green-Crewed Breacher",
-        683
-    ],
-    "29882": [
-        "Independent Breacher",
-        683
-    ],
-    "29883": [
-        "Independent Probe",
-        683
-    ],
-    "29886": [
-        "Independent Vigil",
-        683
-    ],
-    "29911": [
-        "Captain Isoryn Ardorele",
-        816
-    ],
-    "29912": [
-        "Lieutenant Asitei Ohkunen",
-        817
-    ],
-    "29913": [
-        "Lieutenant Sukkenen Fusura",
-        817
-    ],
-    "29921": [
-        "Lieutenant Irrie Carlan",
-        818
-    ],
-    "29922": [
-        "Captain Tori Aanai",
-        816
-    ],
     "29925": [
         "Captain Aneika Sareko",
         816
-    ],
-    "29927": [
-        "Lieutenant Anton Rideux",
-        818
     ],
     "29984": [
         "Tengu",
@@ -9091,10 +4411,6 @@
         "Emergent Defender",
         986
     ],
-    "30213": [
-        "Emergent Upholder",
-        986
-    ],
     "30214": [
         "Emergent Preserver",
         986
@@ -9103,29 +4419,9 @@
         "Emergent Sentinel",
         961
     ],
-    "30216": [
-        "Emergent Keeper",
-        961
-    ],
     "30217": [
         "Emergent Warden",
         961
-    ],
-    "30365": [
-        "Webber Drone",
-        286
-    ],
-    "30366": [
-        "Runner Drone",
-        286
-    ],
-    "30380": [
-        "Guristas Rookie",
-        286
-    ],
-    "30381": [
-        "Serpentis Rookie",
-        286
     ],
     "30426": [
         "Phantasmata Missile",
@@ -9167,33 +4463,9 @@
         "Izia Tabar",
         665
     ],
-    "30842": [
-        "InterBus Shuttle",
-        31
-    ],
     "30901": [
         "Sleeper Engineering Station",
         226
-    ],
-    "32207": [
-        "Freki",
-        324
-    ],
-    "32209": [
-        "Mimir",
-        358
-    ],
-    "32245": [
-        "Hyasyoda Research Laboratory",
-        413
-    ],
-    "32269": [
-        "Lord Miyan",
-        668
-    ],
-    "32296": [
-        "Ishukone Watch Commander",
-        674
     ],
     "32298": [
         "Karkoti Rend",
@@ -9215,22 +4487,6 @@
         "Typhoon Fleet Issue",
         27
     ],
-    "32325": [
-        "Cyclops I",
-        1653
-    ],
-    "32340": [
-        "Malleus I",
-        1653
-    ],
-    "32342": [
-        "Tyrfing I",
-        1653
-    ],
-    "32344": [
-        "Mantis I",
-        1653
-    ],
     "32349": [
         "Proximity Charge",
         319
@@ -9243,21 +4499,9 @@
         "Roden Police Sergeant",
         182
     ],
-    "32390": [
-        "Gath Renton",
-        672
-    ],
     "32391": [
         "Yukiro Demense",
         615
-    ],
-    "32788": [
-        "Cambion",
-        324
-    ],
-    "32811": [
-        "Miasmos Amastris Edition",
-        28
     ],
     "32872": [
         "Algos",
@@ -9283,6 +4527,10 @@
         "Republic Frigate",
         1166
     ],
+    "32914": [
+        "State Frigate",
+        1167
+    ],
     "32915": [
         "Federation Frigate",
         1168
@@ -9299,6 +4547,10 @@
         "State Destroyer",
         1176
     ],
+    "32965": [
+        "Federation Destroyer",
+        1177
+    ],
     "32966": [
         "Republic Destroyer",
         1178
@@ -9306,6 +4558,10 @@
     "32967": [
         "Imperial Cruiser",
         1179
+    ],
+    "32968": [
+        "State Cruiser",
+        1180
     ],
     "32969": [
         "Federation Cruiser",
@@ -9315,24 +4571,12 @@
         "Republic Cruiser",
         1182
     ],
-    "32972": [
-        "State Battlecruiser",
-        1184
-    ],
     "32974": [
         "Republic Battlecruiser",
         1186
     ],
-    "33079": [
-        "Hematos",
-        237
-    ],
     "33081": [
         "Taipan",
-        237
-    ],
-    "33083": [
-        "Violator",
         237
     ],
     "33132": [
@@ -9395,10 +4639,6 @@
         "Hurricane Fleet Issue",
         419
     ],
-    "33163": [
-        "Sansha Clone Soldier Transporter",
-        566
-    ],
     "33164": [
         "Serpentis Clone Soldier Transporter",
         571
@@ -9406,10 +4646,6 @@
     "33172": [
         "Blood Clone Soldier Transporter",
         555
-    ],
-    "33173": [
-        "Angel Clone Soldier Transporter",
-        551
     ],
     "33174": [
         "Guristas Clone Soldier Transporter",
@@ -9423,10 +4659,6 @@
         "Blood Clone Soldier Negotiator",
         555
     ],
-    "33183": [
-        "Sansha Clone Soldier Negotiator",
-        566
-    ],
     "33185": [
         "Serpentis Clone Soldier Negotiator",
         571
@@ -9438,14 +4670,6 @@
     "33328": [
         "Capsule - Genolution 'Auroral' 197-variant",
         29
-    ],
-    "33395": [
-        "Moracha",
-        833
-    ],
-    "33397": [
-        "Chremoas",
-        830
     ],
     "33468": [
         "Astero",
@@ -9471,29 +4695,13 @@
         "Mobile Cynosural Inhibitor",
         1249
     ],
-    "33477": [
-        "Small Mobile Siphon Unit",
-        1247
-    ],
     "33491": [
         "Angel Warden",
-        1252
-    ],
-    "33492": [
-        "Angel Lookout",
         1252
     ],
     "33493": [
         "Angel Watcher",
         1252
-    ],
-    "33494": [
-        "Angel Sentry",
-        1252
-    ],
-    "33495": [
-        "Blood Warden",
-        1255
     ],
     "33496": [
         "Blood Lookout",
@@ -9529,14 +4737,6 @@
     ],
     "33504": [
         "Sansha's Nation Lookout",
-        1265
-    ],
-    "33505": [
-        "Sansha's Nation Watcher",
-        1265
-    ],
-    "33506": [
-        "Sansha's Nation Sentry",
         1265
     ],
     "33507": [
@@ -9595,41 +4795,9 @@
         "Mobile Micro Jump Unit",
         1276
     ],
-    "33625": [
-        "Abaddon Kador Edition",
-        27
-    ],
-    "33635": [
-        "Hyperion Aliastra Edition",
-        27
-    ],
-    "33637": [
-        "Hyperion Inner Zone Shipping Edition",
-        27
-    ],
-    "33649": [
-        "Stabber Krusual Edition",
-        26
-    ],
-    "33667": [
-        "Incursus Aliastra Edition",
-        25
-    ],
-    "33673": [
-        "Whiptail",
-        831
-    ],
     "33675": [
         "Chameleon",
         833
-    ],
-    "33677": [
-        "Police Pursuit Comet",
-        25
-    ],
-    "33687": [
-        "Rorqual ORE Development Edition",
-        883
     ],
     "33697": [
         "Prospect",
@@ -9666,10 +4834,6 @@
     "33866": [
         "Mordu\u2019s Special Warfare Unit Commander",
         1287
-    ],
-    "33871": [
-        "Cyclone Thukker Tribe Edition",
-        419
     ],
     "33886": [
         "Mordu's Legion Battleship",
@@ -9719,14 +4883,6 @@
         "Burner Enyo",
         818
     ],
-    "34301": [
-        "Remote Pressure Control Unit",
-        306
-    ],
-    "34303": [
-        "Plasma Chamber",
-        319
-    ],
     "34317": [
         "Confessor",
         1305
@@ -9738,26 +4894,6 @@
     "34337": [
         "Autothysian Lancer",
         1307
-    ],
-    "34339": [
-        "Moros Interbus Edition",
-        485
-    ],
-    "34341": [
-        "Naglfar Justice Edition",
-        485
-    ],
-    "34345": [
-        "Revelation Sarum Edition",
-        485
-    ],
-    "34448": [
-        "Smoldering Archive Ruins",
-        226
-    ],
-    "34454": [
-        "Archive Sentry Tower",
-        383
     ],
     "34455": [
         "Impaired Archive Sentry Tower",
@@ -9791,17 +4927,9 @@
         "Jackdaw",
         1305
     ],
-    "34873": [
-        "Proximity-activated Autoturret",
-        383
-    ],
     "35646": [
         "Burner Sentinel",
         818
-    ],
-    "35679": [
-        "Burner Clone Soldier Transport",
-        554
     ],
     "35683": [
         "Hecate",
@@ -9810,14 +4938,6 @@
     "35689": [
         "Burner Escort Dramiel",
         818
-    ],
-    "35779": [
-        "Imp",
-        831
-    ],
-    "35781": [
-        "Fiend",
-        894
     ],
     "35825": [
         "Raitaru",
@@ -9859,17 +4979,9 @@
         "Ansiblex Jump Gate",
         1408
     ],
-    "35921": [
-        "Standup Anticapital Missile Launcher I",
-        1327
-    ],
     "35922": [
         "Standup Multirole Missile Launcher I",
         1562
-    ],
-    "35923": [
-        "Standup Guided Bomb Launcher I",
-        1328
     ],
     "35924": [
         "Standup XL Energy Neutralizer I",
@@ -9879,25 +4991,9 @@
         "Standup Heavy Energy Neutralizer I",
         1329
     ],
-    "35928": [
-        "Standup Arcing Vorton Projector I",
-        1333
-    ],
     "35940": [
         "Standup Variable Spectrum ECM I",
         1332
-    ],
-    "35941": [
-        "Standup Remote Sensor Dampener I",
-        1719
-    ],
-    "35943": [
-        "Standup Stasis Webifier I",
-        1441
-    ],
-    "35945": [
-        "Standup Weapon Disruptor I",
-        1719
     ],
     "35947": [
         "Standup Target Painter I",
@@ -9910,14 +5006,6 @@
     "36846": [
         "Burner Dragonfly",
         861
-    ],
-    "36847": [
-        "Burner Mantis",
-        861
-    ],
-    "36848": [
-        "Burner Antero",
-        1465
     ],
     "37135": [
         "Endurance",
@@ -9975,10 +5063,6 @@
         "Guristas Dreadnought",
         1685
     ],
-    "37466": [
-        "Dread Guristas Titan",
-        1686
-    ],
     "37467": [
         "Sansha's Dreadnought",
         1687
@@ -10018,14 +5102,6 @@
     "37483": [
         "Magus",
         1534
-    ],
-    "37534": [
-        "Tenebrex Cyno Jammer",
-        2016
-    ],
-    "37599": [
-        "Cenobite I",
-        1537
     ],
     "37604": [
         "Apostle",
@@ -10071,72 +5147,12 @@
         "Standup Light Guided Bomb",
         1548
     ],
-    "40345": [
-        "Scarab I",
-        1537
-    ],
-    "40346": [
-        "Siren I",
-        1537
-    ],
-    "40347": [
-        "Dromi I",
-        1537
-    ],
-    "40358": [
-        "Equite I",
-        1652
-    ],
-    "40359": [
-        "Locust I",
-        1652
-    ],
-    "40360": [
-        "Satyr I",
-        1652
-    ],
-    "40361": [
-        "Gram I",
-        1652
-    ],
-    "40362": [
-        "Ametat I",
-        1653
-    ],
-    "40363": [
-        "Termite I",
-        1653
-    ],
     "40364": [
         "Antaeus I",
         1653
     ],
-    "40365": [
-        "Gungnir I",
-        1653
-    ],
-    "40552": [
-        "Equite II",
-        1652
-    ],
-    "40553": [
-        "Gram II",
-        1652
-    ],
-    "40554": [
-        "Locust II",
-        1652
-    ],
-    "40555": [
-        "Satyr II",
-        1652
-    ],
     "40556": [
         "Templar II",
-        1652
-    ],
-    "40557": [
-        "Dragonfly II",
         1652
     ],
     "40558": [
@@ -10151,49 +5167,13 @@
         "Ametat II",
         1653
     ],
-    "40561": [
-        "Malleus II",
-        1653
-    ],
-    "40562": [
-        "Antaeus II",
-        1653
-    ],
     "40563": [
         "Cyclops II",
-        1653
-    ],
-    "40564": [
-        "Gungnir II",
-        1653
-    ],
-    "40565": [
-        "Tyrfing II",
-        1653
-    ],
-    "40566": [
-        "Termite II",
         1653
     ],
     "40567": [
         "Mantis II",
         1653
-    ],
-    "40568": [
-        "Cenobite II",
-        1537
-    ],
-    "40569": [
-        "Scarab II",
-        1537
-    ],
-    "40570": [
-        "Siren II",
-        1537
-    ],
-    "40571": [
-        "Dromi II",
-        1537
     ],
     "40637": [
         "Shadow Serpentis Titan",
@@ -10202,10 +5182,6 @@
     "40671": [
         "True Sansha's Supercarrier",
         1688
-    ],
-    "41030": [
-        "'Excavator' Mining Drone",
-        101
     ],
     "41396": [
         "Domination Dreadnought",
@@ -10231,25 +5207,9 @@
         "Sentient Infested Carrier",
         1691
     ],
-    "41549": [
-        "Micro Electron Bomb",
-        90
-    ],
-    "42124": [
-        "Vehement",
-        485
-    ],
     "42125": [
         "Vendetta",
         659
-    ],
-    "42126": [
-        "Vanquisher",
-        30
-    ],
-    "42127": [
-        "Guardian Angels Jeremael",
-        1568
     ],
     "42241": [
         "Molok",
@@ -10267,10 +5227,6 @@
         "Porpoise",
         941
     ],
-    "42246": [
-        "Caedes",
-        830
-    ],
     "42685": [
         "Sunesis",
         420
@@ -10279,84 +5235,16 @@
         "\u2666 Tormentor",
         1803
     ],
-    "43560": [
-        "\u2666 Maller",
+    "43559": [
+        "\u2666 Arbitrator",
         1813
-    ],
-    "43562": [
-        "\u2666 Armageddon",
-        1814
-    ],
-    "43566": [
-        "\u2666 Merlin",
-        1803
-    ],
-    "43567": [
-        "\u2666 Griffin",
-        1803
-    ],
-    "43573": [
-        "\u2666 Scorpion",
-        1814
-    ],
-    "43574": [
-        "\u2666 Incursus",
-        1803
     ],
     "43576": [
         "\u2666 Atron",
         1803
     ],
-    "43577": [
-        "\u2666 Maulus",
-        1803
-    ],
-    "43578": [
-        "\u2666 Tristan",
-        1803
-    ],
-    "43579": [
-        "\u2666 Thorax",
-        1813
-    ],
-    "43582": [
-        "\u2666 Vexor",
-        1813
-    ],
-    "43583": [
-        "\u2666 Megathron",
-        1814
-    ],
-    "43584": [
-        "\u2666 Dominix",
-        1814
-    ],
-    "43585": [
-        "\u2666 Rifter",
-        1803
-    ],
-    "43587": [
-        "\u2666 Slasher",
-        1803
-    ],
-    "43588": [
-        "\u2666 Vigil",
-        1803
-    ],
-    "43589": [
-        "\u2666 Breacher",
-        1803
-    ],
-    "43590": [
-        "\u2666 Rupture",
-        1813
-    ],
-    "43592": [
-        "\u2666 Bellicose",
-        1813
-    ],
-    "43593": [
-        "\u2666 Stabber",
+    "43581": [
+        "\u2666 Celestis",
         1813
     ],
     "43596": [
@@ -10367,10 +5255,6 @@
         "\u2666 Executioner",
         1803
     ],
-    "43599": [
-        "\u2666 Crucifier",
-        1803
-    ],
     "43600": [
         "\u2666 Cruor",
         1803
@@ -10379,17 +5263,17 @@
         "\u2666 Omen",
         1813
     ],
-    "43603": [
-        "\u2666 Arbitrator",
-        1813
-    ],
     "43604": [
         "\u2666 Ashimmu",
         1813
     ],
-    "43614": [
-        "\u2666 Kestrel",
-        1803
+    "43605": [
+        "\u2666 Apocalypse",
+        1814
+    ],
+    "43606": [
+        "\u2666 Bhaalgorn",
+        1814
     ],
     "43616": [
         "\u2666 Condor",
@@ -10403,24 +5287,16 @@
         "\u2666 Gila",
         1813
     ],
-    "43625": [
-        "\u2666 Blackbird",
-        1813
-    ],
     "43626": [
         "\u2666 Raven",
         1814
     ],
-    "43633": [
-        "\u2666 Dramiel",
-        1803
+    "43627": [
+        "\u2666 Rattlesnake",
+        1814
     ],
     "43635": [
         "\u2666 Fury",
-        1803
-    ],
-    "43636": [
-        "\u2666 Medusa",
         1803
     ],
     "43638": [
@@ -10434,10 +5310,6 @@
     "43643": [
         "\u2666 Machariel",
         1814
-    ],
-    "43656": [
-        "\u2666 Phantasm",
-        1813
     ],
     "43657": [
         "\u2666 Nightmare",
@@ -10467,69 +5339,29 @@
         "\u2666 Sotiyo",
         1876
     ],
-    "45055": [
-        "\u2666 Bhaalgorn",
-        1814
-    ],
-    "45056": [
-        "\u2666 Apocalypse",
-        1814
-    ],
-    "45470": [
-        "\u2666 Chemosh",
-        1880
-    ],
     "45530": [
         "Virtuoso",
         834
-    ],
-    "45531": [
-        "Victor",
-        833
     ],
     "45534": [
         "Monitor",
         1972
     ],
-    "45645": [
-        "Loggerhead",
-        1538
-    ],
-    "45647": [
-        "Caiman",
-        485
-    ],
-    "45649": [
-        "Komodo",
-        30
-    ],
     "46363": [
-        "Guristas Forward Operating Base",
+        "Guristas Pirates Stronghold",
         1924
     ],
     "46364": [
-        "Blood Raider Forward Operating Base",
+        "Blood Raiders Stronghold",
         1924
     ],
-    "46523": [
-        "\u2666 Rattlesnake",
-        1814
-    ],
-    "46575": [
-        "Dark Blood Standup Heavy Energy Neutralizer",
-        1329
-    ],
-    "46577": [
-        "Dread Guristas Standup Variable Spectrum ECM",
-        1332
+    "46382": [
+        "\u2666 Kestrel",
+        1803
     ],
     "46581": [
         "\u2666 Caracal",
         1813
-    ],
-    "46654": [
-        "\u2666 Caiman",
-        1880
     ],
     "46760": [
         "\u2666 Moa",
@@ -10547,84 +5379,8 @@
         "Standup Siren I",
         1537
     ],
-    "47038": [
-        "Standup Mantis I",
-        1653
-    ],
-    "47039": [
-        "Standup Gungnir I",
-        1653
-    ],
-    "47116": [
-        "Standup Malleus I",
-        1653
-    ],
-    "47117": [
-        "Standup Cyclops I",
-        1653
-    ],
-    "47118": [
-        "Standup Tyrfing I",
-        1653
-    ],
-    "47121": [
-        "Standup Cyclops II",
-        1653
-    ],
-    "47122": [
-        "Standup Tyrfing II",
-        1653
-    ],
-    "47123": [
-        "Standup Shadow",
-        1653
-    ],
-    "47124": [
-        "Standup Ametat I",
-        1653
-    ],
-    "47125": [
-        "Standup Termite I",
-        1653
-    ],
-    "47126": [
-        "Standup Antaeus I",
-        1653
-    ],
-    "47127": [
-        "Standup Ametat II",
-        1653
-    ],
-    "47128": [
-        "Standup Termite II",
-        1653
-    ],
-    "47129": [
-        "Standup Antaeus II",
-        1653
-    ],
-    "47132": [
-        "Standup Scarab I",
-        1537
-    ],
     "47133": [
         "Standup Dromi I",
-        1537
-    ],
-    "47134": [
-        "Standup Cenobite II",
-        1537
-    ],
-    "47135": [
-        "Standup Scarab II",
-        1537
-    ],
-    "47136": [
-        "Standup Siren II",
-        1537
-    ],
-    "47137": [
-        "Standup Dromi II",
         1537
     ],
     "47138": [
@@ -10639,44 +5395,8 @@
         "Standup Einherji I",
         1652
     ],
-    "47141": [
-        "Standup Templar II",
-        1652
-    ],
-    "47142": [
-        "Standup Dragonfly II",
-        1652
-    ],
     "47143": [
         "Standup Firbolg II",
-        1652
-    ],
-    "47144": [
-        "Standup Einherji II",
-        1652
-    ],
-    "47145": [
-        "Standup Equite I",
-        1652
-    ],
-    "47146": [
-        "Standup Locust I",
-        1652
-    ],
-    "47147": [
-        "Standup Satyr I",
-        1652
-    ],
-    "47148": [
-        "Standup Equite II",
-        1652
-    ],
-    "47149": [
-        "Standup Locust II",
-        1652
-    ],
-    "47150": [
-        "Standup Satyr II",
         1652
     ],
     "47151": [
@@ -10699,29 +5419,13 @@
         "Standup Multirole Missile Launcher II",
         1562
     ],
-    "47323": [
-        "Standup Anticapital Missile Launcher II",
-        1327
-    ],
-    "47325": [
-        "Standup Guided Bomb Launcher II",
-        1328
+    "47327": [
+        "Standup Point Defense Battery II",
+        1330
     ],
     "47330": [
         "Standup XL Energy Neutralizer II",
         1329
-    ],
-    "47332": [
-        "Standup Heavy Energy Neutralizer II",
-        1329
-    ],
-    "47334": [
-        "Standup Focused Warp Disruptor II",
-        1442
-    ],
-    "47338": [
-        "Standup Variable Spectrum ECM II",
-        1332
     ],
     "47351": [
         "Standup Stasis Webifier II",
@@ -10750,26 +5454,6 @@
     "47466": [
         "Praxis",
         27
-    ],
-    "47512": [
-        "'Moreau' Fortizar",
-        1657
-    ],
-    "47513": [
-        "'Draccous' Fortizar",
-        1657
-    ],
-    "47514": [
-        "'Horizon' Fortizar",
-        1657
-    ],
-    "47515": [
-        "'Marginis' Fortizar",
-        1657
-    ],
-    "47516": [
-        "'Prometheus' Fortizar",
-        1657
     ],
     "47847": [
         "Sparkneedle Tessella",
@@ -10887,6 +5571,14 @@
         "Anchoring Damavik",
         1982
     ],
+    "48090": [
+        "Starving Damavik",
+        1982
+    ],
+    "48091": [
+        "Harrowing Vedmak",
+        1982
+    ],
     "48092": [
         "Striking Damavik",
         1982
@@ -10905,10 +5597,6 @@
     ],
     "48125": [
         "Starving Leshak",
-        1982
-    ],
-    "48127": [
-        "Blinding Leshak",
         1982
     ],
     "48234": [
@@ -10983,26 +5671,6 @@
         "Striking Vila Damavik",
         1982
     ],
-    "48257": [
-        "Tangling Vila Damavik",
-        1982
-    ],
-    "48258": [
-        "Anchoring Vila Damavik",
-        1982
-    ],
-    "48259": [
-        "Shining Vila Damavik",
-        1982
-    ],
-    "48260": [
-        "Blinding Vila Damavik",
-        1982
-    ],
-    "48261": [
-        "Ghosting Vila Damavik",
-        1982
-    ],
     "48262": [
         "Sparkgrip Tessera",
         1997
@@ -11019,14 +5687,6 @@
         "Blastgrip Tessera",
         1997
     ],
-    "48635": [
-        "Tiamat",
-        833
-    ],
-    "48636": [
-        "Hydra",
-        830
-    ],
     "49710": [
         "Kikimora",
         420
@@ -11042,10 +5702,6 @@
     "49713": [
         "Zarmazd",
         832
-    ],
-    "50178": [
-        "Energy Pulse Field Effect Subpylon",
-        4073
     ],
     "52182": [
         "Liminal Damavik",
@@ -11071,24 +5727,12 @@
         "Liminal Drekavac",
         4028
     ],
-    "52205": [
-        "Starving Damavik",
-        4028
-    ],
     "52206": [
         "Harrowing Damavik",
         4028
     ],
     "52208": [
         "Renewing Damavik",
-        4028
-    ],
-    "52209": [
-        "Blinding Damavik",
-        4028
-    ],
-    "52211": [
-        "Harrowing Vedmak",
         4028
     ],
     "52212": [
@@ -11099,16 +5743,16 @@
         "Anchoring Kikimora",
         4028
     ],
+    "52216": [
+        "Blinding Leshak",
+        4028
+    ],
     "52217": [
         "Blinding Kikimora",
         4028
     ],
     "52218": [
         "Ghosting Drekavac",
-        4028
-    ],
-    "52234": [
-        "Starving Drekavac",
         4028
     ],
     "52250": [
@@ -11127,17 +5771,9 @@
         "Zorya's Leshak",
         4028
     ],
-    "52473": [
-        "Zorya's Drekavac",
-        4028
-    ],
     "52474": [
         "Zorya's Damavik",
         4028
-    ],
-    "52476": [
-        "Majorana Light Missile",
-        384
     ],
     "52477": [
         "Majorana Heavy Missile",
@@ -11155,36 +5791,12 @@
         "Raznaborg Renewing Damavik",
         4028
     ],
-    "52648": [
-        "Raznaborg Blinding Damavik",
-        4028
-    ],
-    "52649": [
-        "Raznaborg Kikimora",
-        4028
-    ],
     "52650": [
         "Raznaborg Anchoring Damavik",
         4028
     ],
-    "52651": [
-        "Raznaborg Anchoring Kikimora",
-        4028
-    ],
-    "52652": [
-        "Raznaborg Ghosting Damavik",
-        4028
-    ],
-    "52653": [
-        "Raznaborg Blinding Kikimora",
-        4028
-    ],
     "52654": [
         "Raznaborg Tangling Damavik",
-        4028
-    ],
-    "52655": [
-        "Raznaborg Tangling Kikimora",
         4028
     ],
     "52656": [
@@ -11193,14 +5805,6 @@
     ],
     "52657": [
         "Raznaborg Harrowing Kikimora",
-        4028
-    ],
-    "52658": [
-        "Zorya's Kikimora",
-        4028
-    ],
-    "52659": [
-        "Zorya's Vedmak",
         4028
     ],
     "52907": [
@@ -11255,156 +5859,44 @@
         "State Navy Raptor",
         4034
     ],
-    "52935": [
-        "State Navy Basilisk",
-        4034
-    ],
-    "52936": [
-        "State Navy Cerberus",
-        4034
-    ],
-    "52937": [
-        "State Navy Rook",
-        4034
-    ],
-    "52938": [
-        "State Navy Drake",
-        4034
-    ],
-    "52939": [
-        "State Navy Scorpion",
-        4034
-    ],
-    "52940": [
-        "State Navy Raven",
-        4034
-    ],
     "52941": [
         "Federal Navy Keres",
-        4034
-    ],
-    "52947": [
-        "Federal Navy Thalia",
         4034
     ],
     "52948": [
         "Federal Navy Taranis",
         4034
     ],
-    "52949": [
-        "Federal Navy Oneiros",
-        4034
-    ],
-    "52950": [
-        "Federal Navy Deimos",
-        4034
-    ],
     "52951": [
         "Federal Navy Lachesis",
-        4034
-    ],
-    "52952": [
-        "Federal Navy Brutix",
-        4034
-    ],
-    "52953": [
-        "Federal Navy Dominix",
         4034
     ],
     "52954": [
         "Federal Navy Megathron",
         4034
     ],
-    "52955": [
-        "Republic Fleet Hyena",
-        4034
-    ],
-    "52956": [
-        "Republic Fleet Scalpel",
-        4034
-    ],
-    "52957": [
-        "Republic Fleet Claw",
-        4034
-    ],
-    "52958": [
-        "Republic Fleet Scimitar",
-        4034
-    ],
-    "52959": [
-        "Republic Fleet Muninn",
-        4034
-    ],
     "52960": [
         "Republic Fleet Huginn",
         4034
     ],
-    "52961": [
-        "Republic Fleet Hurricane",
-        4034
-    ],
-    "52963": [
-        "Republic Fleet Tempest",
+    "52962": [
+        "Republic Fleet Typhoon",
         4034
     ],
     "52964": [
         "Imperial Navy Revelation",
         4034
     ],
-    "52966": [
-        "Federal Navy Moros",
-        4034
-    ],
-    "52967": [
-        "Republic Fleet Naglfar",
-        4034
-    ],
-    "53084": [
-        "Drone Hive",
-        383
-    ],
-    "53325": [
-        "Cruiser Elite",
-        803
-    ],
-    "53390": [
-        "Liminal Zirnitra",
-        4028
-    ],
-    "53838": [
-        "Nemiz Pulse Destructor",
-        4073
-    ],
-    "53946": [
-        "Carousing Vindicator",
-        1667
-    ],
     "54000": [
         "Scout Imperial Navy Sentinel",
-        4034
-    ],
-    "54001": [
-        "Scout Imperial Navy Deacon",
         4034
     ],
     "54002": [
         "Scout Imperial Navy Crusader",
         4034
     ],
-    "54003": [
-        "Scout Imperial Navy Guardian",
-        4034
-    ],
-    "54004": [
-        "Scout Imperial Navy Zealot",
-        4034
-    ],
     "54005": [
         "Scout  Imperial Navy Pilgrim",
-        4034
-    ],
-    "54006": [
-        "Scout Imperial Navy Harbinger",
         4034
     ],
     "54007": [
@@ -11429,10 +5921,6 @@
     ],
     "54012": [
         "Elite Imperial Navy Guardian",
-        4034
-    ],
-    "54013": [
-        "Elite Imperial Navy Zealot",
         4034
     ],
     "54014": [
@@ -11495,36 +5983,12 @@
         "Scout State Navy Kirin",
         4034
     ],
-    "54029": [
-        "Scout State Navy Raptor",
-        4034
-    ],
-    "54030": [
-        "Scout State Navy Basilisk",
-        4034
-    ],
-    "54031": [
-        "Scout  State Navy Cerberus",
-        4034
-    ],
     "54032": [
         "Scout  State Navy Rook",
         4034
     ],
-    "54033": [
-        "Scout  State Navy Drake",
-        4034
-    ],
     "54034": [
         "Scout  State Navy Scorpion",
-        4034
-    ],
-    "54035": [
-        "Scout  State Navy Raven",
-        4034
-    ],
-    "54036": [
-        "Elite State Navy Kitsune",
         4034
     ],
     "54037": [
@@ -11535,96 +5999,12 @@
         "Elite State Navy Raptor",
         4034
     ],
-    "54039": [
-        "Elite State Navy Basilisk",
-        4034
-    ],
-    "54040": [
-        "Elite State Navy Cerberus",
-        4034
-    ],
-    "54041": [
-        "Elite State Navy Rook",
-        4034
-    ],
-    "54042": [
-        "Elite State Navy Drake",
-        4034
-    ],
-    "54043": [
-        "Elite State Navy Scorpion",
-        4034
-    ],
-    "54044": [
-        "Elite State Navy Raven",
-        4034
-    ],
-    "54045": [
-        "Executive State Navy Kitsune",
-        4034
-    ],
-    "54046": [
-        "Executive State Navy Kirin",
-        4034
-    ],
     "54047": [
         "Executive State Navy Raptor",
         4034
     ],
-    "54048": [
-        "Executive State Navy Basilisk",
-        4034
-    ],
-    "54049": [
-        "Executive State Navy Cerberus",
-        4034
-    ],
-    "54050": [
-        "Executive State Navy Rook",
-        4034
-    ],
-    "54051": [
-        "Executive State Navy Drake",
-        4034
-    ],
-    "54052": [
-        "Executive State Navy Scorpion",
-        4034
-    ],
-    "54053": [
-        "Executive State Navy Raven",
-        4034
-    ],
     "54054": [
         "Scout Federal Navy Keres",
-        4034
-    ],
-    "54055": [
-        "Scout Federal Navy Thalia",
-        4034
-    ],
-    "54056": [
-        "Scout Federal Navy Taranis",
-        4034
-    ],
-    "54057": [
-        "Scout Federal Navy Oneiros",
-        4034
-    ],
-    "54058": [
-        "Scout Federal Navy Deimos",
-        4034
-    ],
-    "54059": [
-        "Scout Federal Navy Lachesis",
-        4034
-    ],
-    "54060": [
-        "Scout Federal Navy Brutix",
-        4034
-    ],
-    "54061": [
-        "Scout Federal Navy Dominix",
         4034
     ],
     "54062": [
@@ -11635,180 +6015,8 @@
         "Elite Federal Navy Keres",
         4034
     ],
-    "54064": [
-        "Elite Federal Navy Thalia",
-        4034
-    ],
-    "54065": [
-        "Elite Federal Navy Taranis",
-        4034
-    ],
-    "54066": [
-        "Elite Federal Navy Oneiros",
-        4034
-    ],
-    "54067": [
-        "Elite Federal Navy Deimos",
-        4034
-    ],
-    "54068": [
-        "Elite Federal Navy Lachesis",
-        4034
-    ],
-    "54069": [
-        "Elite Federal Navy Brutix",
-        4034
-    ],
-    "54070": [
-        "Elite Federal Navy Dominix",
-        4034
-    ],
-    "54071": [
-        "Elite Federal Navy Megathron",
-        4034
-    ],
-    "54072": [
-        "Presiding Federal Navy Keres",
-        4034
-    ],
-    "54073": [
-        "Presiding Federal Navy Thalia",
-        4034
-    ],
-    "54074": [
-        "Presiding Federal Navy Taranis",
-        4034
-    ],
-    "54075": [
-        "Presiding Federal Navy Oneiros",
-        4034
-    ],
-    "54076": [
-        "Presiding Federal Navy Deimos",
-        4034
-    ],
-    "54077": [
-        "Presiding Federal Navy Lachesis",
-        4034
-    ],
-    "54078": [
-        "Presiding Federal Navy Brutix",
-        4034
-    ],
     "54079": [
         "Presiding Federal Navy Dominix",
-        4034
-    ],
-    "54080": [
-        "Presiding Federal Navy Megathron",
-        4034
-    ],
-    "54081": [
-        "Scout Republic Fleet Hyena",
-        4034
-    ],
-    "54082": [
-        "Scout Republic Fleet Scalpel",
-        4034
-    ],
-    "54083": [
-        "Scout Republic Fleet Claw",
-        4034
-    ],
-    "54084": [
-        "Scout Republic Fleet Scimitar",
-        4034
-    ],
-    "54085": [
-        "Scout Republic Fleet Muninn",
-        4034
-    ],
-    "54086": [
-        "Scout Republic Fleet Huginn",
-        4034
-    ],
-    "54087": [
-        "Scout Republic Fleet Hurricane",
-        4034
-    ],
-    "54088": [
-        "Scout Republic Fleet Typhoon",
-        4034
-    ],
-    "54089": [
-        "Scout Republic Fleet Tempest",
-        4034
-    ],
-    "54090": [
-        "Elite Republic Fleet Hyena",
-        4034
-    ],
-    "54091": [
-        "Elite Republic Fleet Scalpel",
-        4034
-    ],
-    "54092": [
-        "Elite Republic Fleet Claw",
-        4034
-    ],
-    "54093": [
-        "Elite Republic Fleet Scimitar",
-        4034
-    ],
-    "54094": [
-        "Elite Republic Fleet Muninn",
-        4034
-    ],
-    "54095": [
-        "Elite Republic Fleet Huginn",
-        4034
-    ],
-    "54096": [
-        "Elite Republic Fleet Hurricane",
-        4034
-    ],
-    "54097": [
-        "Elite Republic Fleet Typhoon",
-        4034
-    ],
-    "54098": [
-        "Elite Republic Fleet Tempest",
-        4034
-    ],
-    "54099": [
-        "Chief Republic Fleet Hyena",
-        4034
-    ],
-    "54100": [
-        "Chief Republic Fleet Scalpel",
-        4034
-    ],
-    "54101": [
-        "Chief Republic Fleet Claw",
-        4034
-    ],
-    "54102": [
-        "Chief Republic Fleet Scimitar",
-        4034
-    ],
-    "54103": [
-        "Chief Republic Fleet Muninn",
-        4034
-    ],
-    "54104": [
-        "Chief Republic Fleet Huginn",
-        4034
-    ],
-    "54105": [
-        "Chief Republic Fleet Hurricane",
-        4034
-    ],
-    "54106": [
-        "Chief Republic Fleet Typhoon",
-        4034
-    ],
-    "54107": [
-        "Chief Republic Fleet Tempest",
         4034
     ],
     "54108": [
@@ -11871,10 +6079,6 @@
         "Hospodar Anchoring Kikimora",
         4028
     ],
-    "54123": [
-        "Hospodar Renewing Rodiva",
-        4028
-    ],
     "54124": [
         "Hospodar Renewing Leshak",
         4028
@@ -11909,10 +6113,6 @@
     ],
     "54132": [
         "Raznaborg Rodiva",
-        4028
-    ],
-    "54133": [
-        "Raznaborg Drekavac",
         4028
     ],
     "54134": [
@@ -11951,36 +6151,12 @@
         "Raznaborg Tangling Vedmak",
         4028
     ],
-    "54143": [
-        "Raznaborg Harrowing Rodiva",
-        4028
-    ],
-    "54144": [
-        "Raznaborg Anchoring Drekavac",
-        4028
-    ],
-    "54145": [
-        "Raznaborg Blinding Drekavac",
-        4028
-    ],
-    "54146": [
-        "Raznaborg Renewing Drekavac",
-        4028
-    ],
     "54147": [
         "Raznaborg Starving Drekavac",
         4028
     ],
     "54148": [
         "Raznaborg Tangling Drekavac",
-        4028
-    ],
-    "54149": [
-        "Raznaborg Harrowing Drekavac",
-        4028
-    ],
-    "54150": [
-        "Raznaborg Anchoring Leshak",
         4028
     ],
     "54151": [
@@ -11991,44 +6167,8 @@
         "Raznaborg Renewing Leshak",
         4028
     ],
-    "54153": [
-        "Raznaborg Starving Leshak",
-        4028
-    ],
-    "54154": [
-        "Raznaborg Tangling Leshak",
-        4028
-    ],
     "54155": [
         "Zorya's Rodiva",
-        4028
-    ],
-    "54200": [
-        "Pohviznik Kikimora",
-        4028
-    ],
-    "54202": [
-        "Jariloznik Kikimora",
-        4028
-    ],
-    "54204": [
-        "Raznaborg Pohviznik Kikimora",
-        4028
-    ],
-    "54205": [
-        "Raznaborg Moroznik Kikimora",
-        4028
-    ],
-    "54568": [
-        "Dazh Koliada",
-        4028
-    ],
-    "54569": [
-        "Dazh Potremba",
-        4028
-    ],
-    "54570": [
-        "Dazh Stribozha",
         4028
     ],
     "54577": [
@@ -12054,10 +6194,6 @@
     "54733": [
         "Thunderchild",
         27
-    ],
-    "55767": [
-        "Xordazh Poshlost Denial Zone",
-        227
     ],
     "56138": [
         "Devoted Hunter",
@@ -12133,10 +6269,6 @@
     ],
     "56173": [
         "Drainer Pacifier Disparu Troop",
-        1982
-    ],
-    "56174": [
-        "Assault Enforcer Disparu Troop",
         1982
     ],
     "56175": [
@@ -12223,10 +6355,6 @@
         "Aroused Hypnosian Eristikon",
         4036
     ],
-    "56321": [
-        "Aroused Hypnosian Psychopomp",
-        4036
-    ],
     "56322": [
         "Aroused Hypnosian Warden",
         4036
@@ -12243,10 +6371,6 @@
         "Aroused Hypnosian Watcher",
         4036
     ],
-    "56326": [
-        "Aroused Hypnosian Agonizer",
-        4036
-    ],
     "56327": [
         "Aroused Hypnosian Preserver",
         4036
@@ -12257,10 +6381,6 @@
     ],
     "56329": [
         "Hypnosian Eristikon",
-        4036
-    ],
-    "56330": [
-        "Hypnosian Psychopomp",
         4036
     ],
     "56331": [
@@ -12359,10 +6479,6 @@
         "Interfering Phase-I Swarmer",
         4037
     ],
-    "56490": [
-        "Obstructing Phase-I Swarmer",
-        4037
-    ],
     "56491": [
         "Vexing Phase-II Legionary",
         4037
@@ -12411,14 +6527,6 @@
         "Obstructing Phase-IV Legionary",
         4037
     ],
-    "56503": [
-        "Overmind Broodlord Alpha",
-        4037
-    ],
-    "56504": [
-        "Grazing Phase-0 Forager",
-        4037
-    ],
     "56505": [
         "Overmind Broodlord Omega",
         4037
@@ -12429,10 +6537,6 @@
     ],
     "56507": [
         "Overmind Destructor Epsilon",
-        4037
-    ],
-    "56508": [
-        "Overmind Interruptor Lambda",
         4037
     ],
     "56509": [
@@ -12479,10 +6583,6 @@
         "Tetrimon Oracle",
         1666
     ],
-    "56669": [
-        "Harvest Overseer",
-        1667
-    ],
     "56670": [
         "Harvest Sage",
         1665
@@ -12490,10 +6590,6 @@
     "56671": [
         "Harvest Diviner",
         1666
-    ],
-    "56672": [
-        "Harvest Supervisor",
-        1667
     ],
     "56674": [
         "Tetrimon Commander",
@@ -12567,10 +6663,6 @@
         "Punishing Phase-IVxZ Broodguard",
         4037
     ],
-    "57761": [
-        "AEGIS Security Stasis GunStar",
-        383
-    ],
     "57803": [
         "Hostile Battleship",
         4105
@@ -12583,30 +6675,6 @@
         "Mobile Observatory",
         4107
     ],
-    "59584": [
-        "SCC Security Commander",
-        1814
-    ],
-    "59585": [
-        "SCC Security Striker",
-        1813
-    ],
-    "59586": [
-        "SCC Security Responder",
-        1803
-    ],
-    "59630": [
-        "Covert Mobile Cynosural Beacon",
-        4093
-    ],
-    "59642": [
-        "Prophecy Reenactment Drone",
-        1666
-    ],
-    "59731": [
-        "SCC Security Stasis GunStar",
-        383
-    ],
     "59732": [
         "SCC Security Heavy GunStar",
         383
@@ -12614,10 +6682,6 @@
     "60145": [
         "SCC Security Interceptor",
         1803
-    ],
-    "60201": [
-        "Colony Nest Scavenger",
-        1568
     ],
     "60244": [
         "CONCORD Rogue Analysis Beacon",
@@ -12639,32 +6703,8 @@
         "Infesting Obstructor Pi",
         4037
     ],
-    "60321": [
-        "AEGIS Security Cataphract",
-        1814
-    ],
-    "60323": [
-        "AEGIS Security Demilancer",
-        1813
-    ],
-    "60325": [
-        "AEGIS Security Gendarme",
-        1813
-    ],
-    "60327": [
-        "AEGIS Security Hobelar",
-        1803
-    ],
     "60331": [
         "Infesting Disruptor Tau",
-        4037
-    ],
-    "60332": [
-        "Infesting Vector Mu",
-        4037
-    ],
-    "60333": [
-        "Infesting Mutagenitor Zero",
         4037
     ],
     "60376": [
@@ -12677,10 +6717,6 @@
     ],
     "60505": [
         "Infesting Corrupted Drone",
-        4037
-    ],
-    "60506": [
-        "Infesting Corruptor Sigma",
         4037
     ],
     "60518": [
@@ -12699,10 +6735,6 @@
         "Harvest Cleric",
         1664
     ],
-    "60709": [
-        "Harvest Exsanguinator",
-        1568
-    ],
     "60764": [
         "Laelaps",
         894
@@ -12710,18 +6742,6 @@
     "60765": [
         "Raiju",
         893
-    ],
-    "60943": [
-        "Moonwight Rakshasa",
-        1880
-    ],
-    "61292": [
-        "Darkwight Rakshasa",
-        1880
-    ],
-    "64034": [
-        "Boobook",
-        31
     ],
     "64105": [
         "Bloodraider Hideout",
@@ -12739,10 +6759,6 @@
         "Guristas Hideout",
         319
     ],
-    "64184": [
-        "Hotel",
-        319
-    ],
     "70879": [
         "Imperial Battlecruiser",
         1183
@@ -12755,17 +6771,9 @@
         "Republic Battleship",
         4434
     ],
-    "71470": [
-        "State Frigate",
-        1167
-    ],
-    "71472": [
-        "State Cruiser",
-        1180
-    ],
-    "71474": [
-        "State Battleship",
-        4432
+    "71473": [
+        "State Battlecruiser",
+        1184
     ],
     "71478": [
         "Federation Battlecruiser",
@@ -12774,10 +6782,6 @@
     "71479": [
         "Federation Battleship",
         4433
-    ],
-    "72350": [
-        "Rogue Drone Dismantler Sim",
-        1664
     ],
     "72811": [
         "Cyclone Fleet Issue",
@@ -12811,57 +6815,9 @@
         "Imicus Navy Issue",
         25
     ],
-    "73225": [
-        "Amarr Propaganda Broadcast Structure",
-        4477
-    ],
-    "73226": [
-        "Minmatar Propaganda Broadcast Structure",
-        4477
-    ],
-    "73227": [
-        "Caldari Propaganda Broadcast Structure",
-        4477
-    ],
-    "73228": [
-        "Gallente Propaganda Broadcast Structure",
-        4477
-    ],
-    "73256": [
-        "Republic Fleet Firetail Guard",
-        1568
-    ],
-    "73257": [
-        "Vigil Fleet Issue Guard",
-        1568
-    ],
-    "73258": [
-        "Imperial Navy Slicer Guard",
-        1568
-    ],
-    "73259": [
-        "Crucifier Navy Issue Guard",
-        1568
-    ],
-    "73270": [
-        "Amarr Listening Outpost",
-        4499
-    ],
-    "73271": [
-        "Minmatar Listening Outpost",
-        4499
-    ],
     "73272": [
         "Caldari Listening Outpost",
         4499
-    ],
-    "73273": [
-        "Gallente Listening Outpost",
-        4499
-    ],
-    "73563": [
-        "Federation Destroyer",
-        1177
     ],
     "73787": [
         "Naglfar Fleet Issue",
@@ -12895,173 +6851,25 @@
         "Catalyst Navy Issue",
         420
     ],
-    "73797": [
-        "Imperial Officer Battleship",
-        4431
-    ],
     "73798": [
         "Republic Officer Battleship",
         4434
-    ],
-    "73799": [
-        "State Officer Battleship",
-        4432
     ],
     "73800": [
         "Federation Officer Battleship",
         4433
     ],
-    "74141": [
-        "Geri",
-        324
-    ],
     "74316": [
         "Bestla",
         358
-    ],
-    "76016": [
-        "Mercenary Crow",
-        1568
-    ],
-    "76017": [
-        "Mercenary Cheetah",
-        1568
-    ],
-    "76018": [
-        "Mercenary Raptor",
-        1568
-    ],
-    "76019": [
-        "Mercenary Hyena",
-        1568
-    ],
-    "76020": [
-        "Mercenary Wolf",
-        1568
-    ],
-    "76021": [
-        "Mercenary Manticore",
-        1568
-    ],
-    "76022": [
-        "Mercenary Draugur",
-        1664
-    ],
-    "76023": [
-        "Mercenary Rapier",
-        1665
-    ],
-    "76024": [
-        "Mercenary Ikitursa",
-        1665
-    ],
-    "76025": [
-        "Mercenary Tornado",
-        1666
-    ],
-    "76026": [
-        "Mercenary Panther",
-        1667
-    ],
-    "76942": [
-        "Anchoring Vila Skarbnik",
-        1568
-    ],
-    "76943": [
-        "Starving Vila Skarbnik",
-        1568
-    ],
-    "76944": [
-        "Tangling Vila Skarbnik",
-        1568
     ],
     "77114": [
         "Metamorphosis",
         25
     ],
-    "77127": [
-        "Guri Malakim Griffin",
-        1568
-    ],
-    "77128": [
-        "Guri Malakim Dramiel",
-        1568
-    ],
-    "77129": [
-        "Guri Malakim Worm",
-        1568
-    ],
-    "77130": [
-        "Guri Malakim Cynabal",
-        1665
-    ],
-    "77131": [
-        "Guri Malakim Gila",
-        1665
-    ],
-    "77132": [
-        "Guri Malakim Tornado",
-        1666
-    ],
-    "77133": [
-        "Guri Malakim Boss",
-        1667
-    ],
-    "77135": [
-        "Guri Malakim Godfather",
-        1667
-    ],
-    "77151": [
-        "SoCT Pacifier",
-        1568
-    ],
-    "77152": [
-        "SoCT Skybreaker",
-        1568
-    ],
-    "77153": [
-        "SoCT Metamorphosis",
-        1568
-    ],
-    "77154": [
-        "SoCT Sunesis",
-        1664
-    ],
-    "77155": [
-        "SoCT Enforcer",
-        1665
-    ],
-    "77156": [
-        "SoCT Stormbringer",
-        1665
-    ],
-    "77157": [
-        "SoCT Gnosis",
-        1666
-    ],
-    "77158": [
-        "SoCT Master",
-        1667
-    ],
-    "77161": [
-        "SoCT Grandmaster",
-        1667
-    ],
-    "77254": [
-        "Shrouding Retribution",
-        4569
-    ],
-    "77256": [
-        "Shrouding Crucifier",
-        4569
-    ],
     "77257": [
         "Shrouding Dragoon",
         4570
-    ],
-    "77258": [
-        "Wrathful Punisher",
-        4569
     ],
     "77259": [
         "Wrathful Coercer",
@@ -13070,10 +6878,6 @@
     "77260": [
         "Righteous Omen",
         4571
-    ],
-    "77261": [
-        "Grand Oracle",
-        4573
     ],
     "77281": [
         "Hubris",
@@ -13091,52 +6895,12 @@
         "Valravn",
         4594
     ],
-    "77488": [
-        "Annihilating Coercer",
-        4570
-    ],
-    "77490": [
-        "Shrouding Arbitrator",
-        4571
-    ],
-    "77491": [
-        "Shrouding Zealot",
-        4571
-    ],
-    "77538": [
-        "Extinction Cutter",
-        4569
-    ],
-    "77543": [
-        "Proselytizer Oracle",
-        4573
-    ],
     "77544": [
         "Eraser Naga",
         4573
     ],
     "77545": [
         "Grim Naga",
-        4573
-    ],
-    "77546": [
-        "Tycoon Talos",
-        4573
-    ],
-    "77547": [
-        "Sundering Tornado",
-        4573
-    ],
-    "77548": [
-        "Instigator Naga",
-        4573
-    ],
-    "77549": [
-        "Supreme Talos",
-        4573
-    ],
-    "77550": [
-        "Ulfhednar Tornado",
         4573
     ],
     "77551": [
@@ -13147,32 +6911,8 @@
         "Dominant Drekavac",
         4573
     ],
-    "77553": [
-        "Veritas Talos",
-        4573
-    ],
-    "77554": [
-        "Spymaster Tornado",
-        4573
-    ],
-    "77555": [
-        "Venerated Oracle",
-        4573
-    ],
-    "77556": [
-        "Guard Incursus",
-        4569
-    ],
-    "77557": [
-        "Corruptor Lynx",
-        4569
-    ],
     "77558": [
         "Activist Merlin",
-        4569
-    ],
-    "77559": [
-        "Errant Incursus",
         4569
     ],
     "77560": [
@@ -13195,14 +6935,6 @@
         "Spinner Incursus",
         4569
     ],
-    "77565": [
-        "Insurgent Rifter",
-        4569
-    ],
-    "77566": [
-        "Blood Punisher",
-        4569
-    ],
     "77567": [
         "Smuggler Merlin",
         4569
@@ -13211,52 +6943,20 @@
         "Infiltrating Punisher",
         4569
     ],
-    "77569": [
-        "Evader Merlin",
-        4569
-    ],
-    "77571": [
-        "Falsifier Griffin",
-        4569
-    ],
-    "77572": [
-        "Stalker Maulus",
+    "77573": [
+        "Persecutor Medusa",
         4569
     ],
     "77574": [
         "Alienator Grabber",
         4569
     ],
-    "77575": [
-        "Stalker Damavik",
-        4569
-    ],
     "77576": [
         "Enervating Wanderer",
         4569
     ],
-    "77577": [
-        "Liberator Maulus",
-        4569
-    ],
-    "77578": [
-        "Negotiator Griffin",
-        4569
-    ],
-    "77579": [
-        "Blight Vigil",
-        4569
-    ],
     "77580": [
         "Diverter Maulus",
-        4569
-    ],
-    "77581": [
-        "Spotter Vigil",
-        4569
-    ],
-    "77582": [
-        "Damning Crucifier",
         4569
     ],
     "77583": [
@@ -13267,20 +6967,8 @@
         "Falsifier Hawk",
         4569
     ],
-    "77599": [
-        "Diverter Enyo",
-        4569
-    ],
     "77600": [
         "Liberator Enyo",
-        4569
-    ],
-    "77601": [
-        "Negotiator Hawk",
-        4569
-    ],
-    "77603": [
-        "Sanguinary Cruor",
         4569
     ],
     "77604": [
@@ -13291,12 +6979,12 @@
         "Stalker Daredevil",
         4569
     ],
-    "77606": [
-        "Persecutor Dramiel",
-        4569
-    ],
     "77607": [
         "Alienator Clamper",
+        4569
+    ],
+    "77608": [
+        "Umbral Damavik",
         4569
     ],
     "77609": [
@@ -13306,30 +6994,6 @@
     "77610": [
         "Blight Wolf",
         4569
-    ],
-    "77611": [
-        "Quietus Retribution",
-        4569
-    ],
-    "77612": [
-        "Liberator Algos",
-        4570
-    ],
-    "77613": [
-        "Negotiator Corax",
-        4570
-    ],
-    "77614": [
-        "Spotter Talwar",
-        4570
-    ],
-    "77615": [
-        "Sanguinary Dragoon",
-        4570
-    ],
-    "77616": [
-        "Blindsider Corax",
-        4570
     ],
     "77617": [
         "Stalker Algos",
@@ -13351,73 +7015,25 @@
         "Blight Talwar",
         4570
     ],
-    "77623": [
-        "Quietus Dragoon",
-        4570
-    ],
-    "77625": [
-        "Diverter Algos",
-        4570
-    ],
-    "77626": [
-        "Stoic Kikimora",
+    "77624": [
+        "Falsifier Corax",
         4570
     ],
     "77627": [
         "Stirring Custodian",
         4570
     ],
-    "77628": [
-        "Atgeir Thrasher",
-        4570
-    ],
     "77630": [
         "Evader Cormorant",
-        4570
-    ],
-    "77632": [
-        "Errant Catalyst",
-        4570
-    ],
-    "77633": [
-        "Activist Cormorant",
-        4570
-    ],
-    "77635": [
-        "Blood Coercer",
         4570
     ],
     "77636": [
         "Smuggler Cormorant",
         4570
     ],
-    "77637": [
-        "Guard Catalyst",
-        4570
-    ],
     "77639": [
         "Corrupted Welder",
         4570
-    ],
-    "77641": [
-        "Defiant Moa",
-        4571
-    ],
-    "77642": [
-        "Infiltrator Stabber",
-        4571
-    ],
-    "77643": [
-        "Scarlet Omen",
-        4571
-    ],
-    "77644": [
-        "Brutal Moa",
-        4571
-    ],
-    "77645": [
-        "Sentinel Thorax",
-        4571
     ],
     "77646": [
         "Slayer Stabber",
@@ -13425,18 +7041,6 @@
     ],
     "77647": [
         "Proliferator Handler",
-        4571
-    ],
-    "77648": [
-        "Fervent Vedmak",
-        4571
-    ],
-    "77649": [
-        "Risen Reclaimer",
-        4571
-    ],
-    "77650": [
-        "Vandal Stabber",
         4571
     ],
     "77652": [
@@ -13447,93 +7051,25 @@
         "Compeller Thorax",
         4571
     ],
-    "77669": [
-        "Negotiator Blackbird",
-        4571
-    ],
-    "77670": [
-        "Spotter Bellicose",
-        4571
-    ],
-    "77671": [
-        "Damning Arbitrator",
-        4571
-    ],
-    "77672": [
-        "Blindsider Blackbird",
-        4571
-    ],
-    "77673": [
-        "Stalker Celestis",
-        4571
-    ],
     "77675": [
         "Alienator Manipulator",
         4571
     ],
-    "77676": [
-        "Ravenous Vedmak",
-        4571
-    ],
-    "77677": [
-        "Enervating Reclaimer",
-        4571
-    ],
-    "77678": [
-        "Blight Bellicose",
-        4571
-    ],
-    "77679": [
-        "Obscurer Arbitrator",
-        4571
-    ],
-    "77681": [
-        "Diverter Celestis",
-        4571
-    ],
-    "77683": [
-        "Negotiator Eagle",
-        4571
-    ],
-    "77684": [
-        "Spotter Vagabond",
-        4571
-    ],
-    "77685": [
-        "Sanguinary Ashimmu",
-        4571
-    ],
-    "77686": [
-        "Blindsider Gila",
-        4571
-    ],
-    "77687": [
-        "Stalker Vigilant",
+    "77688": [
+        "Persecutor Cynabal",
         4571
     ],
     "77689": [
         "Alienator Corrector",
         4571
     ],
-    "77691": [
-        "Tyrannos Kyrios",
+    "77690": [
+        "Stifler Vedmak",
         4571
     ],
-    "77692": [
-        "Blight Vagabond",
-        4571
-    ],
-    "77693": [
-        "Quietus Zealot",
-        4571
-    ],
-    "77694": [
-        "Falsifier Eagle",
-        4571
-    ],
-    "77695": [
-        "Diverter Deimos",
-        4571
+    "77696": [
+        "Ravenous Leshak",
+        4574
     ],
     "77697": [
         "Dominant Leshak",
@@ -13543,52 +7079,176 @@
         "Watchful Steward",
         4574
     ],
-    "77701": [
-        "Enervating Overseer",
+    "77699": [
+        "Vitiator Inspector",
         4574
     ],
-    "77702": [
-        "Tyrannos Basileus",
+    "77700": [
+        "Alienator Controller",
         4574
     ],
-    "77878": [
-        "Hyphema Dragoon",
-        4570
+    "77726": [
+        "Cybele",
+        358
     ],
-    "77879": [
-        "Boycotter Griffin",
-        4569
-    ],
-    "77880": [
-        "Boycotter Corax",
-        4570
-    ],
-    "77881": [
-        "Abacinating Maulus",
-        4569
+    "78333": [
+        "Mekubal",
+        420
     ],
     "78366": [
         "Alligator",
         419
     ],
+    "78367": [
+        "Mamba",
+        420
+    ],
     "78369": [
         "Khizriel",
         419
     ],
-    "79415": [
-        "Angel Assailant Mekubal",
-        4648
+    "78414": [
+        "Shapash",
+        324
     ],
-    "79416": [
-        "Angel Assailant Cynabal",
-        4649
+    "78484": [
+        "Violent Gravitational Instabilities",
+        1975
     ],
-    "79516": [
+    "79185": [
+        "Deathless Retribution Emplacement",
+        383
+    ],
+    "79320": [
+        "Angel Lookout Dramiel",
+        4637
+    ],
+    "79322": [
+        "Angel Lookout Mekubal",
+        4637
+    ],
+    "79327": [
+        "Angel Lookout Cynabal",
+        4637
+    ],
+    "79330": [
+        "Zohar's Chosen Cynabal",
+        4637
+    ],
+    "79331": [
+        "Angel Lookout Khizriel",
+        4637
+    ],
+    "79334": [
+        "Zohar's Chosen Machariel",
+        4637
+    ],
+    "79349": [
+        "Guristas Lookout Worm",
+        4637
+    ],
+    "79350": [
+        "Guristas Lookout Mamba",
+        4637
+    ],
+    "79387": [
+        "Upwell Safeguard Garmur",
+        4638
+    ],
+    "79417": [
+        "Angel Assailant Khizriel",
+        4650
+    ],
+    "79423": [
+        "Mordu's Vambrace Orthrus",
+        4654
+    ],
+    "79425": [
+        "Mordu's Cuirass Mongoose",
+        4655
+    ],
+    "79515": [
         "Angel Assailant Dramiel",
         4647
     ],
-    "79546": [
+    "79517": [
+        "Angel Snarer Dramiel",
+        4647
+    ],
+    "79520": [
+        "Angel Assailant Mekubal",
+        4648
+    ],
+    "79523": [
+        "Angel Assailant Cynabal",
+        4649
+    ],
+    "79528": [
+        "Angel Snarer Khizriel",
+        4650
+    ],
+    "79531": [
+        "Guristas Aggressor Worm",
+        4647
+    ],
+    "79545": [
         "Mordu's Vambrace Garmur",
         4652
+    ],
+    "79548": [
+        "Mordu's Shackle Garmur",
+        4652
+    ],
+    "79550": [
+        "Mordu's Vambrace Fennec",
+        4653
+    ],
+    "79556": [
+        "Mordu's Shackle Orthrus",
+        4654
+    ],
+    "79592": [
+        "ORE Safeguard Talos",
+        4655
+    ],
+    "79593": [
+        "ORE Safeguard Atron",
+        4652
+    ],
+    "79594": [
+        "Mordu's Phalanx Orthrus",
+        4654
+    ],
+    "79599": [
+        "Angel Ransomer Machariel",
+        4651
+    ],
+    "79697": [
+        "Mordu's Phalanx Barghest",
+        4656
+    ],
+    "79701": [
+        "Angel Ransomer Cynabal",
+        4649
+    ],
+    "79853": [
+        "Angel Icejacker Cynabal",
+        4649
+    ],
+    "80278": [
+        "ORE Frostguard Garmur",
+        4652
+    ],
+    "80282": [
+        "Angel Icejacker Mekubal ",
+        4648
+    ],
+    "80296": [
+        "ORE Frostguard Orthrus",
+        4654
+    ],
+    "80311": [
+        "ORE Frostguard Barghest",
+        4656
     ]
 }

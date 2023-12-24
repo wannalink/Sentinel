@@ -59405,11 +59405,11 @@
     ],
     "43487": [
         "Tormentor Ironblood SKIN",
-        "None"
+        2002
     ],
     "43488": [
         "Retribution Ironblood SKIN",
-        "None"
+        2047
     ],
     "43489": [
         "Vengeance Ironblood SKIN",
@@ -59441,7 +59441,7 @@
     ],
     "43496": [
         "Coercer Ironblood SKIN",
-        "None"
+        1994
     ],
     "43497": [
         "Dragoon Ironblood SKIN",
@@ -59449,7 +59449,7 @@
     ],
     "43498": [
         "Pontifex Ironblood SKIN",
-        "None"
+        2142
     ],
     "43499": [
         "Heretic Ironblood SKIN",
@@ -59461,7 +59461,7 @@
     ],
     "43501": [
         "Augoror Ironblood SKIN",
-        "None"
+        1990
     ],
     "43502": [
         "Maller Ironblood SKIN",
@@ -59489,7 +59489,7 @@
     ],
     "43508": [
         "Curse Ironblood SKIN",
-        "None"
+        2081
     ],
     "43509": [
         "Pilgrim Ironblood SKIN",
@@ -59533,7 +59533,7 @@
     ],
     "43519": [
         "Paladin Ironblood SKIN",
-        "None"
+        2024
     ],
     "43520": [
         "Revelation Ironblood SKIN",
@@ -77617,15 +77617,15 @@
     ],
     "54731": [
         "Skybreaker",
-        1366
+        3536
     ],
     "54732": [
         "Stormbringer",
-        1370
+        3537
     ],
     "54733": [
         "Thunderchild",
-        1379
+        3538
     ],
     "54739": [
         "Small Vorton Projector I",
@@ -78302,6 +78302,10 @@
     "54992": [
         "Encrypted Semiosis Console (Veles Clade)",
         "None"
+    ],
+    "54993": [
+        "Council Diplomatic Shuttle SARO 'Black Troop' SKIN",
+        2316
     ],
     "55025": [
         "Upwell Encryption Methods",
@@ -79609,15 +79613,15 @@
     ],
     "55984": [
         "Skybreaker Bluestar Defenders SKIN",
-        2000
+        3541
     ],
     "55985": [
         "Stormbringer Bluestar Defenders SKIN",
-        2063
+        3540
     ],
     "55986": [
         "Thunderchild Bluestar Defenders SKIN",
-        2108
+        3539
     ],
     "56057": [
         "Strong Metaliminal Electrical Storm",
@@ -80715,10 +80719,6 @@
         "Mastodon Hazard Control SKIN",
         2091
     ],
-    "56907": [
-        "Peculiar Icebound Salvage",
-        "None"
-    ],
     "56908": [
         "Claw Hazard Control SKIN",
         2062
@@ -81105,26 +81105,6 @@
     ],
     "57037": [
         "Serenity December Season Pass",
-        "None"
-    ],
-    "57038": [
-        "Rare Icebound Salvage",
-        "None"
-    ],
-    "57039": [
-        "Unusual Icebound Salvage",
-        "None"
-    ],
-    "57040": [
-        "ORE Green Salvage Package",
-        "None"
-    ],
-    "57050": [
-        "ORE White Salvage Package",
-        "None"
-    ],
-    "57051": [
-        "ORE Red Salvage Package",
         "None"
     ],
     "57052": [
@@ -82469,15 +82449,15 @@
     ],
     "57706": [
         "Skybreaker EDENCOM Victory SKIN",
-        2000
+        3541
     ],
     "57707": [
         "Stormbringer EDENCOM Victory SKIN",
-        2063
+        3540
     ],
     "57708": [
         "Thunderchild EDENCOM Victory SKIN",
-        2108
+        3539
     ],
     "57714": [
         "ESS-NW-15 Reserve Security Key",
@@ -85741,7 +85721,7 @@
     ],
     "60926": [
         "Stormbringer Aurora Universalis SKIN",
-        2063
+        3540
     ],
     "60939": [
         "Paradoxical Nebula Firework",
@@ -90051,18 +90031,6 @@
         "Rifter Corporation Emblem",
         "None"
     ],
-    "72986": [
-        "Event 82 Proving Filament",
-        2747
-    ],
-    "72987": [
-        "Event 83 Proving Filament",
-        2747
-    ],
-    "72988": [
-        "Event 84 Proving Filament",
-        2747
-    ],
     "73041": [
         "Triglavian Encrypted Relay Data",
         "None"
@@ -90117,35 +90085,35 @@
     ],
     "73366": [
         "Drake Deathglow Remnant SKIN",
-        "None"
+        1957
     ],
     "73367": [
         "Brutix Deathglow Remnant SKIN",
-        "None"
+        1958
     ],
     "73368": [
         "Hurricane Deathglow Remnant SKIN",
-        "None"
+        1959
     ],
     "73369": [
         "Prophecy Deathglow Remnant SKIN",
-        "None"
+        1956
     ],
     "73370": [
         "Corax Deathglow Remnant SKIN",
-        "None"
+        1995
     ],
     "73371": [
         "Algos Deathglow Remnant SKIN",
-        "None"
+        1996
     ],
     "73372": [
         "Talwar Deathglow Remnant SKIN",
-        "None"
+        1997
     ],
     "73373": [
         "Dragoon Deathglow Remnant SKIN",
-        "None"
+        1994
     ],
     "73377": [
         "Heron Corporation Emblem",
@@ -90257,47 +90225,47 @@
     ],
     "73458": [
         "Tormentor Order of Tetrimon SKIN",
-        "None"
+        2002
     ],
     "73459": [
         "Magnate Navy Issue Order of Tetrimon SKIN",
-        "None"
+        2000
     ],
     "73460": [
         "Retribution Order of Tetrimon SKIN",
-        "None"
+        2047
     ],
     "73461": [
         "Coercer Order of Tetrimon SKIN",
-        "None"
+        1994
     ],
     "73462": [
         "Pontifex Order of Tetrimon SKIN",
-        "None"
+        2142
     ],
     "73463": [
         "Augoror Order of Tetrimon SKIN",
-        "None"
+        1990
     ],
     "73464": [
         "Curse Order of Tetrimon SKIN",
-        "None"
+        2081
     ],
     "73465": [
         "Prophecy Navy Issue Order of Tetrimon SKIN",
-        "None"
+        2103
     ],
     "73466": [
         "Paladin Order of Tetrimon SKIN",
-        "None"
+        2024
     ],
     "73468": [
         "Magnate Navy Issue Ironblood SKIN",
-        "None"
+        2000
     ],
     "73474": [
         "Prophecy Navy Issue Ironblood SKIN",
-        "None"
+        2103
     ],
     "73567": [
         "Providence Alliance Emblem",
@@ -91321,79 +91289,75 @@
     ],
     "74143": [
         "Cruor Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74144": [
         "Worm Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74145": [
         "Succubus Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74146": [
         "Dramiel Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74147": [
         "Daredevil Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74148": [
         "Astero Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74149": [
         "Skybreaker Aurora Universalis SKIN",
-        "None"
+        3541
     ],
     "74150": [
         "Damavik Aurora Universalis SKIN",
-        "None"
+        2486
     ],
     "74151": [
         "Garmur Aurora Universalis SKIN",
-        "None"
+        2031
     ],
     "74152": [
         "Sacrilege Aurora Universalis SKIN",
-        "None"
+        2069
     ],
     "74153": [
         "Cerberus Aurora Universalis SKIN",
-        "None"
+        2070
     ],
     "74154": [
         "Muninn Aurora Universalis SKIN",
-        "None"
+        2072
     ],
     "74155": [
         "Armageddon Aurora Universalis SKIN",
-        "None"
+        1964
     ],
     "74156": [
         "Scorpion Aurora Universalis SKIN",
-        "None"
+        1965
     ],
     "74157": [
         "Dominix Aurora Universalis SKIN",
-        "None"
+        1966
     ],
     "74158": [
         "Typhoon Aurora Universalis SKIN",
-        "None"
+        1967
     ],
     "74160": [
         "Ishtar Aurora Universalis SKIN",
-        "None"
+        2071
     ],
     "74316": [
         "Bestla",
         1621
-    ],
-    "74385": [
-        "Scarlet Embrace Firework ( copy )",
-        1663
     ],
     "74386": [
         "Yoiul's Ascent Firework",
@@ -91402,46 +91366,6 @@
     "74387": [
         "Yoiul's Ascent Firework Crate",
         1663
-    ],
-    "74426": [
-        "DNCR-05H Highsec Ice Storm Filament",
-        1663
-    ],
-    "74427": [
-        "DNNR-01L Lowsec Ice Storm Filament",
-        1663
-    ],
-    "74428": [
-        "DSHR-01H Highsec Ice Storm Filament",
-        1663
-    ],
-    "74429": [
-        "PRNCR-10H Highsec Ice Storm Filament",
-        1663
-    ],
-    "74430": [
-        "RDLF-10L Lowsec Ice Storm Filament",
-        1663
-    ],
-    "74431": [
-        "VXN-01N Nullsec Ice Storm Filament",
-        1663
-    ],
-    "74432": [
-        "BLTZN-05L Lowsec Ice Storm Filament",
-        1663
-    ],
-    "74433": [
-        "CMT-05N Nullsec Ice Storm Filament",
-        1663
-    ],
-    "74434": [
-        "CPD-10N Nullsec Ice Storm Filament",
-        1663
-    ],
-    "74449": [
-        "Ice Storm Filaments Crate",
-        "None"
     ],
     "74500": [
         "Winter Nexus Expert System",
@@ -93163,390 +93087,6 @@
         "Minmatar Victory SKIN",
         2120
     ],
-    "76050": [
-        "Imperial Damage Booster I",
-        2792
-    ],
-    "76051": [
-        "Imperial Damage Booster II",
-        2792
-    ],
-    "76052": [
-        "Imperial Damage Booster III",
-        2792
-    ],
-    "76053": [
-        "Imperial Damage Booster IV",
-        2792
-    ],
-    "76054": [
-        "Imperial Projection Booster I",
-        2790
-    ],
-    "76055": [
-        "Imperial Projection Booster II",
-        2790
-    ],
-    "76056": [
-        "Imperial Projection Booster III",
-        2790
-    ],
-    "76057": [
-        "Imperial Projection Booster IV",
-        2790
-    ],
-    "76058": [
-        "Imperial Application Booster I",
-        2792
-    ],
-    "76059": [
-        "Imperial Application Booster II",
-        2792
-    ],
-    "76060": [
-        "Imperial Application Booster III",
-        2792
-    ],
-    "76061": [
-        "Imperial Application Booster IV",
-        2792
-    ],
-    "76062": [
-        "Imperial Defense Booster I",
-        2790
-    ],
-    "76063": [
-        "Imperial Defense Booster II",
-        2790
-    ],
-    "76064": [
-        "Imperial Defense Booster III",
-        2790
-    ],
-    "76065": [
-        "Imperial Defense Booster IV",
-        2790
-    ],
-    "76066": [
-        "Imperial Electronics Booster I",
-        2531
-    ],
-    "76067": [
-        "Imperial Electronics Booster II",
-        2531
-    ],
-    "76068": [
-        "Imperial Electronics Booster III",
-        2531
-    ],
-    "76069": [
-        "Imperial Electronics Booster IV",
-        2531
-    ],
-    "76070": [
-        "Imperial Mobility Booster I",
-        2791
-    ],
-    "76071": [
-        "Imperial Mobility Booster II",
-        2791
-    ],
-    "76072": [
-        "Imperial Mobility Booster III",
-        2791
-    ],
-    "76073": [
-        "Imperial Mobility Booster IV",
-        2791
-    ],
-    "76074": [
-        "Republic Damage Booster I",
-        2792
-    ],
-    "76075": [
-        "Republic Damage Booster II",
-        2792
-    ],
-    "76076": [
-        "Republic Damage Booster III",
-        2792
-    ],
-    "76077": [
-        "Republic Damage Booster IV",
-        2792
-    ],
-    "76078": [
-        "Republic Projection Booster I",
-        2790
-    ],
-    "76079": [
-        "Republic Projection Booster II",
-        2790
-    ],
-    "76080": [
-        "Republic Projection Booster III",
-        2790
-    ],
-    "76081": [
-        "Republic Projection Booster IV",
-        2790
-    ],
-    "76082": [
-        "Republic Application Booster I",
-        2792
-    ],
-    "76083": [
-        "Republic Application Booster II",
-        2792
-    ],
-    "76084": [
-        "Republic Application Booster III",
-        2792
-    ],
-    "76085": [
-        "Republic Application Booster IV",
-        2792
-    ],
-    "76086": [
-        "Republic Defense Booster I",
-        2790
-    ],
-    "76087": [
-        "Republic Defense Booster II",
-        2790
-    ],
-    "76088": [
-        "Republic Defense Booster III",
-        2790
-    ],
-    "76089": [
-        "Republic Defense Booster IV",
-        2790
-    ],
-    "76090": [
-        "Republic Electronics Booster I",
-        2531
-    ],
-    "76091": [
-        "Republic Electronics Booster II",
-        2531
-    ],
-    "76092": [
-        "Republic Electronics Booster III",
-        2531
-    ],
-    "76093": [
-        "Republic Electronics Booster IV",
-        2531
-    ],
-    "76094": [
-        "Republic Mobility Booster I",
-        2791
-    ],
-    "76095": [
-        "Republic Mobility Booster II",
-        2791
-    ],
-    "76096": [
-        "Republic Mobility Booster III",
-        2791
-    ],
-    "76097": [
-        "Republic Mobility Booster IV",
-        2791
-    ],
-    "76098": [
-        "State Damage Booster I",
-        2792
-    ],
-    "76099": [
-        "State Damage Booster II",
-        2792
-    ],
-    "76100": [
-        "State Damage Booster III",
-        2792
-    ],
-    "76101": [
-        "State Damage Booster IV",
-        2792
-    ],
-    "76102": [
-        "State Projection Booster I",
-        2790
-    ],
-    "76103": [
-        "State Projection Booster II",
-        2790
-    ],
-    "76104": [
-        "State Projection Booster III",
-        2790
-    ],
-    "76105": [
-        "State Projection Booster IV",
-        2790
-    ],
-    "76106": [
-        "State Application Booster I",
-        2792
-    ],
-    "76107": [
-        "State Application Booster II",
-        2792
-    ],
-    "76108": [
-        "State Application Booster III",
-        2792
-    ],
-    "76109": [
-        "State Application Booster IV",
-        2792
-    ],
-    "76110": [
-        "State Defense Booster I",
-        2790
-    ],
-    "76111": [
-        "State Defense Booster II",
-        2790
-    ],
-    "76112": [
-        "State Defense Booster III",
-        2790
-    ],
-    "76113": [
-        "State Defense Booster IV",
-        2790
-    ],
-    "76114": [
-        "State Electronics Booster I",
-        2531
-    ],
-    "76115": [
-        "State Electronics Booster II",
-        2531
-    ],
-    "76116": [
-        "State Electronics Booster III",
-        2531
-    ],
-    "76117": [
-        "State Electronics Booster IV",
-        2531
-    ],
-    "76118": [
-        "State Mobility Booster I",
-        2791
-    ],
-    "76119": [
-        "State Mobility Booster II",
-        2791
-    ],
-    "76120": [
-        "State Mobility Booster III",
-        2791
-    ],
-    "76121": [
-        "State Mobility Booster IV",
-        2791
-    ],
-    "76122": [
-        "Federation Damage Booster I",
-        2792
-    ],
-    "76123": [
-        "Federation Damage Booster II",
-        2792
-    ],
-    "76124": [
-        "Federation Damage Booster III",
-        2792
-    ],
-    "76125": [
-        "Federation Damage Booster IV",
-        2792
-    ],
-    "76126": [
-        "Federation Projection Booster I",
-        2790
-    ],
-    "76127": [
-        "Federation Projection Booster II",
-        2790
-    ],
-    "76128": [
-        "Federation Projection Booster III",
-        2790
-    ],
-    "76129": [
-        "Federation Projection Booster IV",
-        2790
-    ],
-    "76130": [
-        "Federation Application Booster I",
-        2792
-    ],
-    "76131": [
-        "Federation Application Booster II",
-        2792
-    ],
-    "76132": [
-        "Federation Application Booster III",
-        2792
-    ],
-    "76133": [
-        "Federation Application Booster IV",
-        2792
-    ],
-    "76134": [
-        "Federation Defense Booster I",
-        2790
-    ],
-    "76135": [
-        "Federation Defense Booster II",
-        2790
-    ],
-    "76136": [
-        "Federation Defense Booster III",
-        2790
-    ],
-    "76137": [
-        "Federation Defense Booster IV",
-        2790
-    ],
-    "76138": [
-        "Federation Electronics Booster I",
-        2531
-    ],
-    "76139": [
-        "Federation Electronics Booster II",
-        2531
-    ],
-    "76140": [
-        "Federation Electronics Booster III",
-        2531
-    ],
-    "76141": [
-        "Federation Electronics Booster IV",
-        2531
-    ],
-    "76142": [
-        "Federation Mobility Booster I",
-        2791
-    ],
-    "76143": [
-        "Federation Mobility Booster II",
-        2791
-    ],
-    "76144": [
-        "Federation Mobility Booster III",
-        2791
-    ],
-    "76145": [
-        "Federation Mobility Booster IV",
-        2791
-    ],
     "76150": [
         "Magnate Navy Issue Versus Redforce SKIN",
         "None"
@@ -94622,5 +94162,1497 @@
     "76958": [
         "Vulture Zydrine Burn SKIN",
         2105
+    ],
+    "76963": [
+        " Infinite Celebrations Firework",
+        1663
+    ],
+    "76964": [
+        "Capsuleer Day XX Fireworks Package",
+        1663
+    ],
+    "76986": [
+        "Scorched Container",
+        "None"
+    ],
+    "77005": [
+        "Bustard Alliance Emblem",
+        "None"
+    ],
+    "77006": [
+        "Bustard Corporation Emblem",
+        "None"
+    ],
+    "77041": [
+        "Capsule Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77043": [
+        "Apotheosis Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77044": [
+        "Sunesis Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77045": [
+        "Gnosis Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77046": [
+        "Praxis Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77047": [
+        "Dramiel Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77048": [
+        "Cynabal Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77049": [
+        "Worm Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77050": [
+        "Gila Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77051": [
+        "Caldari Shuttle Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77052": [
+        "Amarr Shuttle Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77053": [
+        "Gallente Shuttle Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77054": [
+        "Minmatar Shuttle Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77055": [
+        "Capsuleer Day Glamourex Crate",
+        1663
+    ],
+    "77114": [
+        "Metamorphosis",
+        1619
+    ],
+    "77115": [
+        "Metamorphosis Capsuleer Day XX SKIN",
+        "None"
+    ],
+    "77118": [
+        "Amperum Mutanite",
+        2479
+    ],
+    "77164": [
+        "Minokawa Capsuleer Elite XX SKIN",
+        2279
+    ],
+    "77165": [
+        "Scorpion Navy Issue Capsuleer Elite XX SKIN",
+        2108
+    ],
+    "77166": [
+        "Drake Navy Issue Capsuleer Elite XX SKIN",
+        2103
+    ],
+    "77167": [
+        "Apocalypse Navy Issue Capsuleer Elite XX SKIN",
+        2108
+    ],
+    "77168": [
+        "Avatar Capsuleer Elite XX SKIN",
+        1978
+    ],
+    "77169": [
+        "Typhoon Fleet Issue Capsuleer Elite XX SKIN",
+        2108
+    ],
+    "77170": [
+        "Naglfar Capsuleer Elite XX SKIN",
+        1983
+    ],
+    "77171": [
+        "Megathron Navy Issue Capsuleer Elite XX SKIN",
+        2108
+    ],
+    "77172": [
+        "Capsule Capsuleer Elite XX SKIN",
+        2285
+    ],
+    "77173": [
+        "Drake Gilded Predator SKIN",
+        1957
+    ],
+    "77174": [
+        "Raven Gilded Predator SKIN",
+        1965
+    ],
+    "77175": [
+        "Ishtar Gilded Predator SKIN",
+        2071
+    ],
+    "77176": [
+        "Gila Gilded Predator SKIN",
+        2030
+    ],
+    "77177": [
+        "Megathron Gilded Predator SKIN",
+        1966
+    ],
+    "77178": [
+        "Eagle Gilded Predator SKIN",
+        2070
+    ],
+    "77281": [
+        "Hubris",
+        3515
+    ],
+    "77283": [
+        "Bane",
+        3512
+    ],
+    "77284": [
+        "Karura",
+        3513
+    ],
+    "77288": [
+        "Valravn",
+        3514
+    ],
+    "77398": [
+        "'Atgeir' Explosive Disruptive Lance",
+        2270
+    ],
+    "77399": [
+        "'Azmaru' Electromagnetic Disruptive Lance",
+        2267
+    ],
+    "77400": [
+        "'Steel Yari' Kinetic Disruptive Lance",
+        2268
+    ],
+    "77401": [
+        "'Sarissa' Thermal Disruptive Lance",
+        2269
+    ],
+    "77402": [
+        "'Atgeir' Explosive Disruptive Lance Blueprint",
+        913
+    ],
+    "77403": [
+        "'Azmaru' Electromagnetic Disruptive Lance Blueprint",
+        913
+    ],
+    "77404": [
+        "'Steel Yari' Kinetic Disruptive Lance Blueprint",
+        913
+    ],
+    "77405": [
+        "'Sarissa' Thermal Disruptive Lance Blueprint",
+        913
+    ],
+    "77414": [
+        "Hubris Blueprint",
+        "None"
+    ],
+    "77415": [
+        "Karura Blueprint",
+        "None"
+    ],
+    "77416": [
+        "Valravn Blueprint",
+        "None"
+    ],
+    "77417": [
+        "Bane Blueprint",
+        "None"
+    ],
+    "77418": [
+        "Peregrinus Mutanite",
+        2479
+    ],
+    "77419": [
+        "Conflagrati Mutanite",
+        2479
+    ],
+    "77420": [
+        "Solis Mutanite",
+        2479
+    ],
+    "77421": [
+        "Tenebraet Mutanite",
+        2479
+    ],
+    "77427": [
+        "Historic Capsuleer Day Clothing Crate",
+        1663
+    ],
+    "77473": [
+        "Warclone Blanks Vat",
+        "None"
+    ],
+    "77474": [
+        "Contraband Freight",
+        "None"
+    ],
+    "77475": [
+        "Narcotics Package",
+        "None"
+    ],
+    "77476": [
+        "M.R.F. Supplies",
+        "None"
+    ],
+    "77524": [
+        "Admixti Mutanite",
+        2479
+    ],
+    "77707": [
+        "Unaligned Dekaisogen",
+        2479
+    ],
+    "77708": [
+        "Fluctuating Entropic Regulator",
+        2479
+    ],
+    "77725": [
+        "Advanced Capital Ship Construction",
+        369
+    ],
+    "77726": [
+        "Cybele",
+        1621
+    ],
+    "77738": [
+        "Lancer Dreadnoughts",
+        377
+    ],
+    "77739": [
+        "Disruptive Lance Operation",
+        364
+    ],
+    "77867": [
+        "Catalyst Luminaire Rising SKIN",
+        1996
+    ],
+    "77868": [
+        "Nemesis Luminaire Rising SKIN",
+        2053
+    ],
+    "77869": [
+        "Maulus Luminaire Rising SKIN",
+        2004
+    ],
+    "77872": [
+        "Megathron Navy Issue Luminaire Rising SKIN",
+        2108
+    ],
+    "77873": [
+        "Maulus Navy Issue Luminaire Rising SKIN",
+        2000
+    ],
+    "77874": [
+        "Brutix Navy Issue Luminaire Rising SKIN",
+        2103
+    ],
+    "77886": [
+        "Catalyst Navy Issue Luminaire Rising SKIN",
+        3497
+    ],
+    "77887": [
+        "Hubris Luminaire Rising SKIN",
+        3521
+    ],
+    "77919": [
+        "Genius 'Boost' Cerebral Accelerator",
+        "None"
+    ],
+    "77934": [
+        "Heimatar Rise Accelerator",
+        "None"
+    ],
+    "77946": [
+        "Insurgent Trojan Fragments",
+        1863
+    ],
+    "77947": [
+        "Federal Encryption Key",
+        1863
+    ],
+    "77948": [
+        "Megacorp Transaction Thread",
+        1863
+    ],
+    "77949": [
+        "Imperial Exploit Log",
+        1863
+    ],
+    "77957": [
+        "Cyclone Fleet Issue Chainbreaker Khumaak SKIN",
+        2103
+    ],
+    "77958": [
+        "Cyclone Chainbreaker Khumaak SKIN",
+        1959
+    ],
+    "77959": [
+        "Sleipnir Chainbreaker Khumaak SKIN",
+        2107
+    ],
+    "77960": [
+        "Svipul Chainbreaker Khumaak SKIN",
+        2392
+    ],
+    "77961": [
+        "Wolf Chainbreaker Khumaak SKIN",
+        2050
+    ],
+    "77962": [
+        "Jaguar Chainbreaker Khumaak SKIN",
+        2050
+    ],
+    "77963": [
+        "Stabber Fleet Issue Chainbreaker Khumaak SKIN",
+        2063
+    ],
+    "77964": [
+        "Valravn Chainbreaker Khumaak SKIN",
+        3523
+    ],
+    "78267": [
+        "Gallente Victory SKIN",
+        2120
+    ],
+    "78287": [
+        "Basic 'Radiance' Cerebral Accelerator",
+        2487
+    ],
+    "78288": [
+        "Potent 'Radiance' Cerebral Accelerator",
+        2487
+    ],
+    "78289": [
+        "Extended 'Radiance' Cerebral Accelerator",
+        2487
+    ],
+    "78290": [
+        "Harvest Anti-Disruptor Booster I",
+        2531
+    ],
+    "78291": [
+        "Harvest Anti-Disruptor Booster II",
+        2531
+    ],
+    "78292": [
+        "Harvest Anti-Disruptor Booster III",
+        2531
+    ],
+    "78293": [
+        "Harvest Anti-Disruptor Booster IV",
+        2531
+    ],
+    "78294": [
+        "Harvest Nosferatu Booster I",
+        2790
+    ],
+    "78295": [
+        "Harvest Nosferatu Booster II",
+        2790
+    ],
+    "78300": [
+        "Harvest Nosferatu Booster III",
+        2790
+    ],
+    "78301": [
+        "Harvest Nosferatu Booster IV",
+        2790
+    ],
+    "78302": [
+        "Harvest Webifier Booster I",
+        2791
+    ],
+    "78303": [
+        "Harvest Webifier Booster II",
+        2791
+    ],
+    "78305": [
+        "Harvest Webifier Booster III",
+        2791
+    ],
+    "78306": [
+        "Harvest Webifier Booster IV",
+        2791
+    ],
+    "78307": [
+        "Harvest Damage Booster I",
+        2792
+    ],
+    "78311": [
+        "Harvest Damage Booster II",
+        2792
+    ],
+    "78312": [
+        "Harvest Damage Booster III",
+        2792
+    ],
+    "78313": [
+        "Harvest Damage Booster IV",
+        2792
+    ],
+    "78314": [
+        "Tetrimon Anti-Drain Booster I",
+        2531
+    ],
+    "78315": [
+        "Tetrimon Anti-Drain Booster II",
+        2531
+    ],
+    "78316": [
+        "Tetrimon Anti-Drain Booster III",
+        2531
+    ],
+    "78317": [
+        "Tetrimon Anti-Drain Booster IV",
+        2531
+    ],
+    "78318": [
+        "Tetrimon Capacitor Booster I",
+        2790
+    ],
+    "78319": [
+        "Tetrimon Capacitor Booster II",
+        2790
+    ],
+    "78320": [
+        "Tetrimon Capacitor Booster III",
+        2790
+    ],
+    "78321": [
+        "Tetrimon Capacitor Booster IV",
+        2790
+    ],
+    "78322": [
+        "Tetrimon Resistance Booster I",
+        2791
+    ],
+    "78323": [
+        "Tetrimon Resistance Booster II",
+        2791
+    ],
+    "78324": [
+        "Tetrimon Resistance Booster III",
+        2791
+    ],
+    "78325": [
+        "Tetrimon Resistance Booster IV",
+        2791
+    ],
+    "78326": [
+        "Tetrimon Precision Booster I",
+        2792
+    ],
+    "78327": [
+        "Tetrimon Precision Booster II",
+        2792
+    ],
+    "78328": [
+        "Tetrimon Precision Booster III",
+        2792
+    ],
+    "78329": [
+        "Tetrimon Precision Booster IV",
+        2792
+    ],
+    "78333": [
+        "Mekubal",
+        3531
+    ],
+    "78357": [
+        "Crimson Harvest Fireworks Crate",
+        "None"
+    ],
+    "78358": [
+        "Wisdom of Gheinok",
+        "None"
+    ],
+    "78360": [
+        "Mekubal Blueprint",
+        "None"
+    ],
+    "78366": [
+        "Alligator",
+        3534
+    ],
+    "78367": [
+        "Mamba",
+        3531
+    ],
+    "78368": [
+        "Alligator Blueprint",
+        "None"
+    ],
+    "78369": [
+        "Khizriel",
+        3534
+    ],
+    "78370": [
+        "Khizriel Blueprint",
+        "None"
+    ],
+    "78393": [
+        "Mamba Blueprint",
+        "None"
+    ],
+    "78405": [
+        "Bane Lavacore Imperial SKIN",
+        3535
+    ],
+    "78406": [
+        "Paladin Lavacore Imperial SKIN",
+        2024
+    ],
+    "78407": [
+        "Oracle Lavacore Imperial SKIN",
+        1956
+    ],
+    "78408": [
+        "Omen Navy Issue Lavacore Imperial SKIN",
+        2063
+    ],
+    "78409": [
+        "Heretic Lavacore Imperial SKIN",
+        2038
+    ],
+    "78410": [
+        "Coercer Navy Issue Lavacore Imperial SKIN",
+        3497
+    ],
+    "78411": [
+        "Coercer Lavacore Imperial SKIN",
+        1994
+    ],
+    "78412": [
+        "Retribution Lavacore Imperial SKIN",
+        2047
+    ],
+    "78414": [
+        "Shapash",
+        1623
+    ],
+    "78576": [
+        "Azariel",
+        2287
+    ],
+    "78621": [
+        "Abyssal Vorton Tuning System",
+        "None"
+    ],
+    "78622": [
+        "Gravid Vorton Tuning System Mutaplasmid",
+        3542
+    ],
+    "78623": [
+        "Decayed Vorton Tuning System Mutaplasmid",
+        3542
+    ],
+    "78624": [
+        "Unstable Vorton Tuning System Mutaplasmid",
+        3542
+    ],
+    "78631": [
+        "Wightstorm Sunyata Booster I",
+        2531
+    ],
+    "78633": [
+        "Wightstorm Sunyata Booster II",
+        2531
+    ],
+    "78634": [
+        "Wightstorm Sunyata Booster III",
+        2531
+    ],
+    "78636": [
+        "Wightstorm Sunyata Booster IV",
+        2531
+    ],
+    "78637": [
+        "Wightstorm Nirvana Booster I",
+        2790
+    ],
+    "78638": [
+        "Wightstorm Nirvana Booster II",
+        2790
+    ],
+    "78639": [
+        "Wightstorm Nirvana Booster III",
+        2790
+    ],
+    "78640": [
+        "Wightstorm Nirvana Booster IV",
+        2790
+    ],
+    "78641": [
+        "Wightstorm Rapture Booster I",
+        2790
+    ],
+    "78649": [
+        "Wightstorm Rapture Booster III",
+        2790
+    ],
+    "78650": [
+        "Wightstorm Rapture Booster IV",
+        2790
+    ],
+    "78652": [
+        "Wightstorm Cetana Booster I ",
+        2791
+    ],
+    "78653": [
+        "Wightstorm Cetana Booster II ",
+        2791
+    ],
+    "78655": [
+        "Wightstorm Cetana Booster III",
+        2791
+    ],
+    "78656": [
+        "Wightstorm Cetana Booster IV",
+        2791
+    ],
+    "78657": [
+        "Wightstorm Vitarka Booster I",
+        2792
+    ],
+    "78659": [
+        "Wightstorm Vitarka Booster II",
+        2792
+    ],
+    "78661": [
+        "Wightstorm Vitarka Booster III",
+        2792
+    ],
+    "78663": [
+        "Wightstorm Vitarka Booster IV",
+        2792
+    ],
+    "78664": [
+        "Wightstorm Manasikara Booster I",
+        2792
+    ],
+    "78665": [
+        "Wightstorm Manasikara Booster II",
+        2792
+    ],
+    "78666": [
+        "Wightstorm Manasikara Booster III",
+        2792
+    ],
+    "78667": [
+        "Wightstorm Manasikara Booster IV",
+        2792
+    ],
+    "78668": [
+        "Basic 'Brainfreeze' Cerebral Accelerator",
+        2487
+    ],
+    "78669": [
+        "Potent 'Brainfreeze' Cerebral Accelerator",
+        2487
+    ],
+    "78670": [
+        "Extended 'Brainfreeze' Cerebral Accelerator",
+        2487
+    ],
+    "78676": [
+        "Wightstorm Rapture Booster II",
+        2790
+    ],
+    "78677": [
+        "Civilian Mining Laser Upgrade",
+        "None"
+    ],
+    "78688": [
+        "Megathron Immortal Eden SKIN",
+        1966
+    ],
+    "78689": [
+        "Vagabond Solar Brilliance SKIN",
+        2072
+    ],
+    "78690": [
+        "Tornado Solar Brilliance SKIN",
+        1959
+    ],
+    "78740": [
+        "Consortium Vorton Tuning system",
+        2740
+    ],
+    "78741": [
+        "Kasiha's Modified Vorton Tuning System",
+        2740
+    ],
+    "78766": [
+        "Imicus Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78767": [
+        "Helios Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78768": [
+        "Talos Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78769": [
+        "Dominix Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78770": [
+        "Sin Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78771": [
+        "Hubris Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78772": [
+        "Moros Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78773": [
+        "Magnate Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78774": [
+        "Anathema Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78775": [
+        "Harbinger Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78776": [
+        "Absolution Deathglow Remnant SKIN",
+        2104
+    ],
+    "78777": [
+        "Apocalypse Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78778": [
+        "Paladin Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78779": [
+        "Bane Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78780": [
+        "Revelation Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78781": [
+        "Heron Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78782": [
+        "Buzzard Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78783": [
+        "Ferox Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78784": [
+        "Vulture Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78785": [
+        "Rokh Deathglow Remnant SKIN",
+        1965
+    ],
+    "78786": [
+        "Karura Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78787": [
+        "Phoenix Deathglow Remnant SKIN",
+        1981
+    ],
+    "78788": [
+        "Probe Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78789": [
+        "Cheetah Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78790": [
+        "Tornado Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78791": [
+        "Maelstrom Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78792": [
+        "Valravn Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78793": [
+        "Naglfar Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78794": [
+        "Vedmak Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78795": [
+        "Thunderchild Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78796": [
+        "Stratios Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78797": [
+        "Garmur Deathglow Remnant SKIN",
+        "None"
+    ],
+    "78816": [
+        "Phoenix Navy Issue Union Day Executive SKIN",
+        3495
+    ],
+    "78817": [
+        "Scorpion Navy Issue Union Day Executive SKIN",
+        2108
+    ],
+    "78818": [
+        "Caracal Navy Issue Union Day Executive SKIN",
+        2063
+    ],
+    "78819": [
+        "Karura Union Day Executive SKIN",
+        3546
+    ],
+    "78820": [
+        "Hawk Union Day Executive SKIN",
+        2048
+    ],
+    "78821": [
+        "Tengu Union Day Executive SKIN",
+        2370
+    ],
+    "78822": [
+        "Drake Navy Issue Union Day Executive SKIN",
+        2103
+    ],
+    "78823": [
+        "Kestrel Union Day Executive SKIN",
+        2003
+    ],
+    "78848": [
+        "Encrypted Upwell Consortium Data Cache",
+        "None"
+    ],
+    "78853": [
+        "Guristas Pirates Warehouse Raid Key",
+        "None"
+    ],
+    "78854": [
+        "Angel Cartel Warehouse Raid Key",
+        "None"
+    ],
+    "78855": [
+        "DED AmaMin Warehouse Raid Key",
+        "None"
+    ],
+    "78856": [
+        "DED CalGal Warehouse Raid Key",
+        "None"
+    ],
+    "78857": [
+        "Guristas Insurgency Data Sequence",
+        "None"
+    ],
+    "78862": [
+        "Angel Insurgency Data Sequence",
+        "None"
+    ],
+    "78867": [
+        "Guristas Pirates Laundering Reward Crate",
+        "None"
+    ],
+    "78872": [
+        "Angel Cartel Laundering Reward Crate",
+        "None"
+    ],
+    "78873": [
+        "Federation Counter-Insurgency Reward Crate",
+        "None"
+    ],
+    "78874": [
+        "Imperial Counter-Insurgency Reward Crate",
+        "None"
+    ],
+    "78886": [
+        "Element Control Data",
+        2013
+    ],
+    "78887": [
+        "Element Containment Vessel",
+        2013
+    ],
+    "78889": [
+        "Mysterious GalNet Crate",
+        1661
+    ],
+    "78906": [
+        "Deathless Circle Reward Token ",
+        754
+    ],
+    "78910": [
+        "Drake Awakening YC125 SKIN",
+        1957
+    ],
+    "78911": [
+        "Megathron Awakening YC125 SKIN",
+        1966
+    ],
+    "78912": [
+        "Rifter Awakening YC125 SKIN",
+        2005
+    ],
+    "78913": [
+        "Naglfar Awakening YC125 SKIN",
+        1983
+    ],
+    "78914": [
+        "Avatar Awakening YC125 SKIN",
+        1978
+    ],
+    "78915": [
+        "Heron Navy Issue Awakening YC125 SKIN",
+        2000
+    ],
+    "78916": [
+        "Vagabond Awakening YC125 SKIN",
+        2072
+    ],
+    "78917": [
+        "Falcon Awakening YC125 SKIN",
+        2082
+    ],
+    "78918": [
+        "Lachesis Awakening YC125 SKIN",
+        2083
+    ],
+    "78919": [
+        "Proteus Awakening YC125 SKIN",
+        2372
+    ],
+    "78920": [
+        "Pilgrim Awakening YC125 SKIN",
+        2081
+    ],
+    "78921": [
+        "Legion Awakening YC125 SKIN",
+        2371
+    ],
+    "78923": [
+        "Huginn Awakening YC125 SKIN",
+        2084
+    ],
+    "79006": [
+        "Metamorphosis Genolution Dazzle SKIN",
+        3549
+    ],
+    "79007": [
+        "Sunesis Genolution Dazzle SKIN",
+        2314
+    ],
+    "79008": [
+        "Gnosis Genolution Dazzle SKIN",
+        2312
+    ],
+    "79085": [
+        "Hubris Corporation Emblem",
+        "None"
+    ],
+    "79086": [
+        "Hubris Alliance Emblem",
+        "None"
+    ],
+    "79087": [
+        "Valravn Corporation Emblem",
+        "None"
+    ],
+    "79088": [
+        "Valravn Alliance Emblem",
+        "None"
+    ],
+    "79089": [
+        "Bane Corporation Emblem",
+        "None"
+    ],
+    "79090": [
+        "Bane Alliance Emblem",
+        "None"
+    ],
+    "79091": [
+        "Karura Corporation Emblem",
+        "None"
+    ],
+    "79092": [
+        "Karura Alliance Emblem",
+        "None"
+    ],
+    "79093": [
+        "Mekubal Corporation Emblem",
+        "None"
+    ],
+    "79094": [
+        "Mekubal Alliance Emblem",
+        "None"
+    ],
+    "79100": [
+        "Mamba Corporation Emblem",
+        "None"
+    ],
+    "79101": [
+        "Mamba Alliance Emblem",
+        "None"
+    ],
+    "79102": [
+        "Khizriel Corporation Emblem",
+        "None"
+    ],
+    "79103": [
+        "Khizriel Alliance Emblem",
+        "None"
+    ],
+    "79117": [
+        "State Counter-Insurgency Reward Crate",
+        "None"
+    ],
+    "79118": [
+        "Republic Counter-Insurgency Reward Crate",
+        "None"
+    ],
+    "79175": [
+        "Consortium Vorton Tuning System Blueprint",
+        343
+    ],
+    "79176": [
+        "Kasiha's Modified Vorton Tuning System Blueprint",
+        343
+    ],
+    "79186": [
+        "Mysterious GalNet Crate II",
+        1661
+    ],
+    "79188": [
+        "Alligator Corporation Emblem",
+        "None"
+    ],
+    "79189": [
+        "Alligator Alliance Emblem",
+        "None"
+    ],
+    "79192": [
+        "Deathless Circle Insurgents Loyalty Token",
+        754
+    ],
+    "79205": [
+        "DNCR-05H Highsec Ice Storm Filament",
+        1663
+    ],
+    "79206": [
+        "DNNR-01L Lowsec Ice Storm Filament",
+        1663
+    ],
+    "79207": [
+        "DSHR-01H Highsec Ice Storm Filament",
+        1663
+    ],
+    "79209": [
+        "PRNCR-10H Highsec Ice Storm Filament",
+        1663
+    ],
+    "79210": [
+        "RDLF-10L Lowsec Ice Storm Filament",
+        1663
+    ],
+    "79211": [
+        "VXN-01N Nullsec Ice Storm Filament",
+        1663
+    ],
+    "79212": [
+        "BLTZN-05L Lowsec Ice Storm Filament",
+        1663
+    ],
+    "79213": [
+        "CMT-05N Nullsec Ice Storm Filament",
+        1663
+    ],
+    "79214": [
+        "Metamorphosis Blueprint",
+        "None"
+    ],
+    "79215": [
+        "CPD-10N Nullsec Ice Storm Filament",
+        1663
+    ],
+    "79326": [
+        "Azariel Blueprint",
+        "None"
+    ],
+    "79402": [
+        "Metamorphosis Corporation Emblem",
+        "None"
+    ],
+    "79403": [
+        "Metamorphosis Alliance Emblem",
+        "None"
+    ],
+    "79609": [
+        "Magnate Navy Issue Sanguinary Savant SKIN",
+        2000
+    ],
+    "79610": [
+        "Coercer Navy Issue Sanguinary Savant SKIN",
+        3497
+    ],
+    "79611": [
+        "Devoter Sanguinary Savant SKIN",
+        2073
+    ],
+    "79612": [
+        "Prophecy Navy Issue Sanguinary Savant SKIN",
+        2103
+    ],
+    "79613": [
+        "Ark Sanguinary Savant SKIN",
+        2095
+    ],
+    "79614": [
+        "Revelation Navy Issue Sanguinary Savant SKIN",
+        3495
+    ],
+    "79615": [
+        "Bane Sanguinary Savant SKIN",
+        3535
+    ],
+    "79616": [
+        "Dagon Sanguinary Savant SKIN",
+        2376
+    ],
+    "79617": [
+        "Chemosh Sanguinary Savant SKIN",
+        2380
+    ],
+    "79618": [
+        "Molok Sanguinary Savant SKIN",
+        2383
+    ],
+    "79636": [
+        "Azariel Corporation Emblem",
+        "None"
+    ],
+    "79637": [
+        "Azariel Alliance Emblem",
+        "None"
+    ],
+    "79713": [
+        "Tormentor Aurora Universalis SKIN",
+        "None"
+    ],
+    "79714": [
+        "Dragoon Aurora Universalis SKIN",
+        "None"
+    ],
+    "79715": [
+        "Arbitrator Aurora Universalis SKIN",
+        "None"
+    ],
+    "79716": [
+        "Archon Aurora Universalis SKIN",
+        1974
+    ],
+    "79717": [
+        "Harpy Aurora Universalis SKIN",
+        "None"
+    ],
+    "79718": [
+        "Corax Aurora Universalis SKIN",
+        1995
+    ],
+    "79719": [
+        "Stork Aurora Universalis SKIN",
+        "None"
+    ],
+    "79720": [
+        "Blackbird Aurora Universalis SKIN",
+        "None"
+    ],
+    "79721": [
+        "Rook Aurora Universalis SKIN",
+        "None"
+    ],
+    "79722": [
+        "Falcon Aurora Universalis SKIN",
+        2082
+    ],
+    "79723": [
+        "Chimera Aurora Universalis SKIN",
+        "None"
+    ],
+    "79724": [
+        "Incursus Aurora Universalis SKIN",
+        "None"
+    ],
+    "79725": [
+        "Ishkur Aurora Universalis SKIN",
+        "None"
+    ],
+    "79726": [
+        "Algos Aurora Universalis SKIN",
+        "None"
+    ],
+    "79727": [
+        "Magus Aurora Universalis SKIN",
+        "None"
+    ],
+    "79728": [
+        "Celestis Aurora Universalis SKIN",
+        1992
+    ],
+    "79729": [
+        "Lachesis Aurora Universalis SKIN",
+        "None"
+    ],
+    "79730": [
+        "Arazu Aurora Universalis SKIN",
+        "None"
+    ],
+    "79731": [
+        "Thanatos Aurora Universalis SKIN",
+        "None"
+    ],
+    "79732": [
+        "Merlin Aurora Universalis SKIN",
+        "None"
+    ],
+    "79733": [
+        "Enyo Aurora Universalis SKIN",
+        2049
+    ],
+    "79734": [
+        "Talwar Aurora Universalis SKIN",
+        "None"
+    ],
+    "79735": [
+        "Bifrost Aurora Universalis SKIN",
+        2145
+    ],
+    "79736": [
+        "Bellicose Aurora Universalis SKIN",
+        "None"
+    ],
+    "79737": [
+        "Huginn Aurora Universalis SKIN",
+        "None"
+    ],
+    "79738": [
+        "Rapier Aurora Universalis SKIN",
+        "None"
+    ],
+    "79739": [
+        "Nidhoggur Aurora Universalis SKIN",
+        "None"
+    ],
+    "79740": [
+        "Vigil Aurora Universalis SKIN",
+        "None"
+    ],
+    "79741": [
+        "Kikimora Aurora Universalis SKIN",
+        "None"
+    ],
+    "79742": [
+        "Nestor Aurora Universalis SKIN",
+        "None"
+    ],
+    "79744": [
+        "Barghest Aurora Universalis SKIN",
+        "None"
+    ],
+    "79745": [
+        "Pontifex Aurora Universalis SKIN",
+        "None"
+    ],
+    "79755": [
+        "Rattlesnake Empyrean Outlaws SKIN",
+        1963
+    ],
+    "79756": [
+        "Alligator Empyrean Outlaws SKIN",
+        3567
+    ],
+    "79757": [
+        "Gila Empyrean Outlaws SKIN",
+        2030
+    ],
+    "79758": [
+        "Mamba Empyrean Outlaws SKIN",
+        3568
+    ],
+    "79759": [
+        "Worm Empyrean Outlaws SKIN",
+        2031
+    ],
+    "79760": [
+        "Machariel Empyrean Outlaws SKIN",
+        1963
+    ],
+    "79761": [
+        "Khizriel Empyrean Outlaws SKIN",
+        3567
+    ],
+    "79762": [
+        "Cynabal Empyrean Outlaws SKIN",
+        2030
+    ],
+    "79763": [
+        "Mekubal Empyrean Outlaws SKIN",
+        3568
+    ],
+    "79764": [
+        "Dramiel Empyrean Outlaws SKIN",
+        2031
+    ],
+    "79785": [
+        "Compressed Dense Polycrase",
+        20
+    ],
+    "79819": [
+        "Ice Storm Filaments Crate",
+        "None"
+    ],
+    "79832": [
+        "ORE Green Salvage Package",
+        "None"
+    ],
+    "79833": [
+        "ORE White Salvage Package",
+        "None"
+    ],
+    "79834": [
+        "ORE Red Salvage Package",
+        "None"
+    ],
+    "79835": [
+        "Peculiar Icebound Salvage",
+        "None"
+    ],
+    "79836": [
+        "Unusual Icebound Salvage",
+        "None"
+    ],
+    "79837": [
+        "Rare Icebound Salvage",
+        "None"
+    ],
+    "79838": [
+        "Azariel Empyrean Outlaws SKIN",
+        2383
+    ],
+    "79839": [
+        "Insurgency Suppression Interdiction Range Beacon",
+        "None"
+    ],
+    "79840": [
+        "Apotheosis Genolution Dazzle SKIN",
+        2316
+    ],
+    "79841": [
+        "Praxis Genolution Dazzle SKIN",
+        2421
+    ],
+    "79870": [
+        "Mamba Arkombine Arisen SKIN",
+        3568
+    ],
+    "79871": [
+        "Alligator Arkombine Arisen SKIN",
+        3567
+    ],
+    "79872": [
+        "Caiman Arkombine Arisen SKIN",
+        2380
+    ],
+    "79873": [
+        "Khizriel Arkombine Arisen SKIN",
+        3567
+    ],
+    "79874": [
+        "Mekubal Arkombine Arisen SKIN",
+        3568
+    ],
+    "79939": [
+        "Cormorant Navy Issue Arkombine Arisen SKIN",
+        3497
+    ],
+    "79940": [
+        "Capsule Arkombine Arisen SKIN",
+        "None"
+    ],
+    "79941": [
+        "Thrasher Fleet Issue Arkombine Arisen SKIN",
+        3497
+    ],
+    "79942": [
+        "Catalyst Navy Issue Arkombine Arisen SKIN",
+        3497
+    ],
+    "79948": [
+        "Dramiel Luminae Polaris SKIN",
+        2031
+    ],
+    "79949": [
+        "Mekubal Luminae Polaris SKIN",
+        3568
+    ],
+    "79950": [
+        "Khizriel Luminae Polaris SKIN",
+        3567
+    ],
+    "79951": [
+        "Machariel Luminae Polaris SKIN",
+        1963
+    ],
+    "79952": [
+        "Rattlesnake Luminae Polaris SKIN",
+        1963
+    ],
+    "79953": [
+        "Worm Luminae Polaris SKIN",
+        2031
+    ],
+    "79954": [
+        "Mamba Luminae Polaris SKIN",
+        3568
+    ],
+    "79955": [
+        "Alligator Luminae Polaris SKIN",
+        3567
     ]
 }

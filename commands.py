@@ -2,7 +2,7 @@ from sqlalchemy.orm import sessionmaker
 from custom_session import M_scoped_session
 from Schema import Alliances, Corporations
 from discord import Interaction, Intents
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, MetaData
 from discord.ext import commands
 from commandhelpers import *
 from dbutility import *
@@ -13,8 +13,9 @@ import market
 description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
-
-engine = create_engine('sqlite:///storage/database.db', echo=False)
+engine = create_engine('sqlite:///storage/database.db', echo=True)
+metadata = MetaData()
+metadata.bind = engine
 Session_factory = sessionmaker(bind=engine)
 Session = M_scoped_session(Session_factory)
 
