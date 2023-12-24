@@ -13,7 +13,7 @@ import market
 description = "An early warning system for Eve online."
 intents = Intents.default()
 intents.message_content = False
-engine = create_engine('sqlite:///storage/database.db', echo=True)
+engine = create_engine('sqlite:///storage/database.db', echo=False)
 metadata = MetaData()
 metadata.bind = engine
 Session_factory = sessionmaker(bind=engine)
