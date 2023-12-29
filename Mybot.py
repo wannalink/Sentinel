@@ -113,7 +113,7 @@ class MyBot(commands.Bot):
             market_info_ret = await market.as_market_info()
             if market_info_ret:
                 for order in market_info_ret:
-                    await channel_market.send(discord.utils.get(channel_market.guild.roles, name=environ['MENTION_ROLE']).mention, embed=generate_market_embed(order, embed_type='diff'))
+                    await channel_market.send(discord.utils.get(channel_market.guild.roles, name=str(environ['MENTION_ROLE'])).mention, embed=generate_market_embed(order, embed_type='diff'))
 
         except Exception as e:
             from app import logger
