@@ -3,6 +3,7 @@ __pycache__/*
 storage/*
 json/data_esi.json
 json/server_configs.json
+json/stations_*
 json/watchlists.json
 venv/*
 .env
