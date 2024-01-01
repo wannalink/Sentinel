@@ -220,17 +220,20 @@ async def as_market_info():
         url_str = (
             f"https://esi.evetech.net/latest/markets/{REGIONLIMIT}/orders/?datasource=tranquility&order_type=sell&page=1&type_id={typeid}")
         use_headers = {'User-Agent': 'XYZ/3.0'}
-        async with aiohttp.ClientSession(headers=use_headers) as session:
+        async with aiohttp.ClientSession(headers=use_headers, raise_for_status=True) as session:
             async with session.get(url_str) as response:
-                headers = response.headers
-                load = await response.json()
-                item_orders = {}
-                for order in load:
-                    if USESYSTEM == 0 or order['system_id'] == USESYSTEM:
-                        order['Expires'] = headers['Expires']
-                        order['Last-Modified'] = headers['Last-Modified']
-                        item_orders[order['order_id']] = order
-                new[typeid] = item_orders
+                if 200 >= response.status < 300:                    
+                    headers = response.headers
+                    load = await response.json()
+                    item_orders = {}
+                    for order in load:
+                        if USESYSTEM == 0 or order['system_id'] == USESYSTEM:
+                            order['Expires'] = headers['Expires']
+                            order['Last-Modified'] = headers['Last-Modified']
+                            item_orders[order['order_id']] = order
+                    new[typeid] = item_orders
+                else:
+                    print(f'bad response ({response.status} for {url_str}')
 
     async def compare_jsons(orig, new):
         if orig == new:
