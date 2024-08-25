@@ -1,3 +1,4 @@
+import threading
 from Schema import Corporations, Alliances, Constellations, ServerConfigs, Systems, Ships, Regions
 from concurrent.futures import ThreadPoolExecutor
 import websocket
@@ -540,8 +541,9 @@ def initialize_websocket():
     except websocket.WebSocketConnectionClosedException as err:
         service_status['websocket']['stopped'] = datetime.now()
         logger.warning(f"Websocket connection Error : {err}")
-
+        threading.Timer(10, initialize_websocket).start()  # Add a delay of 5 seconds before reconnecting
     except Exception as e:
         service_status['websocket']['stopped'] = datetime.now()
         logger.exception(f"Websocket Error : {e}")
         collect()
+        threading.Timer(10, initialize_websocket).start()  # Add a delay of 5 seconds before reconnecting
